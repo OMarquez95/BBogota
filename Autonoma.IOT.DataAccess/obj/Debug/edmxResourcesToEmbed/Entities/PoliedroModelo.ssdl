@@ -1,0 +1,1040 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PoliedroDataModel.Store" Provider="Oracle.ManagedDataAccess.Client" ProviderManifestToken="11.2" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'EXTRANET.ACTINCLUSION' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="ACTINCLUSION">
+    <Key>
+      <PropertyRef Name="ROWID" />
+      <PropertyRef Name="CODMIN" />
+    </Key>
+    <Property Name="SALUDO" Type="varchar2" MaxLength="50" Nullable="false" />
+    <Property Name="NOMBRES" Type="varchar2" MaxLength="50" Nullable="false" />
+    <Property Name="APELLIDO" Type="varchar2" MaxLength="50" Nullable="false" />
+    <Property Name="DIRECCION" Type="varchar2" MaxLength="70" Nullable="false" />
+    <Property Name="CIUDAD_DEPARTAMENTO" Type="varchar2" MaxLength="50" Nullable="false" />
+    <Property Name="INDICATIVO" Type="varchar2" MaxLength="50" Nullable="false" />
+    <Property Name="TELEFONO" Type="varchar2" MaxLength="50" Nullable="false" />
+    <Property Name="TIPO_DOCUMENTO" Type="varchar2" MaxLength="50" Nullable="false" />
+    <Property Name="NUMERO_DOCUMENTO" Type="varchar2" MaxLength="50" Nullable="false" />
+    <Property Name="ESN" Type="varchar2" MaxLength="50" Nullable="false" />
+    <Property Name="CODIGO_DISTRIBUIDOR" Type="varchar2" MaxLength="50" Nullable="false" />
+    <Property Name="HLR" Type="varchar2" MaxLength="50" />
+    <Property Name="CODMIN" Type="varchar2" MaxLength="25" Nullable="false" />
+    <Property Name="MODELO_EQUIPO" Type="varchar2" MaxLength="50" Nullable="false" />
+    <Property Name="OCUPACION_CLIENTE" Type="varchar2" MaxLength="50" />
+    <Property Name="FECHA_NACIMIENTO" Type="date" />
+    <Property Name="SEXO" Type="varchar2" MaxLength="50" />
+    <Property Name="SECTOR_COMERCIAL" Type="varchar2" MaxLength="50" />
+    <Property Name="GRUPO_CLIENTES" Type="varchar2" MaxLength="50" />
+    <Property Name="CENTRO_COSTO" Type="varchar2" MaxLength="50" />
+    <Property Name="EFECTIVO" Type="varchar2" MaxLength="50" />
+    <Property Name="TARJETA_CREDITO" Type="varchar2" MaxLength="50" />
+    <Property Name="COMPANIA_TC" Type="varchar2" MaxLength="50" />
+    <Property Name="NRO_TC" Type="varchar2" MaxLength="50" />
+    <Property Name="CUPO_TC" Type="varchar2" MaxLength="50" />
+    <Property Name="VENCE_TC" Type="varchar2" MaxLength="50" />
+    <Property Name="PRIMER_APELLIDO_CONYUGE" Type="varchar2" MaxLength="50" />
+    <Property Name="SEGUNDO_APELLIDO_CONYUGE" Type="varchar2" MaxLength="50" />
+    <Property Name="NOMBRE_CONYUGE" Type="varchar2" MaxLength="50" />
+    <Property Name="NUMERO_DOCUMENTO1" Type="varchar2" MaxLength="50" />
+    <Property Name="EMPRESA_CONYUGE" Type="varchar2" MaxLength="50" />
+    <Property Name="DIRECCION_EMPRESA_CONYUGE" Type="varchar2" MaxLength="50" />
+    <Property Name="TELEFONO_CONYUGE" Type="varchar2" MaxLength="50" />
+    <Property Name="PROFESION_CONYUGE" Type="varchar2" MaxLength="50" />
+    <Property Name="EMPRESA_TRABAJO_CLIENTE" Type="varchar2" MaxLength="50" />
+    <Property Name="DIRECCION_EMPRESA" Type="varchar2" MaxLength="50" />
+    <Property Name="TELEFONO_EMPRESA" Type="varchar2" MaxLength="50" />
+    <Property Name="FECHA_INGRESO" Type="date" />
+    <Property Name="INGRESO_MENSUAL" Type="varchar2" MaxLength="50" />
+    <Property Name="ESTADO_CIVIL_CLIENTE" Type="varchar2" MaxLength="50" />
+    <Property Name="ACTIVIDAD_ECONOMICA" Type="varchar2" MaxLength="50" />
+    <Property Name="TIPO_VIVIENDA" Type="varchar2" MaxLength="50" />
+    <Property Name="REFERENCIA_PERSONAL" Type="varchar2" MaxLength="50" />
+    <Property Name="TELEFONO_REFERENCIA" Type="varchar2" MaxLength="50" />
+    <Property Name="NOMBRE_BANCO" Type="varchar2" MaxLength="50" />
+    <Property Name="SUCURSAL_BANCO" Type="varchar2" MaxLength="50" />
+    <Property Name="NUMERO_CUENTA" Type="varchar2" MaxLength="50" />
+    <Property Name="TARJETA_ENTIDAD" Type="varchar2" MaxLength="50" />
+    <Property Name="NUMERO_TC" Type="varchar2" MaxLength="50" />
+    <Property Name="TC_CUPO" Type="varchar2" MaxLength="50" />
+    <Property Name="RB_VENCIMIENTO_TC" Type="varchar2" MaxLength="101" />
+    <Property Name="TARJETA_TIPO" Type="varchar2" MaxLength="50" />
+    <Property Name="COLGAR_A_MAESTRA" Type="varchar2" MaxLength="50" />
+    <Property Name="FECREGIS" Type="date" Nullable="false" />
+    <Property Name="RMIN" Type="number" Precision="1" Scale="0" />
+    <Property Name="RESN" Type="number" Precision="3" Scale="0" />
+    <Property Name="RTAR" Type="number" Precision="3" Scale="0" />
+    <Property Name="RDTC" Type="number" Precision="2" Scale="0" />
+    <Property Name="RCAR" Type="number" Precision="2" Scale="0" />
+    <Property Name="ESTADO" Type="varchar2" MaxLength="50" />
+    <Property Name="EMAIL" Type="varchar2" MaxLength="50" />
+    <Property Name="CREDITO" Type="varchar2" MaxLength="50" />
+    <Property Name="SPCODE" Type="varchar2" MaxLength="10" />
+    <Property Name="TMCODE" Type="varchar2" MaxLength="10" />
+    <Property Name="DISTRIBUIDOR1" Type="varchar2" MaxLength="50" />
+    <Property Name="CO_ID" Type="number" Precision="22" Scale="0" />
+    <Property Name="TEXT1" Type="varchar2" MaxLength="50" />
+    <Property Name="TEXT2" Type="varchar2" MaxLength="80" />
+    <Property Name="TEXT3" Type="varchar2" MaxLength="80" />
+    <Property Name="TEXT5" Type="varchar2" MaxLength="50" />
+    <Property Name="TEXT7" Type="varchar2" MaxLength="50" />
+    <Property Name="FECHA1" Type="date" />
+    <Property Name="FECHA2" Type="date" />
+    <Property Name="FECBSCS" Type="date" />
+    <Property Name="SCCODE" Type="number" Precision="38" Scale="0" />
+    <Property Name="IMEI" Type="varchar2" MaxLength="15" />
+    <Property Name="PRODUCTO" Type="number" Precision="4" Scale="0" />
+    <Property Name="BARRIO" Type="varchar2" MaxLength="100" />
+    <Property Name="CONEXION_SAP" Type="varchar2" MaxLength="1" />
+    <Property Name="IVA_CARD" Type="varchar2" MaxLength="255" />
+    <Property Name="VALOR_CARD" Type="varchar2" MaxLength="255" />
+    <Property Name="IVA_EQUIPO" Type="varchar2" MaxLength="255" />
+    <Property Name="EQUIPO" Type="varchar2" MaxLength="255" />
+    <Property Name="IVA_CFM" Type="varchar2" MaxLength="255" />
+    <Property Name="VALOR_CFM" Type="varchar2" MaxLength="255" />
+    <Property Name="TIPO_CONTRATO" Type="varchar2" MaxLength="255" />
+    <Property Name="NUMERO_CONTRATO" Type="varchar2" MaxLength="255" />
+    <Property Name="PLAN_TARIFAS" Type="varchar2" MaxLength="255" />
+    <Property Name="LINEPORACT" Type="varchar2" MaxLength="255" />
+    <Property Name="PROMOCION" Type="varchar2" MaxLength="255" />
+    <Property Name="SPCODEEXT" Type="varchar2" MaxLength="255" />
+    <Property Name="TMCODEEXT" Type="varchar2" MaxLength="255" />
+    <Property Name="OCC" Type="varchar2" MaxLength="255" />
+    <Property Name="ILIMITADO" Type="varchar2" MaxLength="255" />
+    <Property Name="VRILIMITADO" Type="varchar2" MaxLength="255" />
+    <Property Name="IVAILIMITADO" Type="varchar2" MaxLength="255" />
+    <Property Name="TOTAL_VENTA" Type="varchar2" MaxLength="255" />
+    <Property Name="TRAJO_EQUIPO" Type="varchar2" MaxLength="50" />
+    <Property Name="CODMINEXT" Type="varchar2" MaxLength="50" />
+    <Property Name="ID_ACTINCLUSION" Type="number" Precision="10" Scale="0" />
+    <Property Name="TRAJO_ICCID" Type="varchar2" MaxLength="50" />
+    <Property Name="DESTINOS_ELEG" Type="varchar2" MaxLength="200" />
+    <Property Name="PORCENTAJE_ELEG" Type="varchar2" MaxLength="50" />
+    <Property Name="ENTREGA_FACTURA" Type="number" Precision="10" Scale="0" />
+    <Property Name="ID_FACT_ELECT" Type="number" Precision="10" Scale="0" Nullable="false" />
+    <Property Name="SPCODE_PAQ" Type="number" Precision="38" Scale="0" />
+    <Property Name="DATOS" Type="number" Precision="38" Scale="0" />
+    <Property Name="CONVERSION" Type="varchar2" MaxLength="50" />
+    <Property Name="WAP" Type="varchar2" MaxLength="50" />
+    <Property Name="ROWID" Type="varchar2" Nullable="false" MaxLength="255" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'EXTRANET.ACTIVACION' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="ACTIVACION">
+    <Key>
+      <PropertyRef Name="CODMIN" />
+      <PropertyRef Name="ROWID" />
+    </Key>
+    <Property Name="SALUDO" Type="varchar2" MaxLength="50" Nullable="false" />
+    <Property Name="NOMBRES" Type="varchar2" MaxLength="50" Nullable="false" />
+    <Property Name="APELLIDO" Type="varchar2" MaxLength="50" Nullable="false" />
+    <Property Name="DIRECCION" Type="varchar2" MaxLength="70" Nullable="false" />
+    <Property Name="CIUDAD_DEPARTAMENTO" Type="varchar2" MaxLength="50" Nullable="false" />
+    <Property Name="INDICATIVO" Type="varchar2" MaxLength="50" Nullable="false" />
+    <Property Name="TELEFONO" Type="varchar2" MaxLength="50" Nullable="false" />
+    <Property Name="TIPO_DOCUMENTO" Type="varchar2" MaxLength="50" Nullable="false" />
+    <Property Name="NUMERO_DOCUMENTO" Type="varchar2" MaxLength="50" Nullable="false" />
+    <Property Name="ESN" Type="varchar2" MaxLength="50" Nullable="false" />
+    <Property Name="CODIGO_DISTRIBUIDOR" Type="varchar2" MaxLength="50" Nullable="false" />
+    <Property Name="HLR" Type="varchar2" MaxLength="50" />
+    <Property Name="PLAN_TARIFAS" Type="varchar2" MaxLength="50" Nullable="false" />
+    <Property Name="CODMIN" Type="varchar2" MaxLength="50" Nullable="false" />
+    <Property Name="FECHA_VENTA" Type="date" />
+    <Property Name="PLANILLA_DISTIBUIDOR" Type="varchar2" MaxLength="50" />
+    <Property Name="VALOR_CFM" Type="varchar2" MaxLength="50" />
+    <Property Name="IVA_CFM" Type="varchar2" MaxLength="50" />
+    <Property Name="EQUIPO" Type="varchar2" MaxLength="50" />
+    <Property Name="IVA_EQUIPO" Type="varchar2" MaxLength="50" />
+    <Property Name="TOTAL_VENTA" Type="varchar2" MaxLength="50" />
+    <Property Name="NUMERO_CONTRATO" Type="varchar2" MaxLength="50" />
+    <Property Name="MODELO_EQUIPO" Type="varchar2" MaxLength="50" Nullable="false" />
+    <Property Name="TIPO_CONTRATO" Type="varchar2" MaxLength="50" />
+    <Property Name="NO_INCLUSION_GUIA" Type="varchar2" MaxLength="50" />
+    <Property Name="COMBO" Type="varchar2" MaxLength="50" />
+    <Property Name="WIP" Type="varchar2" MaxLength="50" />
+    <Property Name="WAP" Type="varchar2" MaxLength="50" />
+    <Property Name="LID_WAP" Type="varchar2" MaxLength="50" />
+    <Property Name="COMSEGURO" Type="varchar2" MaxLength="50" />
+    <Property Name="ANDIASISTENCIA" Type="varchar2" MaxLength="50" />
+    <Property Name="OCUPACION_CLIENTE" Type="varchar2" MaxLength="50" />
+    <Property Name="FECHA_NACIMIENTO" Type="date" />
+    <Property Name="SEXO" Type="varchar2" MaxLength="50" />
+    <Property Name="SECTOR_COMERCIAL" Type="varchar2" MaxLength="50" />
+    <Property Name="GRUPO_CLIENTES" Type="varchar2" MaxLength="50" />
+    <Property Name="CENTRO_COSTO" Type="varchar2" MaxLength="50" />
+    <Property Name="EFECTIVO" Type="varchar2" MaxLength="50" />
+    <Property Name="TARJETA_CREDITO" Type="varchar2" MaxLength="50" />
+    <Property Name="COMPANIA_TC" Type="varchar2" MaxLength="50" />
+    <Property Name="NRO_TC" Type="varchar2" MaxLength="50" />
+    <Property Name="CUPO_TC" Type="varchar2" MaxLength="50" />
+    <Property Name="VENCE_TC" Type="varchar2" MaxLength="50" />
+    <Property Name="PRIMER_APELLIDO_CONYUGE" Type="varchar2" MaxLength="50" />
+    <Property Name="SEGUNDO_APELLIDO_CONYUGE" Type="varchar2" MaxLength="50" />
+    <Property Name="NOMBRE_CONYUGE" Type="varchar2" MaxLength="50" />
+    <Property Name="NUMERO_DOCUMENTO1" Type="varchar2" MaxLength="50" />
+    <Property Name="EMPRESA_CONYUGE" Type="varchar2" MaxLength="50" />
+    <Property Name="DIRECCION_EMPRESA_CONYUGE" Type="varchar2" MaxLength="50" />
+    <Property Name="TELEFONO_CONYUGE" Type="varchar2" MaxLength="50" />
+    <Property Name="PROFESION_CONYUGE" Type="varchar2" MaxLength="50" />
+    <Property Name="EMPRESA_TRABAJO_CLIENTE" Type="varchar2" MaxLength="50" />
+    <Property Name="DIRECCION_EMPRESA" Type="varchar2" MaxLength="50" />
+    <Property Name="TELEFONO_EMPRESA" Type="varchar2" MaxLength="50" />
+    <Property Name="FECHA_INGRESO" Type="date" />
+    <Property Name="INGRESO_MENSUAL" Type="varchar2" MaxLength="50" />
+    <Property Name="ESTADO_CIVIL_CLIENTE" Type="varchar2" MaxLength="50" />
+    <Property Name="ACTIVIDAD_ECONOMICA" Type="varchar2" MaxLength="50" />
+    <Property Name="TIPO_VIVIENDA" Type="varchar2" MaxLength="50" />
+    <Property Name="REFERENCIA_PERSONAL" Type="varchar2" MaxLength="50" />
+    <Property Name="TELEFONO_REFERENCIA" Type="varchar2" MaxLength="50" />
+    <Property Name="NOMBRE_BANCO" Type="varchar2" MaxLength="50" />
+    <Property Name="SUCURSAL_BANCO" Type="varchar2" MaxLength="50" />
+    <Property Name="NUMERO_CUENTA" Type="varchar2" MaxLength="50" />
+    <Property Name="TARJETA_ENTIDAD" Type="varchar2" MaxLength="50" />
+    <Property Name="NUMERO_TC" Type="varchar2" MaxLength="50" />
+    <Property Name="TC_CUPO" Type="varchar2" MaxLength="50" />
+    <Property Name="RB_VENCIMIENTO_TC" Type="varchar2" MaxLength="101" />
+    <Property Name="TARJETA_TIPO" Type="varchar2" MaxLength="50" />
+    <Property Name="COLGAR_A_MAESTRA" Type="varchar2" MaxLength="50" />
+    <Property Name="FECREGIS" Type="date" Nullable="false" />
+    <Property Name="RMIN" Type="number" Precision="1" Scale="0" />
+    <Property Name="RESN" Type="number" Precision="3" Scale="0" />
+    <Property Name="RTAR" Type="number" Precision="3" Scale="0" />
+    <Property Name="RDTC" Type="number" Precision="2" Scale="0" />
+    <Property Name="RCAR" Type="number" Precision="2" Scale="0" />
+    <Property Name="ESTADO" Type="varchar2" MaxLength="50" />
+    <Property Name="LINEACT" Type="varchar2" MaxLength="50" />
+    <Property Name="LINEPORACT" Type="varchar2" MaxLength="50" />
+    <Property Name="MORACONCOM" Type="varchar2" MaxLength="50" />
+    <Property Name="TRAJO_EQUIPO" Type="varchar2" MaxLength="50" />
+    <Property Name="PLANILLA" Type="varchar2" MaxLength="50" />
+    <Property Name="FECPLANILLA" Type="date" />
+    <Property Name="EMAIL" Type="varchar2" MaxLength="50" />
+    <Property Name="CREDITO" Type="varchar2" MaxLength="50" />
+    <Property Name="SPCODE" Type="varchar2" MaxLength="10" />
+    <Property Name="TMCODE" Type="varchar2" MaxLength="10" />
+    <Property Name="DISTRIBUIDOR1" Type="varchar2" MaxLength="50" />
+    <Property Name="CO_ID" Type="number" Precision="22" Scale="0" />
+    <Property Name="CODMINEXT" Type="varchar2" MaxLength="50" />
+    <Property Name="COMSEGUROEXT" Type="varchar2" MaxLength="50" />
+    <Property Name="ANDIASISTENCIAEXT" Type="varchar2" MaxLength="50" />
+    <Property Name="ESNEXT" Type="varchar2" MaxLength="50" />
+    <Property Name="PLAN_TARIFASEXT" Type="varchar2" MaxLength="50" />
+    <Property Name="MODELO_EQUIPOEXT" Type="varchar2" MaxLength="50" />
+    <Property Name="VALOR_CFMEXT" Type="varchar2" MaxLength="50" />
+    <Property Name="IVA_CFMEXT" Type="varchar2" MaxLength="50" />
+    <Property Name="EQUIPOEXT" Type="varchar2" MaxLength="50" />
+    <Property Name="IVA_EQUIPOEXT" Type="varchar2" MaxLength="50" />
+    <Property Name="TOTAL_VENTAEXT" Type="varchar2" MaxLength="50" />
+    <Property Name="SPCODEEXT" Type="varchar2" MaxLength="10" />
+    <Property Name="TMCODEEXT" Type="varchar2" MaxLength="10" />
+    <Property Name="TEXT1" Type="varchar2" MaxLength="50" />
+    <Property Name="TEXT2" Type="varchar2" MaxLength="50" />
+    <Property Name="TEXT3" Type="varchar2" MaxLength="80" />
+    <Property Name="TEXT4" Type="varchar2" MaxLength="50" />
+    <Property Name="TEXT5" Type="varchar2" MaxLength="50" />
+    <Property Name="TEXT6" Type="varchar2" MaxLength="50" />
+    <Property Name="TEXT7" Type="varchar2" MaxLength="50" />
+    <Property Name="TEXT8" Type="varchar2" MaxLength="50" />
+    <Property Name="TEXT9" Type="varchar2" MaxLength="50" />
+    <Property Name="TEXT10" Type="varchar2" MaxLength="50" />
+    <Property Name="FECHA1" Type="date" />
+    <Property Name="FECHA2" Type="date" />
+    <Property Name="FECHA3" Type="date" />
+    <Property Name="FECBSCS" Type="date" />
+    <Property Name="FECHA4" Type="date" />
+    <Property Name="FECHA5" Type="date" />
+    <Property Name="FECHA6" Type="date" />
+    <Property Name="TEXT11" Type="varchar2" MaxLength="50" />
+    <Property Name="TEXT12" Type="varchar2" MaxLength="50" />
+    <Property Name="TEXT13" Type="varchar2" MaxLength="200" />
+    <Property Name="TEXT14" Type="varchar2" MaxLength="50" />
+    <Property Name="TEXT15" Type="varchar2" MaxLength="50" />
+    <Property Name="SCCODE" Type="number" Precision="38" Scale="0" />
+    <Property Name="IMEI" Type="varchar2" MaxLength="15" />
+    <Property Name="MENSAJES" Type="number" Precision="38" Scale="0" />
+    <Property Name="DATOS" Type="number" Precision="38" Scale="0" />
+    <Property Name="MMS" Type="number" Precision="38" Scale="0" />
+    <Property Name="IP" Type="varchar2" MaxLength="15" />
+    <Property Name="TEXT16" Type="varchar2" MaxLength="50" />
+    <Property Name="TEXT17" Type="varchar2" MaxLength="50" />
+    <Property Name="VALOR_CARD" Type="varchar2" MaxLength="50" />
+    <Property Name="IVA_CARD" Type="varchar2" MaxLength="50" />
+    <Property Name="REVISTA" Type="varchar2" MaxLength="15" />
+    <Property Name="TRAJO_ICCID" Type="varchar2" MaxLength="50" />
+    <Property Name="TEXT18" Type="varchar2" MaxLength="50" />
+    <Property Name="TEXT19" Type="varchar2" MaxLength="50" />
+    <Property Name="TEXT20" Type="varchar2" MaxLength="50" />
+    <Property Name="OCC" Type="number" Precision="7" Scale="0" />
+    <Property Name="OBSERVACION" Type="varchar2" MaxLength="50" />
+    <Property Name="CONSECUTIVO" Type="number" Precision="38" Scale="0" />
+    <Property Name="ILIMITADO" Type="varchar2" MaxLength="50" />
+    <Property Name="CFM_ANT" Type="varchar2" MaxLength="50" />
+    <Property Name="VRILIMITADO" Type="varchar2" MaxLength="50" />
+    <Property Name="IVAILIMITADO" Type="varchar2" MaxLength="50" />
+    <Property Name="PRODUCTO" Type="number" Precision="4" Scale="0" />
+    <Property Name="FIANZA" Type="number" Precision="2" Scale="0" />
+    <Property Name="CUOTA_MENSUAL" Type="number" Precision="8" Scale="0" />
+    <Property Name="VALOR_PAGAR" Type="number" Precision="8" Scale="0" />
+    <Property Name="VALOR_PAGARSIM" Type="number" Precision="6" Scale="0" />
+    <Property Name="IMEIOFQ" Type="varchar2" MaxLength="15" />
+    <Property Name="MODELO_EQUIPO_OFQ" Type="varchar2" MaxLength="50" />
+    <Property Name="ID_PAGO" Type="number" Precision="10" Scale="0" />
+    <Property Name="CICLO_CORPORATIVO" Type="varchar2" MaxLength="1" />
+    <Property Name="ID_VENDEDOR" Type="varchar2" MaxLength="15" />
+    <Property Name="BARRIO" Type="varchar2" MaxLength="100" />
+    <Property Name="DIRECTORIO" Type="varchar2" MaxLength="15" />
+    <Property Name="PROMOCION" Type="varchar2" MaxLength="8" />
+    <Property Name="CONEXION_SAP" Type="varchar2" MaxLength="1" />
+    <Property Name="VALOR_EQUIPO_ESPECIAL" Type="varchar2" MaxLength="50" />
+    <Property Name="VALOR_IVA_EQUIPO_ESPECIAL" Type="varchar2" MaxLength="50" />
+    <Property Name="VALOR_ICCID_ESPECIAL" Type="varchar2" MaxLength="50" />
+    <Property Name="VALOR_IVA_ICCID_ESPECIAL" Type="varchar2" MaxLength="50" />
+    <Property Name="ID_CONSULTOR" Type="varchar2" MaxLength="15" />
+    <Property Name="FECHA_PRIMERA_CARGA" Type="date" />
+    <Property Name="ID_ACTIVACION" Type="number" Precision="10" Scale="0" />
+    <Property Name="DIAS_PAGO_ORD_COMPRA" Type="varchar2" MaxLength="4" />
+    <Property Name="SERIAL_CDMA_TDMA" Type="varchar2" MaxLength="11" />
+    <Property Name="TECNOLOGIA_CDMA_TDMA" Type="varchar2" MaxLength="2" />
+    <Property Name="MODELO_EQUIPO_CDMA_TDMA" Type="varchar2" MaxLength="255" />
+    <Property Name="DIJIN" Type="varchar2" MaxLength="16" />
+    <Property Name="NUMERO_PAGARE" Type="varchar2" MaxLength="50" />
+    <Property Name="NUS" Type="varchar2" MaxLength="20" />
+    <Property Name="SPCODE_PAQ" Type="number" Precision="38" Scale="0" />
+    <Property Name="MODELO_EQUIPO_ANTERIOR" Type="varchar2" MaxLength="50" />
+    <Property Name="IMEI_ANTERIOR" Type="varchar2" MaxLength="15" />
+    <Property Name="ID_REPOSICION" Type="number" Precision="20" Scale="0" />
+    <Property Name="VR_RECARGA_UNICO" Type="varchar2" MaxLength="50" />
+    <Property Name="DCTO_RECARGA_UNICO" Type="varchar2" MaxLength="50" />
+    <Property Name="VR_RECARGA_TELEMIC" Type="varchar2" MaxLength="50" />
+    <Property Name="DCTO_RECARGA_TELEMIC" Type="varchar2" MaxLength="50" />
+    <Property Name="ENTREGA_FACTURA" Type="number" Precision="10" Scale="0" />
+    <Property Name="ID_FACT_ELECT" Type="number" Precision="10" Scale="0" Nullable="false" />
+    <Property Name="TIENDA" Type="varchar2" MaxLength="20" />
+    <Property Name="ROWID" Type="varchar2" Nullable="false" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="ACTIVACIONPRE">
+    <Key>
+      <PropertyRef Name="ICCID" />
+      <PropertyRef Name="CODMIN" />
+      <PropertyRef Name="ROWID" />
+    </Key>
+    <Property Name="SALUDO" Type="varchar2" MaxLength="5" />
+    <Property Name="NOMBRES" Type="varchar2" MaxLength="40" />
+    <Property Name="APELLIDO" Type="varchar2" MaxLength="40" />
+    <Property Name="NUMERO_DOCUMENTO" Type="varchar2" MaxLength="20" />
+    <Property Name="TELEFONO" Type="varchar2" MaxLength="20" />
+    <Property Name="DIRECCION" Type="varchar2" MaxLength="70" />
+    <Property Name="CIUDAD_DEPARTAMENTO" Type="varchar2" MaxLength="40" />
+    <Property Name="ICCID" Type="varchar2" MaxLength="50" Nullable="false" />
+    <Property Name="IMEI" Type="varchar2" MaxLength="15" />
+    <Property Name="TECNOLOGIA" Type="number" Precision="38" Scale="0" />
+    <Property Name="CODIGO_DISTRIBUIDOR" Type="varchar2" MaxLength="24" />
+    <Property Name="USUARIO" Type="varchar2" MaxLength="20" />
+    <Property Name="TMCODE" Type="number" Precision="38" Scale="0" />
+    <Property Name="SPCODE" Type="number" Precision="38" Scale="0" />
+    <Property Name="CODMIN" Type="varchar2" MaxLength="20" Nullable="false" />
+    <Property Name="HLR" Type="varchar2" MaxLength="30" />
+    <Property Name="GRUPO_CLIENTES" Type="varchar2" MaxLength="10" />
+    <Property Name="CENTRO_COSTO" Type="varchar2" MaxLength="30" />
+    <Property Name="SECTOR_COMERCIAL" Type="varchar2" MaxLength="40" />
+    <Property Name="EFECTIVO" Type="varchar2" MaxLength="2" />
+    <Property Name="FECREGIS" Type="date" />
+    <Property Name="FECBSCS" Type="date" />
+    <Property Name="FECIN" Type="date" />
+    <Property Name="CARGA" Type="varchar2" MaxLength="10" />
+    <Property Name="VIGENCIA" Type="varchar2" MaxLength="5" />
+    <Property Name="MO" Type="number" Precision="38" Scale="0" />
+    <Property Name="RESN" Type="number" Precision="38" Scale="0" />
+    <Property Name="RTAR" Type="number" Precision="38" Scale="0" />
+    <Property Name="ESTADO" Type="varchar2" MaxLength="15" />
+    <Property Name="ESTADOIN" Type="varchar2" MaxLength="15" />
+    <Property Name="CO_ID" Type="number" Precision="22" Scale="0" />
+    <Property Name="CUSTOMER_ID" Type="number" Precision="22" Scale="0" />
+    <Property Name="TEXT1" Type="varchar2" MaxLength="20" />
+    <Property Name="TEXT2" Type="varchar2" MaxLength="20" />
+    <Property Name="TEXT3" Type="varchar2" MaxLength="20" />
+    <Property Name="FECHA1" Type="date" />
+    <Property Name="FECHA2" Type="date" />
+    <Property Name="ESTADOMO" Type="varchar2" MaxLength="15" />
+    <Property Name="FECMO" Type="date" />
+    <Property Name="NOMBRE_EQUIPO" Type="varchar2" MaxLength="100" />
+    <Property Name="ID_ACTIVACION" Type="number" Precision="38" Scale="0" />
+    <Property Name="PLANILLA" Type="varchar2" MaxLength="50" />
+    <Property Name="FECPLANILLA" Type="date" />
+    <Property Name="INDICATIVO" Type="varchar2" MaxLength="50" />
+    <Property Name="TIPO_DOCUMENTO" Type="varchar2" MaxLength="50" />
+    <Property Name="SEXO" Type="varchar2" MaxLength="50" />
+    <Property Name="BARRIO" Type="varchar2" MaxLength="100" />
+    <Property Name="ID_VENDEDOR" Type="varchar2" MaxLength="15" />
+    <Property Name="FECHA_VENTA" Type="date" />
+    <Property Name="GENERAR_TICKLER" Type="varchar2" MaxLength="200" />
+    <Property Name="ACTUALIZACION_BDO" Type="number" Precision="1" Scale="0" />
+    <Property Name="ROWID" Type="varchar2" Nullable="false" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="AUDITORIARECHAZOS">
+    <Key>
+      <PropertyRef Name="ID_AUDITORIA" />
+    </Key>
+    <Property Name="ID_AUDITORIA" Type="number" Precision="20" Scale="0" Nullable="false" />
+    <Property Name="FECREGIS" Type="timestamp" Precision="6" />
+    <Property Name="USUARIOMOD" Type="varchar2" MaxLength="30" />
+    <Property Name="TABLATRAMITE" Type="varchar2" MaxLength="30" />
+    <Property Name="CO_ID" Type="number" Precision="38" Scale="0" />
+    <Property Name="CODMIN" Type="varchar2" MaxLength="50" />
+    <Property Name="CODMINEXT" Type="varchar2" MaxLength="50" />
+    <Property Name="REG_ANTERIOR" Type="clob" />
+    <Property Name="REG_ACTUAL" Type="clob" />
+    <Property Name="ROWIDMOD" Type="varchar2" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="CPS_TIPO_DOCUMENTO">
+    <Key>
+      <PropertyRef Name="CODIGO_DOCUMENTO" />
+    </Key>
+    <Property Name="CODIGO_DOCUMENTO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="DESCRIPCION_DOCUMENTO" Type="varchar2" MaxLength="250" />
+    <Property Name="TIPO_DOCUMENTO" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'EXTRANET.MIGRACION' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="MIGRACION">
+    <Key>
+      <PropertyRef Name="ICCID" />
+      <PropertyRef Name="IMEI" />
+      <PropertyRef Name="ROWID" />
+    </Key>
+    <Property Name="ICCID" Type="varchar2" MaxLength="50" Nullable="false" />
+    <Property Name="IMEI" Type="varchar2" MaxLength="50" Nullable="false" />
+    <Property Name="MSISDN" Type="varchar2" MaxLength="50" />
+    <Property Name="CO_ID" Type="number" Precision="38" Scale="0" />
+    <Property Name="TMCODE" Type="number" Precision="38" Scale="0" />
+    <Property Name="SPCODE" Type="number" Precision="38" Scale="0" />
+    <Property Name="HLR" Type="varchar2" MaxLength="50" />
+    <Property Name="FECHA_CORTE" Type="varchar2" MaxLength="2" />
+    <Property Name="DISTRIBUIDOR" Type="varchar2" MaxLength="50" />
+    <Property Name="DISTRIBUIDOR_MIGRACION" Type="varchar2" MaxLength="50" />
+    <Property Name="BUZON" Type="number" Precision="38" Scale="0" />
+    <Property Name="IDENFICADOR" Type="number" Precision="38" Scale="0" />
+    <Property Name="COMSEGURO" Type="varchar2" MaxLength="2" />
+    <Property Name="ANDIASISTENCIA" Type="varchar2" MaxLength="2" />
+    <Property Name="MENSAJES" Type="number" Precision="38" Scale="0" />
+    <Property Name="DATOS" Type="number" Precision="38" Scale="0" />
+    <Property Name="MMS" Type="number" Precision="38" Scale="0" />
+    <Property Name="MODELO_IMEI" Type="varchar2" MaxLength="50" />
+    <Property Name="CFM" Type="number" Precision="38" Scale="0" />
+    <Property Name="IVA_CFM" Type="number" Precision="38" Scale="0" />
+    <Property Name="VLR_EQUIPO" Type="number" Precision="38" Scale="0" />
+    <Property Name="F_PAGO" Type="number" Precision="38" Scale="0" />
+    <Property Name="IVA_EQUIPO" Type="number" Precision="38" Scale="0" />
+    <Property Name="VLR_SIM" Type="number" Precision="38" Scale="0" />
+    <Property Name="IVA_SIM" Type="number" Precision="38" Scale="0" />
+    <Property Name="TOTAL_VENTA" Type="number" Precision="38" Scale="0" />
+    <Property Name="ESN" Type="varchar2" MaxLength="50" />
+    <Property Name="ESTADO" Type="varchar2" MaxLength="50" />
+    <Property Name="FECREGIS" Type="date" />
+    <Property Name="FECBSCS" Type="date" />
+    <Property Name="TEXT29" Type="varchar2" MaxLength="50" />
+    <Property Name="PLANILLADO" Type="varchar2" MaxLength="20" />
+    <Property Name="TEXT01" Type="varchar2" MaxLength="50" />
+    <Property Name="TEXT02" Type="varchar2" MaxLength="50" />
+    <Property Name="TEXT03" Type="varchar2" MaxLength="50" />
+    <Property Name="FECHA1" Type="date" />
+    <Property Name="FECHA2" Type="date" />
+    <Property Name="FECHA3" Type="date" />
+    <Property Name="USUARIO" Type="varchar2" MaxLength="15" />
+    <Property Name="MOTIVO" Type="varchar2" MaxLength="50" />
+    <Property Name="TIPO_PLAN" Type="number" Precision="1" Scale="0" />
+    <Property Name="TMCODE_OLD" Type="number" Precision="38" Scale="0" />
+    <Property Name="SPCODE_OLD" Type="number" Precision="38" Scale="0" />
+    <Property Name="TEXT04" Type="varchar2" MaxLength="50" />
+    <Property Name="TEXT05" Type="varchar2" MaxLength="50" />
+    <Property Name="TEXT06" Type="varchar2" MaxLength="50" />
+    <Property Name="TEXT07" Type="varchar2" MaxLength="50" />
+    <Property Name="TEXT08" Type="varchar2" MaxLength="50" />
+    <Property Name="TEXT09" Type="varchar2" MaxLength="50" />
+    <Property Name="TEXT10" Type="varchar2" MaxLength="50" />
+    <Property Name="ROAMING" Type="number" Precision="38" Scale="0" />
+    <Property Name="DESTINO" Type="varchar2" MaxLength="100" />
+    <Property Name="PORCENTAJE" Type="number" Precision="38" Scale="0" />
+    <Property Name="OCC" Type="number" Precision="38" Scale="0" />
+    <Property Name="TMCODEEXT" Type="varchar2" MaxLength="10" />
+    <Property Name="SPCODEEXT" Type="varchar2" MaxLength="10" />
+    <Property Name="REVISTA" Type="varchar2" MaxLength="2" />
+    <Property Name="PORCENTAJE_FIJO" Type="number" Precision="38" Scale="0" />
+    <Property Name="FIANZA" Type="number" Precision="38" Scale="0" />
+    <Property Name="TIPO_CONTRATO" Type="number" Precision="38" Scale="0" />
+    <Property Name="RESN" Type="number" Precision="3" Scale="0" />
+    <Property Name="PERMANENCIA" Type="number" Precision="3" Scale="0" />
+    <Property Name="ID_PAGO" Type="number" Precision="10" Scale="0" />
+    <Property Name="NEW_COID" Type="varchar2" MaxLength="25" />
+    <Property Name="DIRECTORIO" Type="varchar2" MaxLength="15" />
+    <Property Name="PROMOCION" Type="varchar2" MaxLength="8" />
+    <Property Name="CUSTCODE" Type="varchar2" MaxLength="50" />
+    <Property Name="ID_VENDEDOR" Type="varchar2" MaxLength="15" />
+    <Property Name="ELEGILIM" Type="number" Precision="38" Scale="0" />
+    <Property Name="CODMINEXT" Type="varchar2" MaxLength="50" />
+    <Property Name="CONEXION_SAP" Type="varchar2" MaxLength="1" />
+    <Property Name="PRODUCTO" Type="number" Precision="4" Scale="0" />
+    <Property Name="ID_MIGRACION" Type="number" Precision="10" Scale="0" />
+    <Property Name="SPCODE_PAQ" Type="number" Precision="38" Scale="0" />
+    <Property Name="PRECIOFULL" Type="number" Precision="38" Scale="0" />
+    <Property Name="OCCMIGRACION" Type="number" Precision="1" Scale="0" />
+    <Property Name="SPCODE_PAQPURO" Type="number" Precision="38" Scale="0" />
+    <Property Name="ENTREGA_EQUIPO" Type="varchar2" MaxLength="4" />
+    <Property Name="NUMERO_DOCUMENTO" Type="varchar2" MaxLength="50" />
+    <Property Name="NOMBRE_CLIENTE" Type="varchar2" MaxLength="255" />
+    <Property Name="ID_REPOSICION" Type="number" Precision="20" Scale="0" />
+    <Property Name="TRAJO_EQUIPO" Type="varchar2" MaxLength="2" />
+    <Property Name="TRAJO_ICCID" Type="varchar2" MaxLength="2" />
+    <Property Name="BARRIO" Type="varchar2" MaxLength="100" />
+    <Property Name="REGISTROSINIMEI" Type="char" MaxLength="1" />
+    <Property Name="ROWID" Type="varchar2" Nullable="false" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="PARAMETRO">
+    <Key>
+      <PropertyRef Name="ID_PARAMETRO" />
+    </Key>
+    <Property Name="ID_PARAMETRO" Type="number" Precision="5" Scale="0" Nullable="false" />
+    <Property Name="NOMBRE" Type="varchar2" MaxLength="50" Nullable="false" />
+    <Property Name="DSC" Type="varchar2" MaxLength="255" />
+    <Property Name="VALOR" Type="varchar2" MaxLength="2000" Nullable="false" />
+  </EntityType>
+  <Function Name="EF_TEST" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="EXTRANET">
+    <Parameter Name="PESTADO" Type="varchar2" Mode="In" />
+    <Parameter Name="PROWID" Type="varchar2" Mode="In" />
+  </Function>
+  <Function Name="UPDATEACTINCLUSION" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="EXTRANET">
+    <Parameter Name="PSALUDO" Type="varchar2" Mode="In" />
+    <Parameter Name="PNOMBRES" Type="varchar2" Mode="In" />
+    <Parameter Name="PAPELLIDO" Type="varchar2" Mode="In" />
+    <Parameter Name="PDIRECCION" Type="varchar2" Mode="In" />
+    <Parameter Name="PCIUDAD_DEPARTAMENTO" Type="varchar2" Mode="In" />
+    <Parameter Name="PINDICATIVO" Type="varchar2" Mode="In" />
+    <Parameter Name="PTELEFONO" Type="varchar2" Mode="In" />
+    <Parameter Name="PTIPO_DOCUMENTO" Type="varchar2" Mode="In" />
+    <Parameter Name="PNUMERO_DOCUMENTO" Type="varchar2" Mode="In" />
+    <Parameter Name="PESN" Type="varchar2" Mode="In" />
+    <Parameter Name="PCODIGO_DISTRIBUIDOR" Type="varchar2" Mode="In" />
+    <Parameter Name="PMODELO_EQUIPO" Type="varchar2" Mode="In" />
+    <Parameter Name="POCUPACION_CLIENTE" Type="varchar2" Mode="In" />
+    <Parameter Name="PFECHA_NACIMIENTO" Type="date" Mode="In" />
+    <Parameter Name="PSEXO" Type="varchar2" Mode="In" />
+    <Parameter Name="PEMPRESA_TRABAJO_CLIENTE" Type="varchar2" Mode="In" />
+    <Parameter Name="PDIRECCION_EMPRESA" Type="varchar2" Mode="In" />
+    <Parameter Name="PTELEFONO_EMPRESA" Type="varchar2" Mode="In" />
+    <Parameter Name="PFECHA_INGRESO" Type="date" Mode="In" />
+    <Parameter Name="PRMIN" Type="number" Mode="In" />
+    <Parameter Name="PRESN" Type="number" Mode="In" />
+    <Parameter Name="PRTAR" Type="number" Mode="In" />
+    <Parameter Name="PRDTC" Type="number" Mode="In" />
+    <Parameter Name="PRCAR" Type="number" Mode="In" />
+    <Parameter Name="PESTADO" Type="varchar2" Mode="In" />
+    <Parameter Name="PSPCODE" Type="varchar2" Mode="In" />
+    <Parameter Name="PDISTRIBUIDOR1" Type="varchar2" Mode="In" />
+    <Parameter Name="PCO_ID" Type="number" Mode="In" />
+    <Parameter Name="PFECBSCS" Type="date" Mode="In" />
+    <Parameter Name="PSCCODE" Type="number" Mode="In" />
+    <Parameter Name="PIMEI" Type="varchar2" Mode="In" />
+    <Parameter Name="PPRODUCTO" Type="number" Mode="In" />
+    <Parameter Name="PEQUIPO" Type="varchar2" Mode="In" />
+    <Parameter Name="PTIPO_CONTRATO" Type="varchar2" Mode="In" />
+    <Parameter Name="PNUMERO_CONTRATO" Type="varchar2" Mode="In" />
+    <Parameter Name="PLINEPORACT" Type="varchar2" Mode="In" />
+    <Parameter Name="POCC" Type="varchar2" Mode="In" />
+    <Parameter Name="PTRAJO_EQUIPO" Type="varchar2" Mode="In" />
+    <Parameter Name="PID_ACTINCLUSION" Type="number" Mode="In" />
+    <Parameter Name="PTRAJO_ICCID" Type="varchar2" Mode="In" />
+    <Parameter Name="PDESTINOS_ELEG" Type="varchar2" Mode="In" />
+    <Parameter Name="PPORCENTAJE_ELEG" Type="varchar2" Mode="In" />
+    <Parameter Name="PSPCODE_PAQ" Type="number" Mode="In" />
+    <Parameter Name="PDATOS" Type="number" Mode="In" />
+    <Parameter Name="PROWID" Type="varchar2" Mode="In" />
+  </Function>
+  <Function Name="UPDATEACTIVACION" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="EXTRANET">
+    <Parameter Name="PNOMBRES" Type="varchar2" Mode="In" />
+    <Parameter Name="PAPELLIDO" Type="varchar2" Mode="In" />
+    <Parameter Name="PDIRECCION" Type="varchar2" Mode="In" />
+    <Parameter Name="PCIUDAD_DEPARTAMENTO" Type="varchar2" Mode="In" />
+    <Parameter Name="PINDICATIVO" Type="varchar2" Mode="In" />
+    <Parameter Name="PTELEFONO" Type="varchar2" Mode="In" />
+    <Parameter Name="PTIPO_DOCUMENTO" Type="varchar2" Mode="In" />
+    <Parameter Name="PNUMERO_DOCUMENTO" Type="varchar2" Mode="In" />
+    <Parameter Name="PESN" Type="varchar2" Mode="In" />
+    <Parameter Name="PCODIGO_DISTRIBUIDOR" Type="varchar2" Mode="In" />
+    <Parameter Name="PFECHA_VENTA" Type="date" Mode="In" />
+    <Parameter Name="PVALOR_CFM" Type="varchar2" Mode="In" />
+    <Parameter Name="PEQUIPO" Type="varchar2" Mode="In" />
+    <Parameter Name="PNUMERO_CONTRATO" Type="varchar2" Mode="In" />
+    <Parameter Name="PMODELO_EQUIPO" Type="varchar2" Mode="In" />
+    <Parameter Name="PTIPO_CONTRATO" Type="varchar2" Mode="In" />
+    <Parameter Name="PCOMSEGURO" Type="varchar2" Mode="In" />
+    <Parameter Name="POCUPACION_CLIENTE" Type="varchar2" Mode="In" />
+    <Parameter Name="PFECHA_NACIMIENTO" Type="date" Mode="In" />
+    <Parameter Name="PSEXO" Type="varchar2" Mode="In" />
+    <Parameter Name="PCENTRO_COSTO" Type="varchar2" Mode="In" />
+    <Parameter Name="PEMPRESA_TRABAJO_CLIENTE" Type="varchar2" Mode="In" />
+    <Parameter Name="PDIRECCION_EMPRESA" Type="varchar2" Mode="In" />
+    <Parameter Name="PTELEFONO_EMPRESA" Type="varchar2" Mode="In" />
+    <Parameter Name="PFECHA_INGRESO" Type="date" Mode="In" />
+    <Parameter Name="PRMIN" Type="number" Mode="In" />
+    <Parameter Name="PRESN" Type="number" Mode="In" />
+    <Parameter Name="PRTAR" Type="number" Mode="In" />
+    <Parameter Name="PRDTC" Type="number" Mode="In" />
+    <Parameter Name="PRCAR" Type="number" Mode="In" />
+    <Parameter Name="PESTADO" Type="varchar2" Mode="In" />
+    <Parameter Name="PLINEACT" Type="varchar2" Mode="In" />
+    <Parameter Name="PLINEPORACT" Type="varchar2" Mode="In" />
+    <Parameter Name="PTRAJO_EQUIPO" Type="varchar2" Mode="In" />
+    <Parameter Name="PSPCODE" Type="varchar2" Mode="In" />
+    <Parameter Name="PDISTRIBUIDOR1" Type="varchar2" Mode="In" />
+    <Parameter Name="PCO_ID" Type="number" Mode="In" />
+    <Parameter Name="PSCCODE" Type="number" Mode="In" />
+    <Parameter Name="PIMEI" Type="varchar2" Mode="In" />
+    <Parameter Name="PTRAJO_ICCID" Type="varchar2" Mode="In" />
+    <Parameter Name="POCC" Type="number" Mode="In" />
+    <Parameter Name="POBSERVACION" Type="varchar2" Mode="In" />
+    <Parameter Name="PCONSECUTIVO" Type="number" Mode="In" />
+    <Parameter Name="PPRODUCTO" Type="number" Mode="In" />
+    <Parameter Name="PVALOR_PAGAR" Type="number" Mode="In" />
+    <Parameter Name="PVALOR_PAGARSIM" Type="number" Mode="In" />
+    <Parameter Name="PIMEIOFQ" Type="varchar2" Mode="In" />
+    <Parameter Name="PMODELO_EQUIPO_OFQ" Type="varchar2" Mode="In" />
+    <Parameter Name="PCICLO_CORPORATIVO" Type="varchar2" Mode="In" />
+    <Parameter Name="PVALOR_EQUIPO_ESPECIAL" Type="varchar2" Mode="In" />
+    <Parameter Name="PVALOR_IVA_EQUIPO_ESPECIAL" Type="varchar2" Mode="In" />
+    <Parameter Name="PVALOR_ICCID_ESPECIAL" Type="varchar2" Mode="In" />
+    <Parameter Name="PVALOR_IVA_ICCID_ESPECIAL" Type="varchar2" Mode="In" />
+    <Parameter Name="PFECHA_PRIMERA_CARGA" Type="date" Mode="In" />
+    <Parameter Name="PID_ACTIVACION" Type="number" Mode="In" />
+    <Parameter Name="PROWID" Type="varchar2" Mode="In" />
+  </Function>
+  <Function Name="UPDATEMIGRACION" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="EXTRANET">
+    <Parameter Name="PICCID" Type="varchar2" Mode="In" />
+    <Parameter Name="PIMEI" Type="varchar2" Mode="In" />
+    <Parameter Name="PMSISDN" Type="varchar2" Mode="In" />
+    <Parameter Name="PCO_ID" Type="number" Mode="In" />
+    <Parameter Name="PSPCODE" Type="number" Mode="In" />
+    <Parameter Name="PFECHA_CORTE" Type="varchar2" Mode="In" />
+    <Parameter Name="PDISTRIBUIDOR" Type="varchar2" Mode="In" />
+    <Parameter Name="PDISTRIBUIDOR_MIGRACION" Type="varchar2" Mode="In" />
+    <Parameter Name="PCOMSEGURO" Type="varchar2" Mode="In" />
+    <Parameter Name="PMODELO_IMEI" Type="varchar2" Mode="In" />
+    <Parameter Name="PCFM" Type="number" Mode="In" />
+    <Parameter Name="PVLR_EQUIPO" Type="number" Mode="In" />
+    <Parameter Name="PF_PAGO" Type="number" Mode="In" />
+    <Parameter Name="PVLR_SIM" Type="number" Mode="In" />
+    <Parameter Name="PIVA_SIM" Type="number" Mode="In" />
+    <Parameter Name="PESN" Type="varchar2" Mode="In" />
+    <Parameter Name="PESTADO" Type="varchar2" Mode="In" />
+    <Parameter Name="POCC" Type="number" Mode="In" />
+    <Parameter Name="PTIPO_CONTRATO" Type="number" Mode="In" />
+    <Parameter Name="PRESN" Type="number" Mode="In" />
+    <Parameter Name="PPERMANENCIA" Type="number" Mode="In" />
+    <Parameter Name="PID_MIGRACION" Type="number" Mode="In" />
+    <Parameter Name="PNUMERO_DOCUMENTO" Type="varchar2" Mode="In" />
+    <Parameter Name="PNOMBRE_CLIENTE" Type="varchar2" Mode="In" />
+    <Parameter Name="PROWID" Type="varchar2" Mode="In" />
+  </Function>
+  <EntityContainer Name="PoliedroDataModelStoreContainer">
+    <EntitySet Name="ACTIVACIONPRE" EntityType="Self.ACTIVACIONPRE" Schema="EXTRANET" store:Type="Tables" />
+    <EntitySet Name="AUDITORIARECHAZOS" EntityType="Self.AUDITORIARECHAZOS" Schema="EXTRANET" store:Type="Tables" />
+    <EntitySet Name="CPS_TIPO_DOCUMENTO" EntityType="Self.CPS_TIPO_DOCUMENTO" Schema="EXTRANET" store:Type="Tables" />
+    <EntitySet Name="PARAMETRO" EntityType="Self.PARAMETRO" Schema="EXTRANET" store:Type="Tables" />
+    <EntitySet Name="ACTINCLUSION" EntityType="Self.ACTINCLUSION" store:Type="Tables" store:Schema="EXTRANET">
+      <DefiningQuery>
+              SELECT
+              "ACTINCLUSION"."ROWID" AS "ROWID",
+              "ACTINCLUSION"."SALUDO" AS "SALUDO",
+              "ACTINCLUSION"."NOMBRES" AS "NOMBRES",
+              "ACTINCLUSION"."APELLIDO" AS "APELLIDO",
+              "ACTINCLUSION"."DIRECCION" AS "DIRECCION",
+              "ACTINCLUSION"."CIUDAD_DEPARTAMENTO" AS "CIUDAD_DEPARTAMENTO",
+              "ACTINCLUSION"."INDICATIVO" AS "INDICATIVO",
+              "ACTINCLUSION"."TELEFONO" AS "TELEFONO",
+              "ACTINCLUSION"."TIPO_DOCUMENTO" AS "TIPO_DOCUMENTO",
+              "ACTINCLUSION"."NUMERO_DOCUMENTO" AS "NUMERO_DOCUMENTO",
+              "ACTINCLUSION"."ESN" AS "ESN",
+              "ACTINCLUSION"."CODIGO_DISTRIBUIDOR" AS "CODIGO_DISTRIBUIDOR",
+              "ACTINCLUSION"."HLR" AS "HLR",
+              "ACTINCLUSION"."CODMIN" AS "CODMIN",
+              "ACTINCLUSION"."MODELO_EQUIPO" AS "MODELO_EQUIPO",
+              "ACTINCLUSION"."OCUPACION_CLIENTE" AS "OCUPACION_CLIENTE",
+              "ACTINCLUSION"."FECHA_NACIMIENTO" AS "FECHA_NACIMIENTO",
+              "ACTINCLUSION"."SEXO" AS "SEXO",
+              "ACTINCLUSION"."SECTOR_COMERCIAL" AS "SECTOR_COMERCIAL",
+              "ACTINCLUSION"."GRUPO_CLIENTES" AS "GRUPO_CLIENTES",
+              "ACTINCLUSION"."CENTRO_COSTO" AS "CENTRO_COSTO",
+              "ACTINCLUSION"."EFECTIVO" AS "EFECTIVO",
+              "ACTINCLUSION"."TARJETA_CREDITO" AS "TARJETA_CREDITO",
+              "ACTINCLUSION"."COMPANIA_TC" AS "COMPANIA_TC",
+              "ACTINCLUSION"."NRO_TC" AS "NRO_TC",
+              "ACTINCLUSION"."CUPO_TC" AS "CUPO_TC",
+              "ACTINCLUSION"."VENCE_TC" AS "VENCE_TC",
+              "ACTINCLUSION"."PRIMER_APELLIDO_CONYUGE" AS "PRIMER_APELLIDO_CONYUGE",
+              "ACTINCLUSION"."SEGUNDO_APELLIDO_CONYUGE" AS "SEGUNDO_APELLIDO_CONYUGE",
+              "ACTINCLUSION"."NOMBRE_CONYUGE" AS "NOMBRE_CONYUGE",
+              "ACTINCLUSION"."NUMERO_DOCUMENTO1" AS "NUMERO_DOCUMENTO1",
+              "ACTINCLUSION"."EMPRESA_CONYUGE" AS "EMPRESA_CONYUGE",
+              "ACTINCLUSION"."DIRECCION_EMPRESA_CONYUGE" AS "DIRECCION_EMPRESA_CONYUGE",
+              "ACTINCLUSION"."TELEFONO_CONYUGE" AS "TELEFONO_CONYUGE",
+              "ACTINCLUSION"."PROFESION_CONYUGE" AS "PROFESION_CONYUGE",
+              "ACTINCLUSION"."EMPRESA_TRABAJO_CLIENTE" AS "EMPRESA_TRABAJO_CLIENTE",
+              "ACTINCLUSION"."DIRECCION_EMPRESA" AS "DIRECCION_EMPRESA",
+              "ACTINCLUSION"."TELEFONO_EMPRESA" AS "TELEFONO_EMPRESA",
+              "ACTINCLUSION"."FECHA_INGRESO" AS "FECHA_INGRESO",
+              "ACTINCLUSION"."INGRESO_MENSUAL" AS "INGRESO_MENSUAL",
+              "ACTINCLUSION"."ESTADO_CIVIL_CLIENTE" AS "ESTADO_CIVIL_CLIENTE",
+              "ACTINCLUSION"."ACTIVIDAD_ECONOMICA" AS "ACTIVIDAD_ECONOMICA",
+              "ACTINCLUSION"."TIPO_VIVIENDA" AS "TIPO_VIVIENDA",
+              "ACTINCLUSION"."REFERENCIA_PERSONAL" AS "REFERENCIA_PERSONAL",
+              "ACTINCLUSION"."TELEFONO_REFERENCIA" AS "TELEFONO_REFERENCIA",
+              "ACTINCLUSION"."NOMBRE_BANCO" AS "NOMBRE_BANCO",
+              "ACTINCLUSION"."SUCURSAL_BANCO" AS "SUCURSAL_BANCO",
+              "ACTINCLUSION"."NUMERO_CUENTA" AS "NUMERO_CUENTA",
+              "ACTINCLUSION"."TARJETA_ENTIDAD" AS "TARJETA_ENTIDAD",
+              "ACTINCLUSION"."NUMERO_TC" AS "NUMERO_TC",
+              "ACTINCLUSION"."TC_CUPO" AS "TC_CUPO",
+              "ACTINCLUSION"."RB_VENCIMIENTO_TC" AS "RB_VENCIMIENTO_TC",
+              "ACTINCLUSION"."TARJETA_TIPO" AS "TARJETA_TIPO",
+              "ACTINCLUSION"."COLGAR_A_MAESTRA" AS "COLGAR_A_MAESTRA",
+              "ACTINCLUSION"."FECREGIS" AS "FECREGIS",
+              "ACTINCLUSION"."RMIN" AS "RMIN",
+              "ACTINCLUSION"."RESN" AS "RESN",
+              "ACTINCLUSION"."RTAR" AS "RTAR",
+              "ACTINCLUSION"."RDTC" AS "RDTC",
+              "ACTINCLUSION"."RCAR" AS "RCAR",
+              "ACTINCLUSION"."ESTADO" AS "ESTADO",
+              "ACTINCLUSION"."EMAIL" AS "EMAIL",
+              "ACTINCLUSION"."CREDITO" AS "CREDITO",
+              "ACTINCLUSION"."SPCODE" AS "SPCODE",
+              "ACTINCLUSION"."TMCODE" AS "TMCODE",
+              "ACTINCLUSION"."DISTRIBUIDOR1" AS "DISTRIBUIDOR1",
+              "ACTINCLUSION"."CO_ID" AS "CO_ID",
+              "ACTINCLUSION"."TEXT1" AS "TEXT1",
+              "ACTINCLUSION"."TEXT2" AS "TEXT2",
+              "ACTINCLUSION"."TEXT3" AS "TEXT3",
+              "ACTINCLUSION"."TEXT5" AS "TEXT5",
+              "ACTINCLUSION"."TEXT7" AS "TEXT7",
+              "ACTINCLUSION"."FECHA1" AS "FECHA1",
+              "ACTINCLUSION"."FECHA2" AS "FECHA2",
+              "ACTINCLUSION"."FECBSCS" AS "FECBSCS",
+              "ACTINCLUSION"."SCCODE" AS "SCCODE",
+              "ACTINCLUSION"."IMEI" AS "IMEI",
+              "ACTINCLUSION"."PRODUCTO" AS "PRODUCTO",
+              "ACTINCLUSION"."BARRIO" AS "BARRIO",
+              "ACTINCLUSION"."CONEXION_SAP" AS "CONEXION_SAP",
+              "ACTINCLUSION"."IVA_CARD" AS "IVA_CARD",
+              "ACTINCLUSION"."VALOR_CARD" AS "VALOR_CARD",
+              "ACTINCLUSION"."IVA_EQUIPO" AS "IVA_EQUIPO",
+              "ACTINCLUSION"."EQUIPO" AS "EQUIPO",
+              "ACTINCLUSION"."IVA_CFM" AS "IVA_CFM",
+              "ACTINCLUSION"."VALOR_CFM" AS "VALOR_CFM",
+              "ACTINCLUSION"."TIPO_CONTRATO" AS "TIPO_CONTRATO",
+              "ACTINCLUSION"."NUMERO_CONTRATO" AS "NUMERO_CONTRATO",
+              "ACTINCLUSION"."PLAN_TARIFAS" AS "PLAN_TARIFAS",
+              "ACTINCLUSION"."LINEPORACT" AS "LINEPORACT",
+              "ACTINCLUSION"."PROMOCION" AS "PROMOCION",
+              "ACTINCLUSION"."SPCODEEXT" AS "SPCODEEXT",
+              "ACTINCLUSION"."TMCODEEXT" AS "TMCODEEXT",
+              "ACTINCLUSION"."OCC" AS "OCC",
+              "ACTINCLUSION"."ILIMITADO" AS "ILIMITADO",
+              "ACTINCLUSION"."VRILIMITADO" AS "VRILIMITADO",
+              "ACTINCLUSION"."IVAILIMITADO" AS "IVAILIMITADO",
+              "ACTINCLUSION"."TOTAL_VENTA" AS "TOTAL_VENTA",
+              "ACTINCLUSION"."TRAJO_EQUIPO" AS "TRAJO_EQUIPO",
+              "ACTINCLUSION"."CODMINEXT" AS "CODMINEXT",
+              "ACTINCLUSION"."ID_ACTINCLUSION" AS "ID_ACTINCLUSION",
+              "ACTINCLUSION"."TRAJO_ICCID" AS "TRAJO_ICCID",
+              "ACTINCLUSION"."DESTINOS_ELEG" AS "DESTINOS_ELEG",
+              "ACTINCLUSION"."PORCENTAJE_ELEG" AS "PORCENTAJE_ELEG",
+              "ACTINCLUSION"."ENTREGA_FACTURA" AS "ENTREGA_FACTURA",
+              "ACTINCLUSION"."ID_FACT_ELECT" AS "ID_FACT_ELECT",
+              "ACTINCLUSION"."SPCODE_PAQ" AS "SPCODE_PAQ",
+              "ACTINCLUSION"."DATOS" AS "DATOS",
+              "ACTINCLUSION"."CONVERSION" AS "CONVERSION",
+              "ACTINCLUSION"."WAP" AS "WAP"
+              FROM "EXTRANET"."ACTINCLUSION" "ACTINCLUSION"</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="ACTIVACION" EntityType="Self.ACTIVACION" store:Type="Tables" store:Schema="EXTRANET">
+      <DefiningQuery>
+              SELECT
+              "ACTIVACION"."ROWID" AS "ROWID",
+              "ACTIVACION"."SALUDO" AS "SALUDO",
+              "ACTIVACION"."NOMBRES" AS "NOMBRES",
+              "ACTIVACION"."APELLIDO" AS "APELLIDO",
+              "ACTIVACION"."DIRECCION" AS "DIRECCION",
+              "ACTIVACION"."CIUDAD_DEPARTAMENTO" AS "CIUDAD_DEPARTAMENTO",
+              "ACTIVACION"."INDICATIVO" AS "INDICATIVO",
+              "ACTIVACION"."TELEFONO" AS "TELEFONO",
+              "ACTIVACION"."TIPO_DOCUMENTO" AS "TIPO_DOCUMENTO",
+              "ACTIVACION"."NUMERO_DOCUMENTO" AS "NUMERO_DOCUMENTO",
+              "ACTIVACION"."ESN" AS "ESN",
+              "ACTIVACION"."CODIGO_DISTRIBUIDOR" AS "CODIGO_DISTRIBUIDOR",
+              "ACTIVACION"."HLR" AS "HLR",
+              "ACTIVACION"."PLAN_TARIFAS" AS "PLAN_TARIFAS",
+              "ACTIVACION"."CODMIN" AS "CODMIN",
+              "ACTIVACION"."FECHA_VENTA" AS "FECHA_VENTA",
+              "ACTIVACION"."PLANILLA_DISTIBUIDOR" AS "PLANILLA_DISTIBUIDOR",
+              "ACTIVACION"."VALOR_CFM" AS "VALOR_CFM",
+              "ACTIVACION"."IVA_CFM" AS "IVA_CFM",
+              "ACTIVACION"."EQUIPO" AS "EQUIPO",
+              "ACTIVACION"."IVA_EQUIPO" AS "IVA_EQUIPO",
+              "ACTIVACION"."TOTAL_VENTA" AS "TOTAL_VENTA",
+              "ACTIVACION"."NUMERO_CONTRATO" AS "NUMERO_CONTRATO",
+              "ACTIVACION"."MODELO_EQUIPO" AS "MODELO_EQUIPO",
+              "ACTIVACION"."TIPO_CONTRATO" AS "TIPO_CONTRATO",
+              "ACTIVACION"."NO_INCLUSION_GUIA" AS "NO_INCLUSION_GUIA",
+              "ACTIVACION"."COMBO" AS "COMBO",
+              "ACTIVACION"."WIP" AS "WIP",
+              "ACTIVACION"."WAP" AS "WAP",
+              "ACTIVACION"."LID_WAP" AS "LID_WAP",
+              "ACTIVACION"."COMSEGURO" AS "COMSEGURO",
+              "ACTIVACION"."ANDIASISTENCIA" AS "ANDIASISTENCIA",
+              "ACTIVACION"."OCUPACION_CLIENTE" AS "OCUPACION_CLIENTE",
+              "ACTIVACION"."FECHA_NACIMIENTO" AS "FECHA_NACIMIENTO",
+              "ACTIVACION"."SEXO" AS "SEXO",
+              "ACTIVACION"."SECTOR_COMERCIAL" AS "SECTOR_COMERCIAL",
+              "ACTIVACION"."GRUPO_CLIENTES" AS "GRUPO_CLIENTES",
+              "ACTIVACION"."CENTRO_COSTO" AS "CENTRO_COSTO",
+              "ACTIVACION"."EFECTIVO" AS "EFECTIVO",
+              "ACTIVACION"."TARJETA_CREDITO" AS "TARJETA_CREDITO",
+              "ACTIVACION"."COMPANIA_TC" AS "COMPANIA_TC",
+              "ACTIVACION"."NRO_TC" AS "NRO_TC",
+              "ACTIVACION"."CUPO_TC" AS "CUPO_TC",
+              "ACTIVACION"."VENCE_TC" AS "VENCE_TC",
+              "ACTIVACION"."PRIMER_APELLIDO_CONYUGE" AS "PRIMER_APELLIDO_CONYUGE",
+              "ACTIVACION"."SEGUNDO_APELLIDO_CONYUGE" AS "SEGUNDO_APELLIDO_CONYUGE",
+              "ACTIVACION"."NOMBRE_CONYUGE" AS "NOMBRE_CONYUGE",
+              "ACTIVACION"."NUMERO_DOCUMENTO1" AS "NUMERO_DOCUMENTO1",
+              "ACTIVACION"."EMPRESA_CONYUGE" AS "EMPRESA_CONYUGE",
+              "ACTIVACION"."DIRECCION_EMPRESA_CONYUGE" AS "DIRECCION_EMPRESA_CONYUGE",
+              "ACTIVACION"."TELEFONO_CONYUGE" AS "TELEFONO_CONYUGE",
+              "ACTIVACION"."PROFESION_CONYUGE" AS "PROFESION_CONYUGE",
+              "ACTIVACION"."EMPRESA_TRABAJO_CLIENTE" AS "EMPRESA_TRABAJO_CLIENTE",
+              "ACTIVACION"."DIRECCION_EMPRESA" AS "DIRECCION_EMPRESA",
+              "ACTIVACION"."TELEFONO_EMPRESA" AS "TELEFONO_EMPRESA",
+              "ACTIVACION"."FECHA_INGRESO" AS "FECHA_INGRESO",
+              "ACTIVACION"."INGRESO_MENSUAL" AS "INGRESO_MENSUAL",
+              "ACTIVACION"."ESTADO_CIVIL_CLIENTE" AS "ESTADO_CIVIL_CLIENTE",
+              "ACTIVACION"."ACTIVIDAD_ECONOMICA" AS "ACTIVIDAD_ECONOMICA",
+              "ACTIVACION"."TIPO_VIVIENDA" AS "TIPO_VIVIENDA",
+              "ACTIVACION"."REFERENCIA_PERSONAL" AS "REFERENCIA_PERSONAL",
+              "ACTIVACION"."TELEFONO_REFERENCIA" AS "TELEFONO_REFERENCIA",
+              "ACTIVACION"."NOMBRE_BANCO" AS "NOMBRE_BANCO",
+              "ACTIVACION"."SUCURSAL_BANCO" AS "SUCURSAL_BANCO",
+              "ACTIVACION"."NUMERO_CUENTA" AS "NUMERO_CUENTA",
+              "ACTIVACION"."TARJETA_ENTIDAD" AS "TARJETA_ENTIDAD",
+              "ACTIVACION"."NUMERO_TC" AS "NUMERO_TC",
+              "ACTIVACION"."TC_CUPO" AS "TC_CUPO",
+              "ACTIVACION"."RB_VENCIMIENTO_TC" AS "RB_VENCIMIENTO_TC",
+              "ACTIVACION"."TARJETA_TIPO" AS "TARJETA_TIPO",
+              "ACTIVACION"."COLGAR_A_MAESTRA" AS "COLGAR_A_MAESTRA",
+              "ACTIVACION"."FECREGIS" AS "FECREGIS",
+              "ACTIVACION"."RMIN" AS "RMIN",
+              "ACTIVACION"."RESN" AS "RESN",
+              "ACTIVACION"."RTAR" AS "RTAR",
+              "ACTIVACION"."RDTC" AS "RDTC",
+              "ACTIVACION"."RCAR" AS "RCAR",
+              "ACTIVACION"."ESTADO" AS "ESTADO",
+              "ACTIVACION"."LINEACT" AS "LINEACT",
+              "ACTIVACION"."LINEPORACT" AS "LINEPORACT",
+              "ACTIVACION"."MORACONCOM" AS "MORACONCOM",
+              "ACTIVACION"."TRAJO_EQUIPO" AS "TRAJO_EQUIPO",
+              "ACTIVACION"."PLANILLA" AS "PLANILLA",
+              "ACTIVACION"."FECPLANILLA" AS "FECPLANILLA",
+              "ACTIVACION"."EMAIL" AS "EMAIL",
+              "ACTIVACION"."CREDITO" AS "CREDITO",
+              "ACTIVACION"."SPCODE" AS "SPCODE",
+              "ACTIVACION"."TMCODE" AS "TMCODE",
+              "ACTIVACION"."DISTRIBUIDOR1" AS "DISTRIBUIDOR1",
+              "ACTIVACION"."CO_ID" AS "CO_ID",
+              "ACTIVACION"."CODMINEXT" AS "CODMINEXT",
+              "ACTIVACION"."COMSEGUROEXT" AS "COMSEGUROEXT",
+              "ACTIVACION"."ANDIASISTENCIAEXT" AS "ANDIASISTENCIAEXT",
+              "ACTIVACION"."ESNEXT" AS "ESNEXT",
+              "ACTIVACION"."PLAN_TARIFASEXT" AS "PLAN_TARIFASEXT",
+              "ACTIVACION"."MODELO_EQUIPOEXT" AS "MODELO_EQUIPOEXT",
+              "ACTIVACION"."VALOR_CFMEXT" AS "VALOR_CFMEXT",
+              "ACTIVACION"."IVA_CFMEXT" AS "IVA_CFMEXT",
+              "ACTIVACION"."EQUIPOEXT" AS "EQUIPOEXT",
+              "ACTIVACION"."IVA_EQUIPOEXT" AS "IVA_EQUIPOEXT",
+              "ACTIVACION"."TOTAL_VENTAEXT" AS "TOTAL_VENTAEXT",
+              "ACTIVACION"."SPCODEEXT" AS "SPCODEEXT",
+              "ACTIVACION"."TMCODEEXT" AS "TMCODEEXT",
+              "ACTIVACION"."TEXT1" AS "TEXT1",
+              "ACTIVACION"."TEXT2" AS "TEXT2",
+              "ACTIVACION"."TEXT3" AS "TEXT3",
+              "ACTIVACION"."TEXT4" AS "TEXT4",
+              "ACTIVACION"."TEXT5" AS "TEXT5",
+              "ACTIVACION"."TEXT6" AS "TEXT6",
+              "ACTIVACION"."TEXT7" AS "TEXT7",
+              "ACTIVACION"."TEXT8" AS "TEXT8",
+              "ACTIVACION"."TEXT9" AS "TEXT9",
+              "ACTIVACION"."TEXT10" AS "TEXT10",
+              "ACTIVACION"."FECHA1" AS "FECHA1",
+              "ACTIVACION"."FECHA2" AS "FECHA2",
+              "ACTIVACION"."FECHA3" AS "FECHA3",
+              "ACTIVACION"."FECBSCS" AS "FECBSCS",
+              "ACTIVACION"."FECHA4" AS "FECHA4",
+              "ACTIVACION"."FECHA5" AS "FECHA5",
+              "ACTIVACION"."FECHA6" AS "FECHA6",
+              "ACTIVACION"."TEXT11" AS "TEXT11",
+              "ACTIVACION"."TEXT12" AS "TEXT12",
+              "ACTIVACION"."TEXT13" AS "TEXT13",
+              "ACTIVACION"."TEXT14" AS "TEXT14",
+              "ACTIVACION"."TEXT15" AS "TEXT15",
+              "ACTIVACION"."SCCODE" AS "SCCODE",
+              "ACTIVACION"."IMEI" AS "IMEI",
+              "ACTIVACION"."MENSAJES" AS "MENSAJES",
+              "ACTIVACION"."DATOS" AS "DATOS",
+              "ACTIVACION"."MMS" AS "MMS",
+              "ACTIVACION"."IP" AS "IP",
+              "ACTIVACION"."TEXT16" AS "TEXT16",
+              "ACTIVACION"."TEXT17" AS "TEXT17",
+              "ACTIVACION"."VALOR_CARD" AS "VALOR_CARD",
+              "ACTIVACION"."IVA_CARD" AS "IVA_CARD",
+              "ACTIVACION"."REVISTA" AS "REVISTA",
+              "ACTIVACION"."TRAJO_ICCID" AS "TRAJO_ICCID",
+              "ACTIVACION"."TEXT18" AS "TEXT18",
+              "ACTIVACION"."TEXT19" AS "TEXT19",
+              "ACTIVACION"."TEXT20" AS "TEXT20",
+              "ACTIVACION"."OCC" AS "OCC",
+              "ACTIVACION"."OBSERVACION" AS "OBSERVACION",
+              "ACTIVACION"."CONSECUTIVO" AS "CONSECUTIVO",
+              "ACTIVACION"."ILIMITADO" AS "ILIMITADO",
+              "ACTIVACION"."CFM_ANT" AS "CFM_ANT",
+              "ACTIVACION"."VRILIMITADO" AS "VRILIMITADO",
+              "ACTIVACION"."IVAILIMITADO" AS "IVAILIMITADO",
+              "ACTIVACION"."PRODUCTO" AS "PRODUCTO",
+              "ACTIVACION"."FIANZA" AS "FIANZA",
+              "ACTIVACION"."CUOTA_MENSUAL" AS "CUOTA_MENSUAL",
+              "ACTIVACION"."VALOR_PAGAR" AS "VALOR_PAGAR",
+              "ACTIVACION"."VALOR_PAGARSIM" AS "VALOR_PAGARSIM",
+              "ACTIVACION"."IMEIOFQ" AS "IMEIOFQ",
+              "ACTIVACION"."MODELO_EQUIPO_OFQ" AS "MODELO_EQUIPO_OFQ",
+              "ACTIVACION"."ID_PAGO" AS "ID_PAGO",
+              "ACTIVACION"."CICLO_CORPORATIVO" AS "CICLO_CORPORATIVO",
+              "ACTIVACION"."ID_VENDEDOR" AS "ID_VENDEDOR",
+              "ACTIVACION"."BARRIO" AS "BARRIO",
+              "ACTIVACION"."DIRECTORIO" AS "DIRECTORIO",
+              "ACTIVACION"."PROMOCION" AS "PROMOCION",
+              "ACTIVACION"."CONEXION_SAP" AS "CONEXION_SAP",
+              "ACTIVACION"."VALOR_EQUIPO_ESPECIAL" AS "VALOR_EQUIPO_ESPECIAL",
+              "ACTIVACION"."VALOR_IVA_EQUIPO_ESPECIAL" AS "VALOR_IVA_EQUIPO_ESPECIAL",
+              "ACTIVACION"."VALOR_ICCID_ESPECIAL" AS "VALOR_ICCID_ESPECIAL",
+              "ACTIVACION"."VALOR_IVA_ICCID_ESPECIAL" AS "VALOR_IVA_ICCID_ESPECIAL",
+              "ACTIVACION"."ID_CONSULTOR" AS "ID_CONSULTOR",
+              "ACTIVACION"."FECHA_PRIMERA_CARGA" AS "FECHA_PRIMERA_CARGA",
+              "ACTIVACION"."ID_ACTIVACION" AS "ID_ACTIVACION",
+              "ACTIVACION"."DIAS_PAGO_ORD_COMPRA" AS "DIAS_PAGO_ORD_COMPRA",
+              "ACTIVACION"."SERIAL_CDMA_TDMA" AS "SERIAL_CDMA_TDMA",
+              "ACTIVACION"."TECNOLOGIA_CDMA_TDMA" AS "TECNOLOGIA_CDMA_TDMA",
+              "ACTIVACION"."MODELO_EQUIPO_CDMA_TDMA" AS "MODELO_EQUIPO_CDMA_TDMA",
+              "ACTIVACION"."DIJIN" AS "DIJIN",
+              "ACTIVACION"."NUMERO_PAGARE" AS "NUMERO_PAGARE",
+              "ACTIVACION"."NUS" AS "NUS",
+              "ACTIVACION"."SPCODE_PAQ" AS "SPCODE_PAQ",
+              "ACTIVACION"."MODELO_EQUIPO_ANTERIOR" AS "MODELO_EQUIPO_ANTERIOR",
+              "ACTIVACION"."IMEI_ANTERIOR" AS "IMEI_ANTERIOR",
+              "ACTIVACION"."ID_REPOSICION" AS "ID_REPOSICION",
+              "ACTIVACION"."VR_RECARGA_UNICO" AS "VR_RECARGA_UNICO",
+              "ACTIVACION"."DCTO_RECARGA_UNICO" AS "DCTO_RECARGA_UNICO",
+              "ACTIVACION"."VR_RECARGA_TELEMIC" AS "VR_RECARGA_TELEMIC",
+              "ACTIVACION"."DCTO_RECARGA_TELEMIC" AS "DCTO_RECARGA_TELEMIC",
+              "ACTIVACION"."ENTREGA_FACTURA" AS "ENTREGA_FACTURA",
+              "ACTIVACION"."ID_FACT_ELECT" AS "ID_FACT_ELECT",
+              "ACTIVACION"."TIENDA" AS "TIENDA"
+              FROM "EXTRANET"."ACTIVACION" "ACTIVACION"</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="MIGRACION" EntityType="Self.MIGRACION" store:Type="Tables" store:Schema="EXTRANET">
+      <DefiningQuery>
+              SELECT
+              "MIGRACION"."ROWID" AS "ROWID",
+              "MIGRACION"."ICCID" AS "ICCID",
+              "MIGRACION"."IMEI" AS "IMEI",
+              "MIGRACION"."MSISDN" AS "MSISDN",
+              "MIGRACION"."CO_ID" AS "CO_ID",
+              "MIGRACION"."TMCODE" AS "TMCODE",
+              "MIGRACION"."SPCODE" AS "SPCODE",
+              "MIGRACION"."HLR" AS "HLR",
+              "MIGRACION"."FECHA_CORTE" AS "FECHA_CORTE",
+              "MIGRACION"."DISTRIBUIDOR" AS "DISTRIBUIDOR",
+              "MIGRACION"."DISTRIBUIDOR_MIGRACION" AS "DISTRIBUIDOR_MIGRACION",
+              "MIGRACION"."BUZON" AS "BUZON",
+              "MIGRACION"."IDENFICADOR" AS "IDENFICADOR",
+              "MIGRACION"."COMSEGURO" AS "COMSEGURO",
+              "MIGRACION"."ANDIASISTENCIA" AS "ANDIASISTENCIA",
+              "MIGRACION"."MENSAJES" AS "MENSAJES",
+              "MIGRACION"."DATOS" AS "DATOS",
+              "MIGRACION"."MMS" AS "MMS",
+              "MIGRACION"."MODELO_IMEI" AS "MODELO_IMEI",
+              "MIGRACION"."CFM" AS "CFM",
+              "MIGRACION"."IVA_CFM" AS "IVA_CFM",
+              "MIGRACION"."VLR_EQUIPO" AS "VLR_EQUIPO",
+              "MIGRACION"."F_PAGO" AS "F_PAGO",
+              "MIGRACION"."IVA_EQUIPO" AS "IVA_EQUIPO",
+              "MIGRACION"."VLR_SIM" AS "VLR_SIM",
+              "MIGRACION"."IVA_SIM" AS "IVA_SIM",
+              "MIGRACION"."TOTAL_VENTA" AS "TOTAL_VENTA",
+              "MIGRACION"."ESN" AS "ESN",
+              "MIGRACION"."ESTADO" AS "ESTADO",
+              "MIGRACION"."FECREGIS" AS "FECREGIS",
+              "MIGRACION"."FECBSCS" AS "FECBSCS",
+              "MIGRACION"."TEXT29" AS "TEXT29",
+              "MIGRACION"."PLANILLADO" AS "PLANILLADO",
+              "MIGRACION"."TEXT01" AS "TEXT01",
+              "MIGRACION"."TEXT02" AS "TEXT02",
+              "MIGRACION"."TEXT03" AS "TEXT03",
+              "MIGRACION"."FECHA1" AS "FECHA1",
+              "MIGRACION"."FECHA2" AS "FECHA2",
+              "MIGRACION"."FECHA3" AS "FECHA3",
+              "MIGRACION"."USUARIO" AS "USUARIO",
+              "MIGRACION"."MOTIVO" AS "MOTIVO",
+              "MIGRACION"."TIPO_PLAN" AS "TIPO_PLAN",
+              "MIGRACION"."TMCODE_OLD" AS "TMCODE_OLD",
+              "MIGRACION"."SPCODE_OLD" AS "SPCODE_OLD",
+              "MIGRACION"."TEXT04" AS "TEXT04",
+              "MIGRACION"."TEXT05" AS "TEXT05",
+              "MIGRACION"."TEXT06" AS "TEXT06",
+              "MIGRACION"."TEXT07" AS "TEXT07",
+              "MIGRACION"."TEXT08" AS "TEXT08",
+              "MIGRACION"."TEXT09" AS "TEXT09",
+              "MIGRACION"."TEXT10" AS "TEXT10",
+              "MIGRACION"."ROAMING" AS "ROAMING",
+              "MIGRACION"."DESTINO" AS "DESTINO",
+              "MIGRACION"."PORCENTAJE" AS "PORCENTAJE",
+              "MIGRACION"."OCC" AS "OCC",
+              "MIGRACION"."TMCODEEXT" AS "TMCODEEXT",
+              "MIGRACION"."SPCODEEXT" AS "SPCODEEXT",
+              "MIGRACION"."REVISTA" AS "REVISTA",
+              "MIGRACION"."PORCENTAJE_FIJO" AS "PORCENTAJE_FIJO",
+              "MIGRACION"."FIANZA" AS "FIANZA",
+              "MIGRACION"."TIPO_CONTRATO" AS "TIPO_CONTRATO",
+              "MIGRACION"."RESN" AS "RESN",
+              "MIGRACION"."PERMANENCIA" AS "PERMANENCIA",
+              "MIGRACION"."ID_PAGO" AS "ID_PAGO",
+              "MIGRACION"."NEW_COID" AS "NEW_COID",
+              "MIGRACION"."DIRECTORIO" AS "DIRECTORIO",
+              "MIGRACION"."PROMOCION" AS "PROMOCION",
+              "MIGRACION"."CUSTCODE" AS "CUSTCODE",
+              "MIGRACION"."ID_VENDEDOR" AS "ID_VENDEDOR",
+              "MIGRACION"."ELEGILIM" AS "ELEGILIM",
+              "MIGRACION"."CODMINEXT" AS "CODMINEXT",
+              "MIGRACION"."CONEXION_SAP" AS "CONEXION_SAP",
+              "MIGRACION"."PRODUCTO" AS "PRODUCTO",
+              "MIGRACION"."ID_MIGRACION" AS "ID_MIGRACION",
+              "MIGRACION"."SPCODE_PAQ" AS "SPCODE_PAQ",
+              "MIGRACION"."PRECIOFULL" AS "PRECIOFULL",
+              "MIGRACION"."OCCMIGRACION" AS "OCCMIGRACION",
+              "MIGRACION"."SPCODE_PAQPURO" AS "SPCODE_PAQPURO",
+              "MIGRACION"."ENTREGA_EQUIPO" AS "ENTREGA_EQUIPO",
+              "MIGRACION"."NUMERO_DOCUMENTO" AS "NUMERO_DOCUMENTO",
+              "MIGRACION"."NOMBRE_CLIENTE" AS "NOMBRE_CLIENTE",
+              "MIGRACION"."ID_REPOSICION" AS "ID_REPOSICION",
+              "MIGRACION"."TRAJO_EQUIPO" AS "TRAJO_EQUIPO",
+              "MIGRACION"."TRAJO_ICCID" AS "TRAJO_ICCID",
+              "MIGRACION"."BARRIO" AS "BARRIO",
+              "MIGRACION"."REGISTROSINIMEI" AS "REGISTROSINIMEI"
+              FROM "EXTRANET"."MIGRACION" "MIGRACION"</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

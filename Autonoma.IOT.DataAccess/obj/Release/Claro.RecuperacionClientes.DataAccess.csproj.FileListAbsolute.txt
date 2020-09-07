@@ -1,0 +1,17 @@
+C:\RecuperacionClientes\Recuperacion_Clientes\Web\Claro.RecuperacionClientes\Claro.RecuperacionClientes.DataAccess\bin\Release\Claro.RecuperacionClientes.DataAccess.dll.config
+C:\RecuperacionClientes\Recuperacion_Clientes\Web\Claro.RecuperacionClientes\Claro.RecuperacionClientes.DataAccess\bin\Release\Claro.RecuperacionClientes.DataAccess.dll
+C:\RecuperacionClientes\Recuperacion_Clientes\Web\Claro.RecuperacionClientes\Claro.RecuperacionClientes.DataAccess\bin\Release\Claro.RecuperacionClientes.DataAccess.pdb
+C:\RecuperacionClientes\Recuperacion_Clientes\Web\Claro.RecuperacionClientes\Claro.RecuperacionClientes.DataAccess\bin\Release\Claro.RecuperacionClientes.Common.dll
+C:\RecuperacionClientes\Recuperacion_Clientes\Web\Claro.RecuperacionClientes\Claro.RecuperacionClientes.DataAccess\bin\Release\EntityFramework.dll
+C:\RecuperacionClientes\Recuperacion_Clientes\Web\Claro.RecuperacionClientes\Claro.RecuperacionClientes.DataAccess\bin\Release\Oracle.DataAccess.dll
+C:\RecuperacionClientes\Recuperacion_Clientes\Web\Claro.RecuperacionClientes\Claro.RecuperacionClientes.DataAccess\bin\Release\Newtonsoft.Json.dll
+C:\RecuperacionClientes\Recuperacion_Clientes\Web\Claro.RecuperacionClientes\Claro.RecuperacionClientes.DataAccess\bin\Release\AutoMapper.dll
+C:\RecuperacionClientes\Recuperacion_Clientes\Web\Claro.RecuperacionClientes\Claro.RecuperacionClientes.DataAccess\bin\Release\Claro.RecuperacionClientes.Common.pdb
+C:\RecuperacionClientes\Recuperacion_Clientes\Web\Claro.RecuperacionClientes\Claro.RecuperacionClientes.DataAccess\bin\Release\EntityFramework.xml
+C:\RecuperacionClientes\Recuperacion_Clientes\Web\Claro.RecuperacionClientes\Claro.RecuperacionClientes.DataAccess\bin\Release\Newtonsoft.Json.xml
+C:\RecuperacionClientes\Recuperacion_Clientes\Web\Claro.RecuperacionClientes\Claro.RecuperacionClientes.DataAccess\bin\Release\AutoMapper.xml
+C:\RecuperacionClientes\Recuperacion_Clientes\Web\Claro.RecuperacionClientes\Claro.RecuperacionClientes.DataAccess\obj\Release\Claro.RecuperacionClientes.DataAccess.csprojAssemblyReference.cache
+C:\RecuperacionClientes\Recuperacion_Clientes\Web\Claro.RecuperacionClientes\Claro.RecuperacionClientes.DataAccess\obj\Release\Claro.RecuperacionClientes.DataAccess.csproj.CoreCompileInputs.cache
+C:\RecuperacionClientes\Recuperacion_Clientes\Web\Claro.RecuperacionClientes\Claro.RecuperacionClientes.DataAccess\obj\Release\Claro.RecuperacionClientes.DataAccess.csproj.CopyComplete
+C:\RecuperacionClientes\Recuperacion_Clientes\Web\Claro.RecuperacionClientes\Claro.RecuperacionClientes.DataAccess\obj\Release\Claro.RecuperacionClientes.DataAccess.dll
+C:\RecuperacionClientes\Recuperacion_Clientes\Web\Claro.RecuperacionClientes\Claro.RecuperacionClientes.DataAccess\obj\Release\Claro.RecuperacionClientes.DataAccess.pdb

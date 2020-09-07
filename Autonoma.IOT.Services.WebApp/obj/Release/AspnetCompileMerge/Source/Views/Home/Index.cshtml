@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "Inicio Dog Chef";
+}
+<h2 class="page-header text-center">MENÚ</h2>
+@using (Html.BeginForm("RedireccionMenu", "Home", FormMethod.Post))
+{
+<div class="center-block" style=" margin:0 auto;">
+    <div class="row">
+        <div class="col-xs-4 text-center">
+            <button name="opcionMenu" value="ActionOne" class="btn btn-default" style="height:35px; width:70px; background-color:cornflowerblue">
+                <img style="height:20px; width:25px" src="~/Content/Images/reloj.png" />
+            </button>
+        </div>
+        <div class="col-xs-8 text-left">
+            <button name="opcionMenu" value="ActionOne" class="btn btn-default" style="height:35px; width:200px; background-color:cornflowerblue">
+                Cambiar hora de suministro
+            </button>
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-xs-4 text-center">
+            <button name="opcionMenu" value="ActionTwo" class="btn btn-default" style="height:35px; width:70px; background-color:cornflowerblue">
+                <img style="height:20px; width:25px" src="~/Content/Images/verificado.png" />
+            </button>
+        </div>
+        <div class="col-xs-8 text-left">
+            <button name="opcionMenu" value="ActionTwo" class="btn btn-default" style="height:35px; width:200px; background-color:cornflowerblue">
+                Cambiar estado del prototipo
+            </button>
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-xs-4 text-center">
+            <button name="opcionMenu" value="ActionThree" class="btn btn-default" style="height:35px; width:70px; background-color:cornflowerblue">
+                <img style="height:20px; width:25px" src="~/Content/Images/aprobacion.png" />
+            </button>
+        </div>
+        <div class="col-xs-8 text-left">
+            <button name="opcionMenu" value="ActionThree" class="btn btn-default" style="height:35px; width:200px; background-color:cornflowerblue">
+                Verificar Mensajes
+            </button>
+        </div>
+    </div>
+</div>
+    }

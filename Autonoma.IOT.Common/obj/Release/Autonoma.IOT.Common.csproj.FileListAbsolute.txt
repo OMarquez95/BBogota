@@ -1,0 +1,11 @@
+C:\Users\Usuario\Documents\Universidad\TESIS\IOT_PROJECT_WEB\Web\Autonoma.IOT\Autonoma.IOT.Common\bin\Release\Autonoma.IOT.Common.dll
+C:\Users\Usuario\Documents\Universidad\TESIS\IOT_PROJECT_WEB\Web\Autonoma.IOT\Autonoma.IOT.Common\bin\Release\Autonoma.IOT.Common.pdb
+C:\Users\Usuario\Documents\Universidad\TESIS\IOT_PROJECT_WEB\Web\Autonoma.IOT\Autonoma.IOT.Common\bin\Release\AutoMapper.dll
+C:\Users\Usuario\Documents\Universidad\TESIS\IOT_PROJECT_WEB\Web\Autonoma.IOT\Autonoma.IOT.Common\bin\Release\Newtonsoft.Json.dll
+C:\Users\Usuario\Documents\Universidad\TESIS\IOT_PROJECT_WEB\Web\Autonoma.IOT\Autonoma.IOT.Common\bin\Release\AutoMapper.xml
+C:\Users\Usuario\Documents\Universidad\TESIS\IOT_PROJECT_WEB\Web\Autonoma.IOT\Autonoma.IOT.Common\bin\Release\Newtonsoft.Json.xml
+C:\Users\Usuario\Documents\Universidad\TESIS\IOT_PROJECT_WEB\Web\Autonoma.IOT\Autonoma.IOT.Common\obj\Release\Autonoma.IOT.Common.csprojAssemblyReference.cache
+C:\Users\Usuario\Documents\Universidad\TESIS\IOT_PROJECT_WEB\Web\Autonoma.IOT\Autonoma.IOT.Common\obj\Release\Autonoma.IOT.Common.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\Universidad\TESIS\IOT_PROJECT_WEB\Web\Autonoma.IOT\Autonoma.IOT.Common\obj\Release\Autonoma.IOT.Common.csproj.CopyComplete
+C:\Users\Usuario\Documents\Universidad\TESIS\IOT_PROJECT_WEB\Web\Autonoma.IOT\Autonoma.IOT.Common\obj\Release\Autonoma.IOT.Common.dll
+C:\Users\Usuario\Documents\Universidad\TESIS\IOT_PROJECT_WEB\Web\Autonoma.IOT\Autonoma.IOT.Common\obj\Release\Autonoma.IOT.Common.pdb

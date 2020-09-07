@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Ejemplos";
+}
+
+<h2>Ejemplos</h2>
+<br />
+
+<h3>Mensajes de alerta</h3>
+
+<button class="btn btn-default btn-lg" onclick="Alerta('Ejemplo de mensaje de Alerta');">Alerta</button>
+<button class="btn btn-default btn-lg" onclick="AlertarEvento('Ejemplo de mensaje de Alerta con un evento en Aceptar', function () { alert('Boton Aceptar Alerta'); });">Alerta con evento</button>
+<button class="btn btn-default btn-lg" onclick="Informacion('Ejemplo de mensaje de Informacion');">Informacion</button>
+<button class="btn btn-default btn-lg" onclick="Confirmacion('Ejemplo de mensaje de Confirmacion con evento en Aceptar', function () { alert('Boton Aceptar Confirmacion'); });">Confirmacion</button>

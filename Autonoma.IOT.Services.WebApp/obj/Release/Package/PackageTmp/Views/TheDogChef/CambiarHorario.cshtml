@@ -1,0 +1,71 @@
+﻿@model Autonoma.IOT.Common.Entities.ConfiguracionHorario
+
+@{
+    ViewBag.Title = "CambiarHorario";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var list = Model.HoraConfiguradas;
+    List<SelectListItem> listHora = new List<SelectListItem>();
+    for (int i = 0; i < 24; i++)
+    {
+        listHora.Add(new SelectListItem() { Text = i.ToString(), Value = "Hora", Selected = false });
+    }
+
+    List<SelectListItem> listMinuto = new List<SelectListItem>();
+    for (int i = 0; i < 60; i++)
+    {
+        listMinuto.Add(new SelectListItem() { Text = i.ToString(), Value = "Minuto", Selected = false });
+    }
+
+}
+@Html.AntiForgeryToken()
+@Html.ActionLink("Volver Al Menú", "Index", "Home")
+<h4>Cambio de Horario</h4>
+<hr style="border-color:black" />
+<div class="center-block text-justify" style="width:80%; background-color:rgb(160, 160, 160)">
+    <p class="font-weight-bold">
+        Aquí puedes realizar la configuración de los horarios para el suministro de alimento en el prototipo dispensador, se pueden adicionar, modificar, eliminar los diferentes horarios que requieras.
+    </p>
+</div>
+<hr style="border-color:black" />
+
+@Html.AntiForgeryToken()
+<div class="row">
+    <div class="col-xs-4 text-right">
+        <img style="height:20px" src="~/Content/Images/reloj.png" />
+    </div>
+    <div class="col-xs-2 text-left">
+        @Html.DropDownListFor(model => model.CodigoPrototipo, listHora, "Hora", new { @id = "addHora" })
+    </div>
+    <div class="col-xs-2 text-left">
+        @Html.DropDownListFor(model => model.CodigoPrototipo, listMinuto, "Minuto", new { @id = "addMinuto" })
+    </div>
+    <div class="col-xs-4 text-left">
+        <button name="opcionMenu" value="ActionOne" onclick="addHora();" style="height:20px">
+            <img class="center-block" style="height:15px" src="~/Content/Images/add.png" />
+        </button>
+    </div>
+</div>
+<hr />
+<div id="configuracionDiv">
+    @foreach (var item in list)
+    {
+        <div class="row" style="width:75%;margin:0 auto;background-color:whitesmoke" id="@item.IdConfiguracion">
+            <div class="col-xs-2 text-left">
+                <button name="opcionMenu" value="ActionOne" onclick="modHora(@item.IdConfiguracion);" style="height:20px">
+                    <img class="center-block" style="height:15px" src="~/Content/Images/edit.png" />
+                </button>
+            </div>
+            <div class="col-xs-4 text-center">
+                @Html.DropDownList("hora" + item.IdConfiguracion, listHora, item.Hora.ToString())
+            </div>
+            <div class="col-xs-4 text-center">
+                @Html.DropDownList("minuto" + item.IdConfiguracion, listMinuto, item.Minuto.ToString())                
+            </div>
+            <div class="col-xs-2 text-right">
+                <button name="opcionMenu" value="ActionOne" onclick="delHora(@item.IdConfiguracion);" style="height:20px">
+                    <img class="center-block" style="height:15px" src="~/Content/Images/delete.png" />
+                </button>
+            </div>
+        </div>
+    }
+</div>

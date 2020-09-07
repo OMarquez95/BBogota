@@ -1,0 +1,11 @@
+C:\RecuperacionClientes\Recuperacion_Clientes\Web\Claro.RecuperacionClientes\Claro.RecuperacionClientes.Common\bin\Release\Claro.RecuperacionClientes.Common.dll
+C:\RecuperacionClientes\Recuperacion_Clientes\Web\Claro.RecuperacionClientes\Claro.RecuperacionClientes.Common\bin\Release\Claro.RecuperacionClientes.Common.pdb
+C:\RecuperacionClientes\Recuperacion_Clientes\Web\Claro.RecuperacionClientes\Claro.RecuperacionClientes.Common\bin\Release\AutoMapper.dll
+C:\RecuperacionClientes\Recuperacion_Clientes\Web\Claro.RecuperacionClientes\Claro.RecuperacionClientes.Common\bin\Release\Newtonsoft.Json.dll
+C:\RecuperacionClientes\Recuperacion_Clientes\Web\Claro.RecuperacionClientes\Claro.RecuperacionClientes.Common\bin\Release\AutoMapper.xml
+C:\RecuperacionClientes\Recuperacion_Clientes\Web\Claro.RecuperacionClientes\Claro.RecuperacionClientes.Common\bin\Release\Newtonsoft.Json.xml
+C:\RecuperacionClientes\Recuperacion_Clientes\Web\Claro.RecuperacionClientes\Claro.RecuperacionClientes.Common\obj\Release\Claro.RecuperacionClientes.Common.csprojAssemblyReference.cache
+C:\RecuperacionClientes\Recuperacion_Clientes\Web\Claro.RecuperacionClientes\Claro.RecuperacionClientes.Common\obj\Release\Claro.RecuperacionClientes.Common.csproj.CoreCompileInputs.cache
+C:\RecuperacionClientes\Recuperacion_Clientes\Web\Claro.RecuperacionClientes\Claro.RecuperacionClientes.Common\obj\Release\Claro.RecuperacionClientes.Common.csproj.CopyComplete
+C:\RecuperacionClientes\Recuperacion_Clientes\Web\Claro.RecuperacionClientes\Claro.RecuperacionClientes.Common\obj\Release\Claro.RecuperacionClientes.Common.dll
+C:\RecuperacionClientes\Recuperacion_Clientes\Web\Claro.RecuperacionClientes\Claro.RecuperacionClientes.Common\obj\Release\Claro.RecuperacionClientes.Common.pdb

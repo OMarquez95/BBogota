@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@Resources.Titulos.lblTituloModulo</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/initial")
+</head>
+<body oncopy="return false" onpaste="return false" oncut="return false">
+
+    <!-- Contenedor de mensajes -->
+    <div id="contenMensaje"></div>
+
+    <!-- Vista de Menu Principal -->
+    @Html.Partial("MenuPrincipal")
+
+    <div class="main">
+
+        <div class="container body-content">
+            @RenderBody()
+        </div>
+
+        <!-- Vista de footer -->
+        <hr />
+        @*@Html.Partial("Footer")*@
+    </div>
+
+    <script>
+        var virtualDirectory = "@Url.Action("base","base")".replace("base/base", "");
+    </script>
+
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

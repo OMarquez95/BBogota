@@ -1,0 +1,30 @@
+﻿@model Autonoma.IOT.Common.Entities.MensajesConfiguracion
+
+@{
+    ViewBag.Title = "Verificar Mensajes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var listaMensajes = Model.mensaje;
+}
+@Html.AntiForgeryToken()
+@Html.ActionLink("Volver Al Menú", "Index", "Home")
+<h4>Verificar Mensajes</h4>
+<hr style="border-color:black" />
+<div class="center-block text-justify" style="width:75%; background-color:rgb(160, 160, 160)">
+    <p class="font-weight-bold">
+        Puedes revisar los mensajes(historial) de solicitud de cambios, hay mensajes tanto del servidor, como del prototipo(RaspBerry)
+    </p>
+</div>
+<hr style="border-color:black" />
+<div style="width:85%; margin:0 auto">
+    <table class="table text-justify">
+        @foreach (var item in listaMensajes)
+        {
+            <tr style="background-color:aliceblue">
+                <td>
+                    <p>@item</p>
+                </td>
+            </tr>
+        }
+    </table>
+</div>
+

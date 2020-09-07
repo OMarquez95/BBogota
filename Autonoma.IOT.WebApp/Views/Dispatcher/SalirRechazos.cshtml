@@ -1,0 +1,27 @@
+﻿@model Autonoma.IOT.WebApp.Models.ValidacionRechazo.DispatcherModel
+@{
+    var sesion = Model.sesion;
+    var url = Model.urlReturn;
+}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>SalirRechazos</title>
+</head>
+<body>
+    <form id="form1" method="POST" runat="server" style="text-align: center" action="@url">
+        <div id="divProgress" style="left: 45%; top: 45%; position: absolute; float: left;">
+            <INPUT id=varSession type=hidden value="@sesion" name=varSession />
+            <asp:Image ID="imgProcessing" runat="server" ImageUrl="~/Content/images/cargando.gif" />
+            &nbsp;
+            <asp:Label ID="lblProgressStaus" runat="server" Text="Procesando..."></asp:Label>
+        </div>
+    </form>
+    <script>
+        $(document).ready(function(){
+            $("form#form1").submit();
+        });
+    </script>
+</body>
+</html>

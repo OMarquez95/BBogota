@@ -1,0 +1,486 @@
+﻿@model Claro.Rechazo.WebApp.Models.ActivacionpreModel
+@using Claro.Rechazo.Common.Constants
+
+@{
+    ViewBag.Title = "ActivacionPrepago";
+}
+
+<h2>ActivacionPrepago</h2>
+
+<div class="">
+
+@using (Html.BeginForm(Actions.ActivacionPrepago, Controllers.ValidacionRechazo, FormMethod.Post, new { @class = "", id = "frmEditarRechazo" }))
+{
+
+    <div class="row">
+        <div class="col-lg-12 col-md-12">
+
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#cargos" aria-controls="cargos" role="tab" data-toggle="tab">@Resources.Titulos.lblCargos</a></li>
+                <li role="presentation"><a href="#demografico" aria-controls="demografico" role="tab" data-toggle="tab">@Resources.Titulos.lblDemografico</a></li>
+                <li role="presentation"><a href="#equipo" aria-controls="equipo" role="tab" data-toggle="tab">@Resources.Titulos.lblEquipo</a></li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="cargos">
+                    <br>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.USUARIO)
+                                <div class="controls">
+                                    @Html.EditorFor(model => model.USUARIO, new { htmlAttributes = new { @class = "form-control", @data_tipo_dato = "alfanumerico", maxlength = 5 } })
+                                    <span class="help-inline">
+                                        @Html.ValidationMessageFor(model => model.USUARIO, "", new { @class = "text-error" })
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.TMCODE)
+                                <div class="controls">
+                                    @Html.EditorFor(model => model.TMCODE, new { htmlAttributes = new { @class = "form-control", @data_tipo_dato = "decimal" } })
+                                    <span class="help-inline">
+                                        @Html.ValidationMessageFor(model => model.TMCODE, "", new { @class = "text-error" })
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.SPCODE)
+                                <div class="controls">
+                                    @Html.EditorFor(model => model.SPCODE, new { htmlAttributes = new { @class = "form-control", @data_tipo_dato = "decimal" } })
+                                    <span class="help-inline">
+                                        @Html.ValidationMessageFor(model => model.SPCODE, "", new { @class = "text-error" })
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.CENTRO_COSTO)
+                                <div class="controls">
+                                    @Html.EditorFor(model => model.CENTRO_COSTO, new { htmlAttributes = new { @class = "form-control", @data_tipo_dato = "alfanumerico", maxlength = 30 } })
+                                    <span class="help-inline">
+                                        @Html.ValidationMessageFor(model => model.CENTRO_COSTO, "", new { @class = "text-error" })
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.ESTADO)
+                                <div class="controls">
+                                    @Html.EditorFor(model => model.ESTADO, new { htmlAttributes = new { @class = "form-control", @data_tipo_dato = "alfanumerico", maxlength = 15 } })
+                                    <span class="help-inline">
+                                        @Html.ValidationMessageFor(model => model.ESTADO, "", new { @class = "text-error" })
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.ESTADOIN)
+                                <div class="controls">
+                                    @Html.EditorFor(model => model.ESTADOIN, new { htmlAttributes = new { @class = "form-control", @data_tipo_dato = "alfanumerico", maxlength = 15 } })
+                                    <span class="help-inline">
+                                        @Html.ValidationMessageFor(model => model.ESTADOIN, "", new { @class = "text-error" })
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.ID_VENDEDOR)
+                                <div class="controls">
+                                    @Html.EditorFor(model => model.ID_VENDEDOR, new { htmlAttributes = new { @class = "form-control", @data_tipo_dato = "alfanumerico", maxlength = 15 } })
+                                    <span class="help-inline">
+                                        @Html.ValidationMessageFor(model => model.ID_VENDEDOR, "", new { @class = "text-error" })
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.FECHA_VENTA)
+                                <div class="controls">
+                                    @Html.EditorFor(model => model.FECHA_VENTA, new { htmlAttributes = new { @class = "form-control", @onchange = "" } })
+                                    <span class="help-inline">
+                                        @Html.ValidationMessageFor(model => model.FECHA_VENTA, "", new { @class = "text-error" })
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.ACTUALIZACION_BDO)
+                                <div class="controls">
+                                    @Html.EditorFor(model => model.ACTUALIZACION_BDO, new { htmlAttributes = new { @class = "form-control", @data_tipo_dato = "numerico", maxlength = 1 } })
+                                    <span class="help-inline">
+                                        @Html.ValidationMessageFor(model => model.ACTUALIZACION_BDO, "", new { @class = "text-error" })
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                &nbsp;
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div role="tabpanel" class="tab-pane" id="demografico">
+                    <br>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.SALUDO)
+                                <div class="controls">
+                                    @Html.EditorFor(model => model.SALUDO, new { htmlAttributes = new { @class = "form-control", @data_tipo_dato = "alfanumerico", maxlength = 5 } })
+                                    <span class="help-inline">
+                                        @Html.ValidationMessageFor(model => model.SALUDO, "", new { @class = "text-error" })
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.NOMBRES)
+                                <div class="controls">
+                                    @Html.EditorFor(model => model.NOMBRES, new { htmlAttributes = new { @class = "form-control", @data_tipo_dato = "alfanumerico", maxlength = 40 } })
+                                    <span class="help-inline">
+                                        @Html.ValidationMessageFor(model => model.NOMBRES, "", new { @class = "text-error" })
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.APELLIDO)
+                                <div class="controls">
+                                    @Html.EditorFor(model => model.APELLIDO, new { htmlAttributes = new { @class = "form-control", @data_tipo_dato = "alfanumerico", maxlength = 40 } })
+                                    <span class="help-inline">
+                                        @Html.ValidationMessageFor(model => model.APELLIDO, "", new { @class = "text-error" })
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.NUMERO_DOCUMENTO)
+                                <div class="controls">
+                                    @Html.EditorFor(model => model.NUMERO_DOCUMENTO, new { htmlAttributes = new { @class = "form-control", @data_tipo_dato = "alfanumerico", maxlength = 20 } })
+                                    <span class="help-inline">
+                                        @Html.ValidationMessageFor(model => model.NUMERO_DOCUMENTO, "", new { @class = "text-error" })
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.TELEFONO)
+                                <div class="controls">
+                                    @Html.EditorFor(model => model.TELEFONO, new { htmlAttributes = new { @class = "form-control", @data_tipo_dato = "alfanumerico", maxlength = 20 } })
+                                    <span class="help-inline">
+                                        @Html.ValidationMessageFor(model => model.TELEFONO, "", new { @class = "text-error" })
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.DIRECCION)
+                                <div class="controls">
+                                    @Html.EditorFor(model => model.DIRECCION, new { htmlAttributes = new { @class = "form-control", @data_tipo_dato = "alfanumerico", maxlength = 70 } })
+                                    <span class="help-inline">
+                                        @Html.ValidationMessageFor(model => model.DIRECCION, "", new { @class = "text-error" })
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.CIUDAD_DEPARTAMENTO)
+                                <div class="controls">
+                                    @Html.EditorFor(model => model.CIUDAD_DEPARTAMENTO, new { htmlAttributes = new { @class = "form-control", @data_tipo_dato = "alfanumerico", maxlength = 40 } })
+                                    <span class="help-inline">
+                                        @Html.ValidationMessageFor(model => model.CIUDAD_DEPARTAMENTO, "", new { @class = "text-error" })
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.INDICATIVO)
+                                <div class="controls">
+                                    @Html.EditorFor(model => model.INDICATIVO, new { htmlAttributes = new { @class = "form-control", @data_tipo_dato = "alfanumerico", maxlength = 50 } })
+                                    <span class="help-inline">
+                                        @Html.ValidationMessageFor(model => model.INDICATIVO, "", new { @class = "text-error" })
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.TIPO_DOCUMENTO)
+                                <div class="controls">
+                                    @Html.EditorFor(model => model.TIPO_DOCUMENTO, new { htmlAttributes = new { @class = "form-control", @data_tipo_dato = "alfanumerico", maxlength = 50 } })
+                                    <span class="help-inline">
+                                        @Html.ValidationMessageFor(model => model.TIPO_DOCUMENTO, "", new { @class = "text-error" })
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.SEXO)
+                                <div class="controls">
+                                    @Html.EditorFor(model => model.SEXO, new { htmlAttributes = new { @class = "form-control", @data_tipo_dato = "alfanumerico", maxlength = 50 } })
+                                    <span class="help-inline">
+                                        @Html.ValidationMessageFor(model => model.SEXO, "", new { @class = "text-error" })
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div role="tabpanel" class="tab-pane" id="equipo">
+                    <br>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.ICCID)
+                                <div class="controls">
+                                    @Html.EditorFor(model => model.ICCID, new { htmlAttributes = new { @class = "form-control", @data_tipo_dato = "alfanumerico", maxlength = 50 } })
+                                    <span class="help-inline">
+                                        @Html.ValidationMessageFor(model => model.ICCID, "", new { @class = "text-error" })
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.IMEI)
+                                <div class="controls">
+                                    @Html.EditorFor(model => model.IMEI, new { htmlAttributes = new { @class = "form-control", @data_tipo_dato = "alfanumerico", maxlength = 15 } })
+                                    <span class="help-inline">
+                                        @Html.ValidationMessageFor(model => model.IMEI, "", new { @class = "text-error" })
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.TECNOLOGIA)
+                                <div class="controls">
+                                    @Html.EditorFor(model => model.TECNOLOGIA, new { htmlAttributes = new { @class = "form-control", @data_tipo_dato = "decimal" } })
+                                    <span class="help-inline">
+                                        @Html.ValidationMessageFor(model => model.TECNOLOGIA, "", new { @class = "text-error" })
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.CODIGO_DISTRIBUIDOR)
+                                <div class="controls">
+                                    @Html.EditorFor(model => model.CODIGO_DISTRIBUIDOR, new { htmlAttributes = new { @class = "form-control", @data_tipo_dato = "alfanumerico", maxlength = 24 } })
+                                    <span class="help-inline">
+                                        @Html.ValidationMessageFor(model => model.CODIGO_DISTRIBUIDOR, "", new { @class = "text-error" })
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.CODMIN)
+                                <div class="controls">
+                                    @Html.EditorFor(model => model.CODMIN, new { htmlAttributes = new { @class = "form-control", @data_tipo_dato = "alfanumerico", maxlength = 20 } })
+                                    <span class="help-inline">
+                                        @Html.ValidationMessageFor(model => model.CODMIN, "", new { @class = "text-error" })
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.RESN)
+                                <div class="controls">
+                                    @Html.EditorFor(model => model.RESN, new { htmlAttributes = new { @class = "form-control", @data_tipo_dato = "decimal" } })
+                                    <span class="help-inline">
+                                        @Html.ValidationMessageFor(model => model.RESN, "", new { @class = "text-error" })
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.RTAR)
+                                <div class="controls">
+                                    @Html.EditorFor(model => model.RTAR, new { htmlAttributes = new { @class = "form-control", @data_tipo_dato = "decimal" } })
+                                    <span class="help-inline">
+                                        @Html.ValidationMessageFor(model => model.RTAR, "", new { @class = "text-error" })
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.CO_ID)
+                                <div class="controls">
+                                    @Html.EditorFor(model => model.CO_ID, new { htmlAttributes = new { @class = "form-control", @data_tipo_dato = "decimal" } })
+                                    <span class="help-inline">
+                                        @Html.ValidationMessageFor(model => model.CO_ID, "", new { @class = "text-error" })
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.CUSTOMER_ID)
+                                <div class="controls">
+                                    @Html.EditorFor(model => model.CUSTOMER_ID, new { htmlAttributes = new { @class = "form-control", @data_tipo_dato = "decimal" } })
+                                    <span class="help-inline">
+                                        @Html.ValidationMessageFor(model => model.CUSTOMER_ID, "", new { @class = "text-error" })
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.ESTADOMO)
+                                <div class="controls">
+                                    @Html.EditorFor(model => model.ESTADOMO, new { htmlAttributes = new { @class = "form-control", @data_tipo_dato = "alfanumerico", maxlength = 15 } })
+                                    <span class="help-inline">
+                                        @Html.ValidationMessageFor(model => model.ESTADOMO, "", new { @class = "text-error" })
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.NOMBRE_EQUIPO)
+                                <div class="controls">
+                                    @Html.EditorFor(model => model.NOMBRE_EQUIPO, new { htmlAttributes = new { @class = "form-control", @data_tipo_dato = "alfanumerico", maxlength = 100 } })
+                                    <span class="help-inline">
+                                        @Html.ValidationMessageFor(model => model.NOMBRE_EQUIPO, "", new { @class = "text-error" })
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.ID_ACTIVACION)
+                                <div class="controls">
+                                    @Html.EditorFor(model => model.ID_ACTIVACION, new { htmlAttributes = new { @class = "form-control", @data_tipo_dato = "decimal" } })
+                                    <span class="help-inline">
+                                        @Html.ValidationMessageFor(model => model.ID_ACTIVACION, "", new { @class = "text-error" })
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.GENERAR_TICKLER)
+                                <div class="controls">
+                                    @Html.EditorFor(model => model.GENERAR_TICKLER, new { htmlAttributes = new { @class = "form-control", @data_tipo_dato = "alfanumerico", maxlength = 200 } })
+                                    <span class="help-inline">
+                                        @Html.ValidationMessageFor(model => model.GENERAR_TICKLER, "", new { @class = "text-error" })
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                &nbsp;
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6 col-md-6"></div>
+        <div class="col-lg-6 col-md-6">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <button type="button" id="btnCancelar" class="btn btn-default btn-lg btn-block">
+                        <i class="fa fa-undo"></i>   @Resources.Botones.btnCancelar
+                    </button>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <button type="button" id="btnGuardar" class="btn btn-primary btn-lg btn-block">
+                        <i class="fa fa-save"></i>   @Resources.Botones.btnGuardar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+ }
+</div>
+
+<script type="text/javascript">
+    var urlValidacionRechazo = "@this.Url.Action(Actions.ValidarRechazo, Controllers.ValidacionRechazo)";
+</script>
+
+@Scripts.Render("~/bundles/editarvalidacion")

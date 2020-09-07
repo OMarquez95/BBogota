@@ -1,0 +1,145 @@
+﻿@model Claro.Rechazo.WebApp.Models.ValidarRechazoModel
+@using Claro.Rechazo.Common.Constants
+@using Claro.Rechazo.Resources
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>@Resources.Titulos.lblMnuValidarRechazo</h2>
+<hr>
+
+    <div class="container">
+        
+@using (Html.BeginForm(Actions.ValidarRechazo, Controllers.ValidacionRechazo, FormMethod.Post, new { @class = "", id = "frmConsultarRechazo" }))
+{
+
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.IdTramite)
+                    <div class="controls">
+                        @Html.DropDownListFor(model => model.IdTramite, Model.ListaTramites, Generales.Seleccione, new { @class = "form-control", @id="ddlTramite" })
+                        <span class="help-inline">
+                            @Html.ValidationMessageFor(model => model.IdTramite, "", new { @class = "text-error" })
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.IdCausal)
+                    <div class="controls">
+                        @Html.DropDownListFor(model => model.IdCausal, Model.ListaCausales, Generales.Seleccione, new { @class = "form-control", @id = "ddlCausal" })
+                        <span class="help-inline">
+                            @Html.ValidationMessageFor(model => model.IdCausal, "", new { @class = "text-error" })
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.fechaInicial)
+                    <div class="controls">
+                        @Html.EditorFor(model => model.fechaInicial, new { htmlAttributes = new { @class = "form-control", @onchange = "" } })
+                        <span class="help-inline">
+                            @Html.ValidationMessageFor(model => model.fechaInicial, "", new { @class = "text-error" })
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.fechaFinal)
+                    <div class="controls">
+                        @Html.EditorFor(model => model.fechaFinal, new { htmlAttributes = new { @class = "form-control", @onchange = "" } })
+                        <span class="help-inline">
+                            @Html.ValidationMessageFor(model => model.fechaFinal, "", new { @class = "text-error" })
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.IdTipoDocumento)
+                    <div class="controls">
+                        @Html.DropDownListFor(model => model.IdTipoDocumento, Model.ListaTiposdeDocumentos, Generales.Seleccione, new { @class = "form-control", @id = "ddlTipoDocumento" })
+                        <span class="help-inline">
+                            @Html.ValidationMessageFor(model => model.IdTipoDocumento, "", new { @class = "text-error" })
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.numeroDocumento)
+                    <div class="controls">
+                        @Html.EditorFor(model => model.numeroDocumento, new { htmlAttributes = new { @class = "form-control", @data_tipo_dato = "alfanumerico", maxlength = 50 } })
+                        <span class="help-inline">
+                            @Html.ValidationMessageFor(model => model.numeroDocumento, "", new { @class = "text-error" })
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.min)
+                    <div class="controls">
+                        @Html.EditorFor(model => model.min, new { htmlAttributes = new { @class = "form-control", @data_tipo_dato = "numero-coma" } })
+                        <span class="help-inline">
+                            @Html.ValidationMessageFor(model => model.min, "", new { @class = "text-error" })
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6 col-md-6"></div>
+            <div class="col-lg-6 col-md-6">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <button type="button" id="btnLimpiar" class="btn btn-default btn-lg btn-block">
+                            <i class="fa fa-eraser"></i>   @Resources.Botones.btnLimpiar
+                        </button>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <button type="button" id="btnConsultar" class="btn btn-primary btn-lg btn-block">
+                            <i class="fa fa-search"></i>   @Resources.Botones.btnConsultar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+}
+        <!-- Tabla de resultados -->
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <table id="tblResultados" class="display" style="width:100%"></table>
+            </div>
+        </div>
+
+</div>
+
+<script type="text/javascript">
+    var urlActivacion = {
+        Pospago : "@this.Url.Action(Actions.ActivacionPospago, Controllers.ValidacionRechazo)",
+        Prepago : "@this.Url.Action(Actions.ActivacionPrepago, Controllers.ValidacionRechazo)",
+        Cadenas : "@this.Url.Action(Actions.ActivacionCadenas, Controllers.ValidacionRechazo)",
+        Migracion: "@this.Url.Action(Actions.ActivacionMigracion, Controllers.ValidacionRechazo)",
+        Index: "@this.Url.Action(Actions.ValidarRechazo, Controllers.ValidacionRechazo)",
+        Causales: "@this.Url.Action(Actions.ConsultarCausalesTramite, Controllers.ValidacionRechazo)"
+    };
+</script>
+
+@Scripts.Render("~/bundles/validacion")

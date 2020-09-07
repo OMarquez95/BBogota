@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PoliedroModelo.Store" Provider="Oracle.DataAccess.Client" ProviderManifestToken="11.2" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'POLIEDRO.ACTIVATIONSMSROAMING' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="ACTIVATIONSMSROAMING">
+    <Key>
+      <PropertyRef Name="IDROAMING" />
+      <PropertyRef Name="IDCATEGORIA" />
+      <PropertyRef Name="IDACTIVACION" />
+    </Key>
+    <Property Name="IDROAMING" Type="number" Precision="10" Scale="0" Nullable="false" />
+    <Property Name="IDCATEGORIA" Type="number" Precision="10" Scale="0" Nullable="false" />
+    <Property Name="IDACTIVACION" Type="varchar2" MaxLength="20" Nullable="false" />
+    <Property Name="FECHAVIGENCIA" Type="varchar2" MaxLength="25" />
+    <Property Name="INDEFINIDO" Type="varchar2" MaxLength="2" />
+    <Property Name="TMCODE" Type="number" Precision="10" Scale="0" />
+    <Property Name="SPCODE" Type="number" Precision="10" Scale="0" />
+  </EntityType>
+  <EntityType Name="DISTRIBUIDORES_EXCENTOS_IVA">
+    <Key>
+      <PropertyRef Name="CODIGO" />
+    </Key>
+    <Property Name="CODIGO" Type="varchar2" MaxLength="17" Nullable="false" />
+    <Property Name="EXCENCIONIVAEQUIPO" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="EXCENCIONIVASIM" Type="char" MaxLength="1" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DOC_INVALIDO_CANAL">
+    <Key>
+      <PropertyRef Name="CANALID" />
+    </Key>
+    <Property Name="CANALID" Type="number" Precision="10" Scale="0" Nullable="false" />
+    <Property Name="DESCRIPCION" Type="varchar2" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PARAMETROS_ACTIVA">
+    <Key>
+      <PropertyRef Name="IDPARAMETRO" />
+    </Key>
+    <Property Name="IDPARAMETRO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="NOMBRE" Type="varchar2" MaxLength="100" Nullable="false" />
+    <Property Name="DESCRIPCION" Type="varchar2" MaxLength="100" Nullable="false" />
+    <Property Name="TIPO_DATO" Type="varchar2" MaxLength="100" Nullable="false" />
+    <Property Name="VALOR_ACTUAL" Type="varchar2" MaxLength="100" />
+    <Property Name="VALOR_POSIBLE" Type="varchar2" MaxLength="100" Nullable="false" />
+    <Property Name="ID_PERFIL" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="POLIEDRO_MOBILE_ERR_LOG">
+    <Key>
+      <PropertyRef Name="ERRORCODE" />
+      <PropertyRef Name="USERNAME" />
+    </Key>
+    <Property Name="ERRORCODE" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="USERNAME" Type="varchar2" MaxLength="150" Nullable="false" />
+    <Property Name="CODDISTRI" Type="varchar2" MaxLength="17" />
+    <Property Name="ERRORDATE" Type="date" />
+    <Property Name="DESCRIPTION" Type="varchar2" MaxLength="4000" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'POLIEDRO.SQLN_EXPLAIN_PLAN' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="SQLN_EXPLAIN_PLAN">
+          <Property Name="STATEMENT_ID" Type="varchar2" MaxLength="30" />
+          <Property Name="TIMESTAMP" Type="date" />
+          <Property Name="REMARKS" Type="varchar2" MaxLength="80" />
+          <Property Name="OPERATION" Type="varchar2" MaxLength="30" />
+          <Property Name="OPTIONS" Type="varchar2" MaxLength="30" />
+          <Property Name="OBJECT_NODE" Type="varchar2" MaxLength="128" />
+          <Property Name="OBJECT_OWNER" Type="varchar2" MaxLength="30" />
+          <Property Name="OBJECT_NAME" Type="varchar2" MaxLength="30" />
+          <Property Name="OBJECT_INSTANCE" Type="number" Precision="38" Scale="0" />
+          <Property Name="OBJECT_TYPE" Type="varchar2" MaxLength="30" />
+          <Property Name="OPTIMIZER" Type="varchar2" MaxLength="255" />
+          <Property Name="SEARCH_COLUMNS" Type="number" Precision="38" Scale="0" />
+          <Property Name="ID" Type="number" Precision="38" Scale="0" />
+          <Property Name="PARENT_ID" Type="number" Precision="38" Scale="0" />
+          <Property Name="POSITION" Type="number" Precision="38" Scale="0" />
+          <Property Name="COST" Type="number" Precision="38" Scale="0" />
+          <Property Name="CARDINALITY" Type="number" Precision="38" Scale="0" />
+          <Property Name="BYTES" Type="number" Precision="38" Scale="0" />
+          <Property Name="OTHER_TAG" Type="varchar2" MaxLength="255" />
+          <Property Name="PARTITION_START" Type="varchar2" MaxLength="255" />
+          <Property Name="PARTITION_STOP" Type="varchar2" MaxLength="255" />
+          <Property Name="PARTITION_ID" Type="number" Precision="38" Scale="0" />
+          <Property Name="OTHER" Type="long" />
+          <Property Name="DISTRIBUTION" Type="varchar2" MaxLength="30" />
+        </EntityType>-->
+  <EntityContainer Name="PoliedroModeloStoreContainer">
+    <EntitySet Name="DISTRIBUIDORES_EXCENTOS_IVA" EntityType="Self.DISTRIBUIDORES_EXCENTOS_IVA" Schema="POLIEDRO" store:Type="Tables" />
+    <EntitySet Name="DOC_INVALIDO_CANAL" EntityType="Self.DOC_INVALIDO_CANAL" Schema="POLIEDRO" store:Type="Tables" />
+    <EntitySet Name="PARAMETROS_ACTIVA" EntityType="Self.PARAMETROS_ACTIVA" Schema="POLIEDRO" store:Type="Tables" />
+    <EntitySet Name="POLIEDRO_MOBILE_ERR_LOG" EntityType="Self.POLIEDRO_MOBILE_ERR_LOG" Schema="POLIEDRO" store:Type="Tables" />
+    <EntitySet Name="ACTIVATIONSMSROAMING" EntityType="Self.ACTIVATIONSMSROAMING" store:Type="Tables" store:Schema="POLIEDRO">
+      <DefiningQuery>SELECT 
+"ACTIVATIONSMSROAMING"."IDROAMING" AS "IDROAMING", 
+"ACTIVATIONSMSROAMING"."IDCATEGORIA" AS "IDCATEGORIA", 
+"ACTIVATIONSMSROAMING"."IDACTIVACION" AS "IDACTIVACION", 
+"ACTIVATIONSMSROAMING"."FECHAVIGENCIA" AS "FECHAVIGENCIA", 
+"ACTIVATIONSMSROAMING"."INDEFINIDO" AS "INDEFINIDO", 
+"ACTIVATIONSMSROAMING"."TMCODE" AS "TMCODE", 
+"ACTIVATIONSMSROAMING"."SPCODE" AS "SPCODE"
+FROM "POLIEDRO"."ACTIVATIONSMSROAMING" "ACTIVATIONSMSROAMING"</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

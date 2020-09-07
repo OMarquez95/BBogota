@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Services", "2. Services", "{2226708E-4F60-456A-911C-7FE2B1726871}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Business", "3. Business", "{B32916F5-6AE6-424A-A1B0-8A625BE4B1D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. DataAccess", "4. DataAccess", "{B95D287F-6BE7-4305-9ACE-9A457858AD1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Common", "5. Common", "{7F437D46-1E03-4F40-A218-E23A96166794}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6. Test", "6. Test", "{6991F2D1-282B-40F1-8C4C-B5E32BE554A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autonoma.IOT.Services.WebApi", "Autonoma.IOT.Services.WebApi\Autonoma.IOT.Services.WebApi.csproj", "{2F03E82F-6737-404F-9BC1-69B803593899}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D65753C1-B447-4887-9F05-0032594A6B9A} = {D65753C1-B447-4887-9F05-0032594A6B9A}
+		{B558AFEB-9ACE-4358-B5BE-957B2070824F} = {B558AFEB-9ACE-4358-B5BE-957B2070824F}
+		{4E336AFB-2EC5-43E4-AEED-B61D72B7413E} = {4E336AFB-2EC5-43E4-AEED-B61D72B7413E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autonoma.IOT.Common", "Autonoma.IOT.Common\Autonoma.IOT.Common.csproj", "{B558AFEB-9ACE-4358-B5BE-957B2070824F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autonoma.IOT.UnitTest", "Autonoma.IOT.UnitTest\Autonoma.IOT.UnitTest.csproj", "{DCE41B2E-EA0C-4526-8684-D3CA13B52933}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autonoma.IOT.DataAccess", "Autonoma.IOT.DataAccess\Autonoma.IOT.DataAccess.csproj", "{D65753C1-B447-4887-9F05-0032594A6B9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autonoma.IOT.Business", "Autonoma.IOT.Business\Autonoma.IOT.Business.csproj", "{4E336AFB-2EC5-43E4-AEED-B61D72B7413E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Web", "1. Web", "{F4B0EFE0-158C-41BE-BBB1-BA3839EAF08C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autonoma.IOT.Services.WebApp", "Autonoma.IOT.Services.WebApp\Autonoma.IOT.Services.WebApp.csproj", "{054679EA-5E20-4CF2-8EE9-95AD855909FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F03E82F-6737-404F-9BC1-69B803593899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F03E82F-6737-404F-9BC1-69B803593899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F03E82F-6737-404F-9BC1-69B803593899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F03E82F-6737-404F-9BC1-69B803593899}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B558AFEB-9ACE-4358-B5BE-957B2070824F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B558AFEB-9ACE-4358-B5BE-957B2070824F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B558AFEB-9ACE-4358-B5BE-957B2070824F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B558AFEB-9ACE-4358-B5BE-957B2070824F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCE41B2E-EA0C-4526-8684-D3CA13B52933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCE41B2E-EA0C-4526-8684-D3CA13B52933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCE41B2E-EA0C-4526-8684-D3CA13B52933}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCE41B2E-EA0C-4526-8684-D3CA13B52933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D65753C1-B447-4887-9F05-0032594A6B9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D65753C1-B447-4887-9F05-0032594A6B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D65753C1-B447-4887-9F05-0032594A6B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D65753C1-B447-4887-9F05-0032594A6B9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E336AFB-2EC5-43E4-AEED-B61D72B7413E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E336AFB-2EC5-43E4-AEED-B61D72B7413E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E336AFB-2EC5-43E4-AEED-B61D72B7413E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E336AFB-2EC5-43E4-AEED-B61D72B7413E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{054679EA-5E20-4CF2-8EE9-95AD855909FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{054679EA-5E20-4CF2-8EE9-95AD855909FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{054679EA-5E20-4CF2-8EE9-95AD855909FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{054679EA-5E20-4CF2-8EE9-95AD855909FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2F03E82F-6737-404F-9BC1-69B803593899} = {2226708E-4F60-456A-911C-7FE2B1726871}
+		{B558AFEB-9ACE-4358-B5BE-957B2070824F} = {7F437D46-1E03-4F40-A218-E23A96166794}
+		{DCE41B2E-EA0C-4526-8684-D3CA13B52933} = {6991F2D1-282B-40F1-8C4C-B5E32BE554A6}
+		{D65753C1-B447-4887-9F05-0032594A6B9A} = {B95D287F-6BE7-4305-9ACE-9A457858AD1E}
+		{4E336AFB-2EC5-43E4-AEED-B61D72B7413E} = {B32916F5-6AE6-424A-A1B0-8A625BE4B1D5}
+		{054679EA-5E20-4CF2-8EE9-95AD855909FC} = {F4B0EFE0-158C-41BE-BBB1-BA3839EAF08C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22A599CB-3A0F-4D23-BDF3-367DD9B59816}
+	EndGlobalSection
+EndGlobal

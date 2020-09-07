@@ -1,0 +1,41 @@
+﻿@model Autonoma.IOT.Common.Entities.EstadoPrototipo
+
+@{
+    ViewBag.Title = "CambiarEstado";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@Html.ActionLink("Volver Al Menú", "Index", "Home")
+
+
+<link href="~/Content/cambioEstado.css" rel="stylesheet" />
+@Html.AntiForgeryToken()
+<div class="form-horizontal">
+    <h4>Estado Prototipo</h4>
+    <hr style="border-color:black" />
+    <div class="center-block text-justify" style="width:75%; background-color:rgb(160, 160, 160)">
+        <p class="font-weight-bold">
+            Puedes activar o desactivar la funcionalidad del prototipo de suministrar comida, esto es útil
+            cuando tu mascota no requiere o no puede llegar hasta el prototipo
+        </p>
+    </div>
+    <hr style="border-color:black" />
+    <div class="center-block" style="width:65%; margin:0 auto">
+        <div class="row">
+            <div class="col-xs-2 text-center">
+                <img style="height:30px; width:35px" src="~/Content/Images/verificado.png" />
+            </div>
+            <div class="col-xs-6 text-center">
+                <label style="height:30px;">
+                    Estado Prototipo
+                </label>
+            </div>
+            <div class="col-xs-4 text-center">
+                <label class="switch">
+                    <input type="checkbox" @(Model.Estado ? "checked" : string.Empty) id="checkEstado" onclick="setEstado();" />
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
+    </div>
+</div>
+

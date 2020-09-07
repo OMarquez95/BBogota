@@ -1,0 +1,1660 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\publish\RecuperacionClienteApp</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>10/05/2018 16:39:45</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>10/05/2018 16:39:46</publishTime>
+    </File>
+    <File Include="bin/App_GlobalResources/Botones.Designer.cs">
+      <publishTime>10/05/2018 16:26:13</publishTime>
+    </File>
+    <File Include="bin/App_GlobalResources/Botones.resx">
+      <publishTime>10/05/2018 16:26:13</publishTime>
+    </File>
+    <File Include="bin/App_GlobalResources/Generales.Designer.cs">
+      <publishTime>10/05/2018 16:26:13</publishTime>
+    </File>
+    <File Include="bin/App_GlobalResources/Generales.resx">
+      <publishTime>10/05/2018 16:26:14</publishTime>
+    </File>
+    <File Include="bin/App_GlobalResources/LabelCampos.Designer.cs">
+      <publishTime>10/05/2018 16:26:14</publishTime>
+    </File>
+    <File Include="bin/App_GlobalResources/LabelCampos.resx">
+      <publishTime>10/05/2018 16:26:14</publishTime>
+    </File>
+    <File Include="bin/App_GlobalResources/Titulos.Designer.cs">
+      <publishTime>10/05/2018 16:26:14</publishTime>
+    </File>
+    <File Include="bin/App_GlobalResources/Titulos.resx">
+      <publishTime>10/05/2018 16:26:14</publishTime>
+    </File>
+    <File Include="bin/AutoMapper.dll">
+      <publishTime>10/05/2018 16:39:47</publishTime>
+    </File>
+    <File Include="bin/CacheManager.Core.dll">
+      <publishTime>10/05/2018 16:39:45</publishTime>
+    </File>
+    <File Include="bin/CacheManager.Couchbase.dll">
+      <publishTime>10/05/2018 16:39:46</publishTime>
+    </File>
+    <File Include="bin/CacheManager.Memcached.dll">
+      <publishTime>10/05/2018 16:39:47</publishTime>
+    </File>
+    <File Include="bin/CacheManager.SystemRuntimeCaching.dll">
+      <publishTime>10/05/2018 16:39:47</publishTime>
+    </File>
+    <File Include="bin/Claro.Cryptography.dll">
+      <publishTime>10/05/2018 16:35:14</publishTime>
+    </File>
+    <File Include="bin/Claro.Rechazo.Common.dll">
+      <publishTime>09/24/2018 19:05:57</publishTime>
+    </File>
+    <File Include="bin/Claro.Rechazo.Common.pdb">
+      <publishTime>09/24/2018 19:05:57</publishTime>
+    </File>
+    <File Include="bin/Claro.Rechazo.WebApp.dll">
+      <publishTime>09/24/2018 19:06:11</publishTime>
+    </File>
+    <File Include="bin/Claro.Rechazo.WebApp.pdb">
+      <publishTime>09/24/2018 19:06:11</publishTime>
+    </File>
+    <File Include="bin/Claro.RecuperacionClientes.Common.dll">
+      <publishTime>10/10/2018 19:22:40</publishTime>
+    </File>
+    <File Include="bin/Claro.RecuperacionClientes.Common.pdb">
+      <publishTime>10/10/2018 19:22:40</publishTime>
+    </File>
+    <File Include="bin/Claro.RecuperacionClientes.WebApp.dll">
+      <publishTime>10/10/2018 19:22:51</publishTime>
+    </File>
+    <File Include="bin/Claro.RecuperacionClientes.WebApp.pdb">
+      <publishTime>10/10/2018 19:22:51</publishTime>
+    </File>
+    <File Include="bin/Common.Logging.Core.dll">
+      <publishTime>10/05/2018 16:39:47</publishTime>
+    </File>
+    <File Include="bin/Common.Logging.Core.pdb">
+      <publishTime>10/05/2018 16:39:47</publishTime>
+    </File>
+    <File Include="bin/Common.Logging.dll">
+      <publishTime>10/05/2018 16:39:47</publishTime>
+    </File>
+    <File Include="bin/Common.Logging.pdb">
+      <publishTime>10/05/2018 16:39:47</publishTime>
+    </File>
+    <File Include="bin/Couchbase.NetClient.dll">
+      <publishTime>10/05/2018 16:39:58</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>10/05/2018 16:40:49</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>10/05/2018 16:40:00</publishTime>
+    </File>
+    <File Include="bin/Enyim.Caching.dll">
+      <publishTime>10/05/2018 16:40:00</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.QualityTools.Testing.Fakes.resources.dll">
+      <publishTime>04/30/2018 19:33:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>10/05/2018 16:40:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>10/05/2018 16:40:02</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>10/05/2018 16:40:01</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>10/05/2018 16:40:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>10/05/2018 16:40:16</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>10/05/2018 16:40:19</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>10/05/2018 16:40:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>10/05/2018 16:40:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Facebook.dll">
+      <publishTime>10/05/2018 16:40:21</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Google.dll">
+      <publishTime>10/05/2018 16:40:19</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.MicrosoftAccount.dll">
+      <publishTime>10/05/2018 16:40:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>10/05/2018 16:40:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Twitter.dll">
+      <publishTime>10/05/2018 16:40:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.QualityTools.Testing.Fakes.dll">
+      <publishTime>10/10/2018 13:45:55</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>10/05/2018 16:40:23</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>10/05/2018 16:40:41</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>10/05/2018 16:40:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>10/05/2018 16:40:13</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>10/05/2018 16:40:11</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>10/05/2018 16:40:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>10/05/2018 16:40:36</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>10/05/2018 16:41:09</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>10/05/2018 16:27:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>10/05/2018 16:27:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>10/05/2018 16:40:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>10/05/2018 16:40:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>10/05/2018 16:40:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>10/05/2018 16:40:15</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>10/05/2018 16:27:53</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>10/05/2018 16:40:09</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>10/05/2018 16:40:10</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>10/05/2018 16:40:03</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>10/05/2018 16:40:10</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>10/05/2018 16:40:07</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>10/05/2018 16:40:10</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>10/05/2018 16:40:10</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>10/05/2018 16:41:02</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>10/05/2018 16:26:16</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>10/05/2018 16:26:14</publishTime>
+    </File>
+    <File Include="Content/css/bootstrap-datetimepicker.min.css">
+      <publishTime>10/05/2018 16:26:15</publishTime>
+    </File>
+    <File Include="Content/css/bootstrap.css">
+      <publishTime>10/05/2018 16:26:14</publishTime>
+    </File>
+    <File Include="Content/css/bootstrap.min.css">
+      <publishTime>10/05/2018 16:26:15</publishTime>
+    </File>
+    <File Include="Content/css/font/claroIcons.eot">
+      <publishTime>10/05/2018 16:26:15</publishTime>
+    </File>
+    <File Include="Content/css/font/claroIcons.svg">
+      <publishTime>10/05/2018 16:26:18</publishTime>
+    </File>
+    <File Include="Content/css/font/claroIcons.ttf">
+      <publishTime>10/05/2018 16:26:17</publishTime>
+    </File>
+    <File Include="Content/css/font/claroIcons.woff">
+      <publishTime>10/05/2018 16:26:15</publishTime>
+    </File>
+    <File Include="Content/css/font/DINFont.css">
+      <publishTime>10/05/2018 16:26:16</publishTime>
+    </File>
+    <File Include="Content/css/font/dinlight-webfont.eot">
+      <publishTime>10/05/2018 16:26:16</publishTime>
+    </File>
+    <File Include="Content/css/font/dinlight-webfont.svg">
+      <publishTime>10/05/2018 16:26:16</publishTime>
+    </File>
+    <File Include="Content/css/font/dinlight-webfont.ttf">
+      <publishTime>10/05/2018 16:26:16</publishTime>
+    </File>
+    <File Include="Content/css/font/dinlight-webfont.woff">
+      <publishTime>10/05/2018 16:26:16</publishTime>
+    </File>
+    <File Include="Content/css/font/dinlight-webfont.woff2">
+      <publishTime>10/05/2018 16:26:17</publishTime>
+    </File>
+    <File Include="Content/css/font/dinmedium.eot">
+      <publishTime>10/05/2018 16:26:17</publishTime>
+    </File>
+    <File Include="Content/css/font/dinmedium.svg">
+      <publishTime>10/05/2018 16:26:17</publishTime>
+    </File>
+    <File Include="Content/css/font/dinmedium.ttf">
+      <publishTime>10/05/2018 16:26:17</publishTime>
+    </File>
+    <File Include="Content/css/font/dinmedium.woff">
+      <publishTime>10/05/2018 16:26:17</publishTime>
+    </File>
+    <File Include="Content/css/font/dinmedium.woff2">
+      <publishTime>10/05/2018 16:26:17</publishTime>
+    </File>
+    <File Include="Content/css/images/arrowARight.png">
+      <publishTime>10/05/2018 16:26:17</publishTime>
+    </File>
+    <File Include="Content/css/images/arrowBDownGrey.png">
+      <publishTime>10/05/2018 16:26:17</publishTime>
+    </File>
+    <File Include="Content/css/images/arrowBRight.png">
+      <publishTime>10/05/2018 16:26:18</publishTime>
+    </File>
+    <File Include="Content/css/images/ArrowCDown.png">
+      <publishTime>10/05/2018 16:26:18</publishTime>
+    </File>
+    <File Include="Content/css/images/ArrowCLeftGrey.png">
+      <publishTime>10/05/2018 16:26:18</publishTime>
+    </File>
+    <File Include="Content/css/images/ArrowCRightBlue.png">
+      <publishTime>10/05/2018 16:26:18</publishTime>
+    </File>
+    <File Include="Content/css/images/ArrowCRightGrey.png">
+      <publishTime>10/05/2018 16:26:18</publishTime>
+    </File>
+    <File Include="Content/css/images/ArrowCUp.png">
+      <publishTime>10/05/2018 16:26:18</publishTime>
+    </File>
+    <File Include="Content/css/images/ArrowDDown.png">
+      <publishTime>10/05/2018 16:26:18</publishTime>
+    </File>
+    <File Include="Content/css/images/ArrowDUp.png">
+      <publishTime>10/05/2018 16:26:18</publishTime>
+    </File>
+    <File Include="Content/css/images/arrowTitle.png">
+      <publishTime>10/05/2018 16:26:18</publishTime>
+    </File>
+    <File Include="Content/css/images/bordertriangle.png">
+      <publishTime>10/05/2018 16:26:18</publishTime>
+    </File>
+    <File Include="Content/css/images/bottomLogger.gif">
+      <publishTime>10/05/2018 16:26:18</publishTime>
+    </File>
+    <File Include="Content/css/images/centerLogger.gif">
+      <publishTime>10/05/2018 16:26:18</publishTime>
+    </File>
+    <File Include="Content/css/images/claroID.png">
+      <publishTime>10/05/2018 16:26:18</publishTime>
+    </File>
+    <File Include="Content/css/images/clfondoTransparente.png">
+      <publishTime>10/05/2018 16:26:18</publishTime>
+    </File>
+    <File Include="Content/css/images/ConsultaFrecuente.png">
+      <publishTime>10/05/2018 16:26:18</publishTime>
+    </File>
+    <File Include="Content/css/images/ConsultaFrecuenteB.png">
+      <publishTime>10/05/2018 16:26:18</publishTime>
+    </File>
+    <File Include="Content/css/images/donaLimpia.png">
+      <publishTime>10/05/2018 16:26:19</publishTime>
+    </File>
+    <File Include="Content/css/images/errorValidation.png">
+      <publishTime>10/05/2018 16:26:19</publishTime>
+    </File>
+    <File Include="Content/css/images/fondoButtons.png">
+      <publishTime>10/05/2018 16:26:19</publishTime>
+    </File>
+    <File Include="Content/css/images/fondoButtonsDown.png">
+      <publishTime>10/05/2018 16:26:19</publishTime>
+    </File>
+    <File Include="Content/css/images/fondoButtonsOver.png">
+      <publishTime>10/05/2018 16:26:19</publishTime>
+    </File>
+    <File Include="Content/css/images/FondoCampos.png">
+      <publishTime>10/05/2018 16:26:19</publishTime>
+    </File>
+    <File Include="Content/css/images/fondoGrisA.png">
+      <publishTime>10/05/2018 16:26:19</publishTime>
+    </File>
+    <File Include="Content/css/images/fondoGrisB.png">
+      <publishTime>10/05/2018 16:26:19</publishTime>
+    </File>
+    <File Include="Content/css/images/fondoGrisC.png">
+      <publishTime>10/05/2018 16:26:19</publishTime>
+    </File>
+    <File Include="Content/css/images/fondoNegroA.png">
+      <publishTime>10/05/2018 16:26:19</publishTime>
+    </File>
+    <File Include="Content/css/images/fondoRojoA.png">
+      <publishTime>10/05/2018 16:26:19</publishTime>
+    </File>
+    <File Include="Content/css/images/fondoRojoB.png">
+      <publishTime>10/05/2018 16:26:19</publishTime>
+    </File>
+    <File Include="Content/css/images/fondoRojoC.png">
+      <publishTime>10/05/2018 16:26:19</publishTime>
+    </File>
+    <File Include="Content/css/images/FormCalendar.png">
+      <publishTime>10/05/2018 16:26:19</publishTime>
+    </File>
+    <File Include="Content/css/images/FormCalendarDis.png">
+      <publishTime>10/05/2018 16:26:20</publishTime>
+    </File>
+    <File Include="Content/css/images/FormCalendarSelected.png">
+      <publishTime>10/05/2018 16:26:20</publishTime>
+    </File>
+    <File Include="Content/css/images/FormCalendarSelectedDis.png">
+      <publishTime>10/05/2018 16:26:20</publishTime>
+    </File>
+    <File Include="Content/css/images/FormMsgeAlertIcon.png">
+      <publishTime>10/05/2018 16:26:20</publishTime>
+    </File>
+    <File Include="Content/css/images/FormMsgeErrorIcon.png">
+      <publishTime>10/05/2018 16:26:20</publishTime>
+    </File>
+    <File Include="Content/css/images/FormMsgeMessageIcon.png">
+      <publishTime>10/05/2018 16:26:20</publishTime>
+    </File>
+    <File Include="Content/css/images/FormMsgeNotificationIcon.png">
+      <publishTime>10/05/2018 16:26:20</publishTime>
+    </File>
+    <File Include="Content/css/images/FormMsgeQuestionIcon.png">
+      <publishTime>10/05/2018 16:26:20</publishTime>
+    </File>
+    <File Include="Content/css/images/FormMsgeReminderIcon.png">
+      <publishTime>10/05/2018 16:26:20</publishTime>
+    </File>
+    <File Include="Content/css/images/headerCopy.png">
+      <publishTime>10/05/2018 16:26:20</publishTime>
+    </File>
+    <File Include="Content/css/images/iconAction.png">
+      <publishTime>10/05/2018 16:26:20</publishTime>
+    </File>
+    <File Include="Content/css/images/iconAction2.png">
+      <publishTime>10/05/2018 16:26:21</publishTime>
+    </File>
+    <File Include="Content/css/images/iconAction2Dis.png">
+      <publishTime>10/05/2018 16:26:21</publishTime>
+    </File>
+    <File Include="Content/css/images/iconActionDis.png">
+      <publishTime>10/05/2018 16:26:23</publishTime>
+    </File>
+    <File Include="Content/css/images/IconoConsultaCredito.png">
+      <publishTime>10/05/2018 16:26:21</publishTime>
+    </File>
+    <File Include="Content/css/images/iconos-graficos-01.png">
+      <publishTime>10/05/2018 16:26:21</publishTime>
+    </File>
+    <File Include="Content/css/images/iconos-graficos-02.png">
+      <publishTime>10/05/2018 16:26:24</publishTime>
+    </File>
+    <File Include="Content/css/images/iconos-graficos-03.png">
+      <publishTime>10/05/2018 16:26:24</publishTime>
+    </File>
+    <File Include="Content/css/images/loading-messages-messagesDialog-formProcessConfirm.png">
+      <publishTime>10/05/2018 16:26:21</publishTime>
+    </File>
+    <File Include="Content/css/images/menuBTN.png">
+      <publishTime>10/05/2018 16:26:21</publishTime>
+    </File>
+    <File Include="Content/css/images/nextWhite.png">
+      <publishTime>10/05/2018 16:26:22</publishTime>
+    </File>
+    <File Include="Content/css/images/OkValidation.png">
+      <publishTime>10/05/2018 16:26:22</publishTime>
+    </File>
+    <File Include="Content/css/images/prevWhite.png">
+      <publishTime>10/05/2018 16:26:22</publishTime>
+    </File>
+    <File Include="Content/css/images/printWhite.png">
+      <publishTime>10/05/2018 16:26:22</publishTime>
+    </File>
+    <File Include="Content/css/images/requiredField.png">
+      <publishTime>10/05/2018 16:26:22</publishTime>
+    </File>
+    <File Include="Content/css/images/requiredFieldDis.png">
+      <publishTime>10/05/2018 16:26:22</publishTime>
+    </File>
+    <File Include="Content/css/images/s01.png">
+      <publishTime>10/05/2018 16:26:22</publishTime>
+    </File>
+    <File Include="Content/css/images/s02.png">
+      <publishTime>10/05/2018 16:26:23</publishTime>
+    </File>
+    <File Include="Content/css/images/s03.png">
+      <publishTime>10/05/2018 16:26:23</publishTime>
+    </File>
+    <File Include="Content/css/images/s04.png">
+      <publishTime>10/05/2018 16:26:23</publishTime>
+    </File>
+    <File Include="Content/css/images/s05.png">
+      <publishTime>10/05/2018 16:26:23</publishTime>
+    </File>
+    <File Include="Content/css/images/s06.png">
+      <publishTime>10/05/2018 16:26:23</publishTime>
+    </File>
+    <File Include="Content/css/images/s07.png">
+      <publishTime>10/05/2018 16:26:23</publishTime>
+    </File>
+    <File Include="Content/css/images/s08.png">
+      <publishTime>10/05/2018 16:26:23</publishTime>
+    </File>
+    <File Include="Content/css/images/saveWhite.png">
+      <publishTime>10/05/2018 16:26:24</publishTime>
+    </File>
+    <File Include="Content/css/images/semaforoGreen.png">
+      <publishTime>10/05/2018 16:26:26</publishTime>
+    </File>
+    <File Include="Content/css/images/semaforoOrange.png">
+      <publishTime>10/05/2018 16:26:26</publishTime>
+    </File>
+    <File Include="Content/css/images/semaforoRed.png">
+      <publishTime>10/05/2018 16:26:26</publishTime>
+    </File>
+    <File Include="Content/css/images/simpleBoxChecked.png">
+      <publishTime>10/05/2018 16:26:24</publishTime>
+    </File>
+    <File Include="Content/css/images/simpleBoxCheckedDis.png">
+      <publishTime>10/05/2018 16:26:24</publishTime>
+    </File>
+    <File Include="Content/css/images/simpleBoxUnChecked.png">
+      <publishTime>10/05/2018 16:26:25</publishTime>
+    </File>
+    <File Include="Content/css/images/simpleBoxUnCheckedDis.png">
+      <publishTime>10/05/2018 16:26:25</publishTime>
+    </File>
+    <File Include="Content/css/images/simpleRadio.png">
+      <publishTime>10/05/2018 16:26:25</publishTime>
+    </File>
+    <File Include="Content/css/images/simpleRadioCheck.png">
+      <publishTime>10/05/2018 16:26:25</publishTime>
+    </File>
+    <File Include="Content/css/images/simpleRadioCheckDis.png">
+      <publishTime>10/05/2018 16:26:25</publishTime>
+    </File>
+    <File Include="Content/css/images/simpleRadioDis.png">
+      <publishTime>10/05/2018 16:26:25</publishTime>
+    </File>
+    <File Include="Content/css/images/Sprites.png">
+      <publishTime>10/05/2018 16:26:27</publishTime>
+    </File>
+    <File Include="Content/css/images/Tecnologia.png">
+      <publishTime>10/05/2018 16:26:26</publishTime>
+    </File>
+    <File Include="Content/css/images/TecnologiaB.png">
+      <publishTime>10/05/2018 16:26:26</publishTime>
+    </File>
+    <File Include="Content/css/images/TecnologiaBDis.png">
+      <publishTime>10/05/2018 16:26:26</publishTime>
+    </File>
+    <File Include="Content/css/images/TecnologiaDis.png">
+      <publishTime>10/05/2018 16:26:26</publishTime>
+    </File>
+    <File Include="Content/css/images/textureAlpha14.png">
+      <publishTime>10/05/2018 16:26:29</publishTime>
+    </File>
+    <File Include="Content/css/images/titleIngresoHomePoliedro.gif">
+      <publishTime>10/05/2018 16:26:26</publishTime>
+    </File>
+    <File Include="Content/css/images/topLogger.gif">
+      <publishTime>10/05/2018 16:26:26</publishTime>
+    </File>
+    <File Include="Content/css/images/waitingIcon.gif">
+      <publishTime>10/05/2018 16:26:26</publishTime>
+    </File>
+    <File Include="Content/css/MenuPrincipal.css">
+      <publishTime>10/05/2018 16:26:15</publishTime>
+    </File>
+    <File Include="Content/css/select2.min.css">
+      <publishTime>10/05/2018 16:26:15</publishTime>
+    </File>
+    <File Include="Content/css/Site.css">
+      <publishTime>10/05/2018 16:26:17</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/autoFill.bootstrap.css">
+      <publishTime>10/05/2018 16:26:27</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/autoFill.bootstrap.min.css">
+      <publishTime>10/05/2018 16:26:27</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/autoFill.bootstrap4.css">
+      <publishTime>10/05/2018 16:26:27</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/autoFill.bootstrap4.min.css">
+      <publishTime>10/05/2018 16:26:27</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/autoFill.dataTables.css">
+      <publishTime>10/05/2018 16:26:27</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/autoFill.dataTables.min.css">
+      <publishTime>10/05/2018 16:26:27</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/autoFill.foundation.css">
+      <publishTime>10/05/2018 16:26:27</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/autoFill.foundation.min.css">
+      <publishTime>10/05/2018 16:26:27</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/autoFill.jqueryui.css">
+      <publishTime>10/05/2018 16:26:27</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/autoFill.jqueryui.min.css">
+      <publishTime>10/05/2018 16:26:27</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/autoFill.semanticui.css">
+      <publishTime>10/05/2018 16:26:27</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/autoFill.semanticui.min.css">
+      <publishTime>10/05/2018 16:26:27</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/buttons.bootstrap.css">
+      <publishTime>10/05/2018 16:26:28</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/buttons.bootstrap.min.css">
+      <publishTime>10/05/2018 16:26:28</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/buttons.bootstrap4.css">
+      <publishTime>10/05/2018 16:26:28</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/buttons.bootstrap4.min.css">
+      <publishTime>10/05/2018 16:26:28</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/buttons.dataTables.css">
+      <publishTime>10/05/2018 16:26:28</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/buttons.dataTables.min.css">
+      <publishTime>10/05/2018 16:26:28</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/buttons.foundation.css">
+      <publishTime>10/05/2018 16:26:28</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/buttons.foundation.min.css">
+      <publishTime>10/05/2018 16:26:28</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/buttons.jqueryui.css">
+      <publishTime>10/05/2018 16:26:28</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/buttons.jqueryui.min.css">
+      <publishTime>10/05/2018 16:26:28</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/buttons.semanticui.css">
+      <publishTime>10/05/2018 16:26:28</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/buttons.semanticui.min.css">
+      <publishTime>10/05/2018 16:26:28</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/colReorder.bootstrap.css">
+      <publishTime>10/05/2018 16:26:28</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/colReorder.bootstrap.min.css">
+      <publishTime>10/05/2018 16:26:28</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/colReorder.bootstrap4.css">
+      <publishTime>10/05/2018 16:26:29</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/colReorder.bootstrap4.min.css">
+      <publishTime>10/05/2018 16:26:29</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/colReorder.dataTables.css">
+      <publishTime>10/05/2018 16:26:29</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/colReorder.dataTables.min.css">
+      <publishTime>10/05/2018 16:26:29</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/colReorder.foundation.css">
+      <publishTime>10/05/2018 16:26:29</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/colReorder.foundation.min.css">
+      <publishTime>10/05/2018 16:26:29</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/colReorder.jqueryui.css">
+      <publishTime>10/05/2018 16:26:29</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/colReorder.jqueryui.min.css">
+      <publishTime>10/05/2018 16:26:29</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/colReorder.semanticui.css">
+      <publishTime>10/05/2018 16:26:29</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/colReorder.semanticui.min.css">
+      <publishTime>10/05/2018 16:26:29</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/common.scss">
+      <publishTime>10/05/2018 16:26:29</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/dataTables.bootstrap.css">
+      <publishTime>10/05/2018 16:26:29</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/dataTables.bootstrap.min.css">
+      <publishTime>10/05/2018 16:26:29</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/dataTables.bootstrap4.css">
+      <publishTime>10/05/2018 16:26:30</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/dataTables.bootstrap4.min.css">
+      <publishTime>10/05/2018 16:26:30</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/dataTables.foundation.css">
+      <publishTime>10/05/2018 16:26:30</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/dataTables.foundation.min.css">
+      <publishTime>10/05/2018 16:26:30</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/dataTables.jqueryui.css">
+      <publishTime>10/05/2018 16:26:30</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/dataTables.jqueryui.min.css">
+      <publishTime>10/05/2018 16:26:30</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/dataTables.material.css">
+      <publishTime>10/05/2018 16:26:30</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/dataTables.material.min.css">
+      <publishTime>10/05/2018 16:26:30</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/dataTables.semanticui.css">
+      <publishTime>10/05/2018 16:26:30</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/dataTables.semanticui.min.css">
+      <publishTime>10/05/2018 16:26:30</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/dataTables.uikit.css">
+      <publishTime>10/05/2018 16:26:30</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/dataTables.uikit.min.css">
+      <publishTime>10/05/2018 16:26:30</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedColumns.bootstrap.css">
+      <publishTime>10/05/2018 16:26:30</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedColumns.bootstrap.min.css">
+      <publishTime>10/05/2018 16:26:30</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedColumns.bootstrap4.css">
+      <publishTime>10/05/2018 16:26:30</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedColumns.bootstrap4.min.css">
+      <publishTime>10/05/2018 16:26:30</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedColumns.dataTables.css">
+      <publishTime>10/05/2018 16:26:31</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedColumns.dataTables.min.css">
+      <publishTime>10/05/2018 16:26:31</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedColumns.foundation.css">
+      <publishTime>10/05/2018 16:26:31</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedColumns.foundation.min.css">
+      <publishTime>10/05/2018 16:26:31</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedColumns.jqueryui.css">
+      <publishTime>10/05/2018 16:26:31</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedColumns.jqueryui.min.css">
+      <publishTime>10/05/2018 16:26:31</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedColumns.semanticui.css">
+      <publishTime>10/05/2018 16:26:31</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedColumns.semanticui.min.css">
+      <publishTime>10/05/2018 16:26:31</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedHeader.bootstrap.css">
+      <publishTime>10/05/2018 16:26:31</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedHeader.bootstrap.min.css">
+      <publishTime>10/05/2018 16:26:31</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedHeader.bootstrap4.css">
+      <publishTime>10/05/2018 16:26:31</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedHeader.bootstrap4.min.css">
+      <publishTime>10/05/2018 16:26:31</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedHeader.dataTables.css">
+      <publishTime>10/05/2018 16:26:31</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedHeader.dataTables.min.css">
+      <publishTime>10/05/2018 16:26:31</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedHeader.foundation.css">
+      <publishTime>10/05/2018 16:26:31</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedHeader.foundation.min.css">
+      <publishTime>10/05/2018 16:26:32</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedHeader.jqueryui.css">
+      <publishTime>10/05/2018 16:26:32</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedHeader.jqueryui.min.css">
+      <publishTime>10/05/2018 16:26:32</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedHeader.semanticui.css">
+      <publishTime>10/05/2018 16:26:32</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedHeader.semanticui.min.css">
+      <publishTime>10/05/2018 16:26:32</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/jquery.dataTables.claro.min.css">
+      <publishTime>10/05/2018 16:26:32</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/jquery.dataTables.css">
+      <publishTime>10/05/2018 16:26:32</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/jquery.dataTables.min.css">
+      <publishTime>10/05/2018 16:26:32</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/jquery.dataTables_themeroller.css">
+      <publishTime>10/05/2018 16:26:32</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/keyTable.bootstrap.css">
+      <publishTime>10/05/2018 16:26:32</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/keyTable.bootstrap.min.css">
+      <publishTime>10/05/2018 16:26:32</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/keyTable.bootstrap4.css">
+      <publishTime>10/05/2018 16:26:32</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/keyTable.bootstrap4.min.css">
+      <publishTime>10/05/2018 16:26:32</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/keyTable.dataTables.css">
+      <publishTime>10/05/2018 16:26:32</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/keyTable.dataTables.min.css">
+      <publishTime>10/05/2018 16:26:32</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/keyTable.foundation.css">
+      <publishTime>10/05/2018 16:26:32</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/keyTable.foundation.min.css">
+      <publishTime>10/05/2018 16:26:32</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/keyTable.jqueryui.css">
+      <publishTime>10/05/2018 16:26:32</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/keyTable.jqueryui.min.css">
+      <publishTime>10/05/2018 16:26:33</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/keyTable.semanticui.css">
+      <publishTime>10/05/2018 16:26:33</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/keyTable.semanticui.min.css">
+      <publishTime>10/05/2018 16:26:33</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/mixins.scss">
+      <publishTime>10/05/2018 16:26:33</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/responsive.bootstrap.css">
+      <publishTime>10/05/2018 16:26:33</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/responsive.bootstrap.min.css">
+      <publishTime>10/05/2018 16:26:33</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/responsive.bootstrap4.css">
+      <publishTime>10/05/2018 16:26:33</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/responsive.bootstrap4.min.css">
+      <publishTime>10/05/2018 16:26:33</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/responsive.dataTables.css">
+      <publishTime>10/05/2018 16:26:33</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/responsive.dataTables.min.css">
+      <publishTime>10/05/2018 16:26:33</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/responsive.foundation.css">
+      <publishTime>10/05/2018 16:26:33</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/responsive.foundation.min.css">
+      <publishTime>10/05/2018 16:26:33</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/responsive.jqueryui.css">
+      <publishTime>10/05/2018 16:26:33</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/responsive.jqueryui.min.css">
+      <publishTime>10/05/2018 16:26:33</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/responsive.semanticui.css">
+      <publishTime>10/05/2018 16:26:33</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/responsive.semanticui.min.css">
+      <publishTime>10/05/2018 16:26:34</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/rowGroup.bootstrap.css">
+      <publishTime>10/05/2018 16:26:34</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/rowGroup.bootstrap.min.css">
+      <publishTime>10/05/2018 16:26:34</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/rowGroup.bootstrap4.css">
+      <publishTime>10/05/2018 16:26:34</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/rowGroup.bootstrap4.min.css">
+      <publishTime>10/05/2018 16:26:34</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/rowGroup.dataTables.css">
+      <publishTime>10/05/2018 16:26:34</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/rowGroup.dataTables.min.css">
+      <publishTime>10/05/2018 16:26:34</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/rowGroup.foundation.css">
+      <publishTime>10/05/2018 16:26:34</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/rowGroup.foundation.min.css">
+      <publishTime>10/05/2018 16:26:34</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/rowGroup.jqueryui.css">
+      <publishTime>10/05/2018 16:26:34</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/rowGroup.jqueryui.min.css">
+      <publishTime>10/05/2018 16:26:34</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/rowGroup.semanticui.css">
+      <publishTime>10/05/2018 16:26:34</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/rowGroup.semanticui.min.css">
+      <publishTime>10/05/2018 16:26:34</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/rowReorder.bootstrap.css">
+      <publishTime>10/05/2018 16:26:34</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/rowReorder.bootstrap.min.css">
+      <publishTime>10/05/2018 16:26:34</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/rowReorder.bootstrap4.css">
+      <publishTime>10/05/2018 16:26:35</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/rowReorder.bootstrap4.min.css">
+      <publishTime>10/05/2018 16:26:35</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/rowReorder.dataTables.css">
+      <publishTime>10/05/2018 16:26:35</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/rowReorder.dataTables.min.css">
+      <publishTime>10/05/2018 16:26:35</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/rowReorder.foundation.css">
+      <publishTime>10/05/2018 16:26:35</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/rowReorder.foundation.min.css">
+      <publishTime>10/05/2018 16:26:35</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/rowReorder.jqueryui.css">
+      <publishTime>10/05/2018 16:26:35</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/rowReorder.jqueryui.min.css">
+      <publishTime>10/05/2018 16:26:35</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/rowReorder.semanticui.css">
+      <publishTime>10/05/2018 16:26:35</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/rowReorder.semanticui.min.css">
+      <publishTime>10/05/2018 16:26:35</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/scroller.bootstrap.css">
+      <publishTime>10/05/2018 16:26:35</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/scroller.bootstrap.min.css">
+      <publishTime>10/05/2018 16:26:35</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/scroller.bootstrap4.css">
+      <publishTime>10/05/2018 16:26:35</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/scroller.bootstrap4.min.css">
+      <publishTime>10/05/2018 16:26:35</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/scroller.dataTables.css">
+      <publishTime>10/05/2018 16:26:36</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/scroller.dataTables.min.css">
+      <publishTime>10/05/2018 16:26:36</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/scroller.foundation.css">
+      <publishTime>10/05/2018 16:26:36</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/scroller.foundation.min.css">
+      <publishTime>10/05/2018 16:26:36</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/scroller.jqueryui.css">
+      <publishTime>10/05/2018 16:26:36</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/scroller.jqueryui.min.css">
+      <publishTime>10/05/2018 16:26:36</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/scroller.semanticui.css">
+      <publishTime>10/05/2018 16:26:36</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/scroller.semanticui.min.css">
+      <publishTime>10/05/2018 16:26:36</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/select.bootstrap.css">
+      <publishTime>10/05/2018 16:26:36</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/select.bootstrap.min.css">
+      <publishTime>10/05/2018 16:26:36</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/select.bootstrap4.css">
+      <publishTime>10/05/2018 16:26:36</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/select.bootstrap4.min.css">
+      <publishTime>10/05/2018 16:26:36</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/select.dataTables.css">
+      <publishTime>10/05/2018 16:26:36</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/select.dataTables.min.css">
+      <publishTime>10/05/2018 16:26:37</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/select.foundation.css">
+      <publishTime>10/05/2018 16:26:37</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/select.foundation.min.css">
+      <publishTime>10/05/2018 16:26:37</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/select.jqueryui.css">
+      <publishTime>10/05/2018 16:26:37</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/select.jqueryui.min.css">
+      <publishTime>10/05/2018 16:26:37</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/select.semanticui.css">
+      <publishTime>10/05/2018 16:26:37</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/select.semanticui.min.css">
+      <publishTime>10/05/2018 16:26:37</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/semanticui.scss">
+      <publishTime>10/05/2018 16:26:37</publishTime>
+    </File>
+    <File Include="Content/DataTables/images/details_close.png">
+      <publishTime>10/05/2018 16:26:37</publishTime>
+    </File>
+    <File Include="Content/DataTables/images/details_open.png">
+      <publishTime>10/05/2018 16:26:37</publishTime>
+    </File>
+    <File Include="Content/DataTables/images/sort_asc.png">
+      <publishTime>10/05/2018 16:26:38</publishTime>
+    </File>
+    <File Include="Content/DataTables/images/sort_asc_disabled.png">
+      <publishTime>10/05/2018 16:26:37</publishTime>
+    </File>
+    <File Include="Content/DataTables/images/sort_both.png">
+      <publishTime>10/05/2018 16:26:38</publishTime>
+    </File>
+    <File Include="Content/DataTables/images/sort_desc.png">
+      <publishTime>10/05/2018 16:26:38</publishTime>
+    </File>
+    <File Include="Content/DataTables/images/sort_desc_disabled.png">
+      <publishTime>10/05/2018 16:26:38</publishTime>
+    </File>
+    <File Include="Content/DataTables/swf/flashExport.swf">
+      <publishTime>10/05/2018 16:26:39</publishTime>
+    </File>
+    <File Include="Content/font-awesome.css">
+      <publishTime>10/05/2018 16:26:16</publishTime>
+    </File>
+    <File Include="Content/font-awesome.min.css">
+      <publishTime>10/05/2018 16:26:14</publishTime>
+    </File>
+    <File Include="Content/images/cargando.gif">
+      <publishTime>10/05/2018 16:26:39</publishTime>
+    </File>
+    <File Include="Content/images/claroID.png">
+      <publishTime>10/05/2018 16:26:38</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>10/05/2018 16:26:14</publishTime>
+    </File>
+    <File Include="Content/themes/base/accordion.css">
+      <publishTime>10/05/2018 16:26:38</publishTime>
+    </File>
+    <File Include="Content/themes/base/all.css">
+      <publishTime>10/05/2018 16:26:38</publishTime>
+    </File>
+    <File Include="Content/themes/base/autocomplete.css">
+      <publishTime>10/05/2018 16:26:38</publishTime>
+    </File>
+    <File Include="Content/themes/base/base.css">
+      <publishTime>10/05/2018 16:26:38</publishTime>
+    </File>
+    <File Include="Content/themes/base/button.css">
+      <publishTime>10/05/2018 16:26:38</publishTime>
+    </File>
+    <File Include="Content/themes/base/core.css">
+      <publishTime>10/05/2018 16:26:38</publishTime>
+    </File>
+    <File Include="Content/themes/base/datepicker.css">
+      <publishTime>10/05/2018 16:26:39</publishTime>
+    </File>
+    <File Include="Content/themes/base/dialog.css">
+      <publishTime>10/05/2018 16:26:39</publishTime>
+    </File>
+    <File Include="Content/themes/base/draggable.css">
+      <publishTime>10/05/2018 16:26:39</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>10/05/2018 16:26:40</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>10/05/2018 16:26:40</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_55_fbf9ee_1x400.png">
+      <publishTime>10/05/2018 16:26:40</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>10/05/2018 16:26:40</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>10/05/2018 16:26:40</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>10/05/2018 16:26:40</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>10/05/2018 16:26:40</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>10/05/2018 16:26:40</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_222222_256x240.png">
+      <publishTime>10/05/2018 16:26:40</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>10/05/2018 16:26:40</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_444444_256x240.png">
+      <publishTime>10/05/2018 16:26:40</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_454545_256x240.png">
+      <publishTime>10/05/2018 16:26:40</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_555555_256x240.png">
+      <publishTime>10/05/2018 16:26:40</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_777620_256x240.png">
+      <publishTime>10/05/2018 16:26:40</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_777777_256x240.png">
+      <publishTime>10/05/2018 16:26:41</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_888888_256x240.png">
+      <publishTime>10/05/2018 16:26:41</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_cc0000_256x240.png">
+      <publishTime>10/05/2018 16:26:41</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>10/05/2018 16:26:41</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_ffffff_256x240.png">
+      <publishTime>10/05/2018 16:26:41</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery-ui.css">
+      <publishTime>10/05/2018 16:26:39</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery-ui.min.css">
+      <publishTime>10/05/2018 16:26:39</publishTime>
+    </File>
+    <File Include="Content/themes/base/menu.css">
+      <publishTime>10/05/2018 16:26:39</publishTime>
+    </File>
+    <File Include="Content/themes/base/progressbar.css">
+      <publishTime>10/05/2018 16:26:39</publishTime>
+    </File>
+    <File Include="Content/themes/base/resizable.css">
+      <publishTime>10/05/2018 16:26:39</publishTime>
+    </File>
+    <File Include="Content/themes/base/selectable.css">
+      <publishTime>10/05/2018 16:26:39</publishTime>
+    </File>
+    <File Include="Content/themes/base/selectmenu.css">
+      <publishTime>10/05/2018 16:26:39</publishTime>
+    </File>
+    <File Include="Content/themes/base/slider.css">
+      <publishTime>10/05/2018 16:26:39</publishTime>
+    </File>
+    <File Include="Content/themes/base/sortable.css">
+      <publishTime>10/05/2018 16:26:39</publishTime>
+    </File>
+    <File Include="Content/themes/base/spinner.css">
+      <publishTime>10/05/2018 16:26:39</publishTime>
+    </File>
+    <File Include="Content/themes/base/tabs.css">
+      <publishTime>10/05/2018 16:26:39</publishTime>
+    </File>
+    <File Include="Content/themes/base/theme.css">
+      <publishTime>10/05/2018 16:26:40</publishTime>
+    </File>
+    <File Include="Content/themes/base/tooltip.css">
+      <publishTime>10/05/2018 16:26:40</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>10/05/2018 16:26:13</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.eot">
+      <publishTime>10/05/2018 16:26:44</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.svg">
+      <publishTime>10/05/2018 16:26:47</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.ttf">
+      <publishTime>10/05/2018 16:26:46</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff">
+      <publishTime>10/05/2018 16:26:43</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff2">
+      <publishTime>10/05/2018 16:26:43</publishTime>
+    </File>
+    <File Include="fonts/FontAwesome.otf">
+      <publishTime>10/05/2018 16:26:48</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>10/05/2018 16:26:44</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>10/05/2018 16:26:42</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>10/05/2018 16:26:43</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>10/05/2018 16:26:43</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>10/05/2018 16:26:13</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>10/05/2018 16:26:13</publishTime>
+    </File>
+    <File Include="Scripts/app/Views/ValidacionReferido/Referidos.js">
+      <publishTime>10/10/2018 01:20:34</publishTime>
+    </File>
+    <File Include="Scripts/app/Views/ValidacionReferido/validacion.js">
+      <publishTime>10/10/2018 01:20:34</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>10/05/2018 16:26:46</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>10/05/2018 16:26:46</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/autoFill.bootstrap.js">
+      <publishTime>10/05/2018 16:26:48</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/autoFill.bootstrap.min.js">
+      <publishTime>10/05/2018 16:26:49</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/autoFill.bootstrap4.js">
+      <publishTime>10/05/2018 16:26:49</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/autoFill.bootstrap4.min.js">
+      <publishTime>10/05/2018 16:26:49</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/autoFill.foundation.js">
+      <publishTime>10/05/2018 16:26:49</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/autoFill.foundation.min.js">
+      <publishTime>10/05/2018 16:26:49</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/autoFill.jqueryui.js">
+      <publishTime>10/05/2018 16:26:49</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/autoFill.jqueryui.min.js">
+      <publishTime>10/05/2018 16:26:49</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/autoFill.semanticui.js">
+      <publishTime>10/05/2018 16:26:49</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/autoFill.semanticui.min.js">
+      <publishTime>10/05/2018 16:26:50</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/buttons.bootstrap.js">
+      <publishTime>10/05/2018 16:26:50</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/buttons.bootstrap.min.js">
+      <publishTime>10/05/2018 16:26:50</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/buttons.bootstrap4.js">
+      <publishTime>10/05/2018 16:26:50</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/buttons.bootstrap4.min.js">
+      <publishTime>10/05/2018 16:26:50</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/buttons.colVis.js">
+      <publishTime>10/05/2018 16:26:50</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/buttons.colVis.min.js">
+      <publishTime>10/05/2018 16:26:50</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/buttons.flash.js">
+      <publishTime>10/05/2018 16:26:50</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/buttons.flash.min.js">
+      <publishTime>10/05/2018 16:26:51</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/buttons.foundation.js">
+      <publishTime>10/05/2018 16:26:50</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/buttons.foundation.min.js">
+      <publishTime>10/05/2018 16:26:50</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/buttons.html5.js">
+      <publishTime>10/05/2018 16:26:50</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/buttons.html5.min.js">
+      <publishTime>10/05/2018 16:26:50</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/buttons.jqueryui.js">
+      <publishTime>10/05/2018 16:26:51</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/buttons.jqueryui.min.js">
+      <publishTime>10/05/2018 16:26:51</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/buttons.print.js">
+      <publishTime>10/05/2018 16:26:51</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/buttons.print.min.js">
+      <publishTime>10/05/2018 16:26:51</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/buttons.semanticui.js">
+      <publishTime>10/05/2018 16:26:51</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/buttons.semanticui.min.js">
+      <publishTime>10/05/2018 16:26:51</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.autoFill.js">
+      <publishTime>10/05/2018 16:26:51</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.autoFill.min.js">
+      <publishTime>10/05/2018 16:26:51</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.bootstrap.js">
+      <publishTime>10/05/2018 16:26:51</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.bootstrap.min.js">
+      <publishTime>10/05/2018 16:26:51</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.bootstrap4.js">
+      <publishTime>10/05/2018 16:26:51</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.bootstrap4.min.js">
+      <publishTime>10/05/2018 16:26:51</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.buttons.js">
+      <publishTime>10/05/2018 16:26:52</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.buttons.min.js">
+      <publishTime>10/05/2018 16:26:52</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.colReorder.js">
+      <publishTime>10/05/2018 16:26:52</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.colReorder.min.js">
+      <publishTime>10/05/2018 16:26:52</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.fixedColumns.js">
+      <publishTime>10/05/2018 16:26:52</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.fixedColumns.min.js">
+      <publishTime>10/05/2018 16:26:52</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.fixedHeader.js">
+      <publishTime>10/05/2018 16:26:52</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.fixedHeader.min.js">
+      <publishTime>10/05/2018 16:26:52</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.foundation.js">
+      <publishTime>10/05/2018 16:26:52</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.foundation.min.js">
+      <publishTime>10/05/2018 16:26:53</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.jqueryui.js">
+      <publishTime>10/05/2018 16:26:53</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.jqueryui.min.js">
+      <publishTime>10/05/2018 16:26:53</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.keyTable.js">
+      <publishTime>10/05/2018 16:26:53</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.keyTable.min.js">
+      <publishTime>10/05/2018 16:26:53</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.material.js">
+      <publishTime>10/05/2018 16:26:53</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.material.min.js">
+      <publishTime>10/05/2018 16:26:53</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.responsive.js">
+      <publishTime>10/05/2018 16:26:53</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.responsive.min.js">
+      <publishTime>10/05/2018 16:26:54</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.rowGroup.js">
+      <publishTime>10/05/2018 16:26:54</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.rowGroup.min.js">
+      <publishTime>10/05/2018 16:26:54</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.rowReorder.js">
+      <publishTime>10/05/2018 16:26:54</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.rowReorder.min.js">
+      <publishTime>10/05/2018 16:26:54</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.scroller.js">
+      <publishTime>10/05/2018 16:26:54</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.scroller.min.js">
+      <publishTime>10/05/2018 16:26:54</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.select.js">
+      <publishTime>10/05/2018 16:26:54</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.select.min.js">
+      <publishTime>10/05/2018 16:26:54</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.semanticui.js">
+      <publishTime>10/05/2018 16:26:54</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.semanticui.min.js">
+      <publishTime>10/05/2018 16:26:55</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.uikit.js">
+      <publishTime>10/05/2018 16:26:54</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.uikit.min.js">
+      <publishTime>10/05/2018 16:26:55</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/jquery.dataTables.js">
+      <publishTime>10/05/2018 16:26:56</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/jquery.dataTables.min.js">
+      <publishTime>10/05/2018 16:26:55</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/language/es.json">
+      <publishTime>10/05/2018 16:26:56</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/responsive.bootstrap.js">
+      <publishTime>10/05/2018 16:26:55</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/responsive.bootstrap.min.js">
+      <publishTime>10/05/2018 16:26:55</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/responsive.bootstrap4.js">
+      <publishTime>10/05/2018 16:26:55</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/responsive.bootstrap4.min.js">
+      <publishTime>10/05/2018 16:26:55</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/responsive.foundation.js">
+      <publishTime>10/05/2018 16:26:55</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/responsive.foundation.min.js">
+      <publishTime>10/05/2018 16:26:55</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/responsive.jqueryui.js">
+      <publishTime>10/05/2018 16:26:55</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/responsive.jqueryui.min.js">
+      <publishTime>10/05/2018 16:26:55</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/responsive.semanticui.js">
+      <publishTime>10/05/2018 16:26:55</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/responsive.semanticui.min.js">
+      <publishTime>10/05/2018 16:26:55</publishTime>
+    </File>
+    <File Include="Scripts/initialLoad.js">
+      <publishTime>10/05/2018 16:26:46</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>04/12/2018 16:56:09</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>04/12/2018 16:56:09</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>04/12/2018 16:56:09</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.12.4.js">
+      <publishTime>10/05/2018 16:26:49</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.12.4.min.js">
+      <publishTime>10/05/2018 16:26:49</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.12.4.min.map">
+      <publishTime>10/05/2018 16:26:48</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.12.1.js">
+      <publishTime>10/05/2018 16:26:49</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.12.1.min.js">
+      <publishTime>10/05/2018 16:26:49</publishTime>
+    </File>
+    <File Include="Scripts/jquery.blockUI.js">
+      <publishTime>10/05/2018 16:26:46</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>10/05/2018 16:26:46</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>10/05/2018 16:26:46</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>10/05/2018 16:26:46</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>10/05/2018 16:26:46</publishTime>
+    </File>
+    <File Include="Scripts/MenuPrincipal.js">
+      <publishTime>10/05/2018 16:26:47</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>10/05/2018 16:26:48</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>10/05/2018 16:26:48</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>10/05/2018 16:26:48</publishTime>
+    </File>
+    <File Include="Scripts/Utilidades.js">
+      <publishTime>10/10/2018 01:20:34</publishTime>
+    </File>
+    <File Include="Scripts/Views/AuditoriaRechazos/EditarAuditRech.js">
+      <publishTime>07/10/2018 14:52:09</publishTime>
+    </File>
+    <File Include="Scripts/Views/AuditoriaRechazos/ValidacionAudRech.js">
+      <publishTime>07/12/2018 17:23:03</publishTime>
+    </File>
+    <File Include="Scripts/Views/ValidacionRechazo/EditarValidacion.js">
+      <publishTime>07/10/2018 14:52:09</publishTime>
+    </File>
+    <File Include="Scripts/Views/ValidacionRechazo/EditarValidacionCadenas.js">
+      <publishTime>07/10/2018 14:52:09</publishTime>
+    </File>
+    <File Include="Scripts/Views/ValidacionRechazo/EditarValidacionPospago.js">
+      <publishTime>07/10/2018 14:52:09</publishTime>
+    </File>
+    <File Include="Scripts/Views/ValidacionRechazo/EditarValidacionPrepago.js">
+      <publishTime>07/10/2018 14:52:09</publishTime>
+    </File>
+    <File Include="Scripts/Views/ValidacionRechazo/validacion.js">
+      <publishTime>07/12/2018 17:13:07</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>10/05/2018 16:26:46</publishTime>
+    </File>
+    <File Include="Views/Account/ConfirmEmail.cshtml">
+      <publishTime>07/10/2018 14:52:09</publishTime>
+    </File>
+    <File Include="Views/Account/ExternalLoginConfirmation.cshtml">
+      <publishTime>07/10/2018 14:52:09</publishTime>
+    </File>
+    <File Include="Views/Account/ExternalLoginFailure.cshtml">
+      <publishTime>07/10/2018 14:52:09</publishTime>
+    </File>
+    <File Include="Views/Account/ForgotPassword.cshtml">
+      <publishTime>07/10/2018 14:52:09</publishTime>
+    </File>
+    <File Include="Views/Account/ForgotPasswordConfirmation.cshtml">
+      <publishTime>07/10/2018 14:52:09</publishTime>
+    </File>
+    <File Include="Views/Account/Login.cshtml">
+      <publishTime>07/10/2018 14:52:10</publishTime>
+    </File>
+    <File Include="Views/Account/Register.cshtml">
+      <publishTime>07/10/2018 14:52:10</publishTime>
+    </File>
+    <File Include="Views/Account/ResetPassword.cshtml">
+      <publishTime>07/10/2018 14:52:10</publishTime>
+    </File>
+    <File Include="Views/Account/ResetPasswordConfirmation.cshtml">
+      <publishTime>07/10/2018 14:52:10</publishTime>
+    </File>
+    <File Include="Views/Account/SendCode.cshtml">
+      <publishTime>07/10/2018 14:52:10</publishTime>
+    </File>
+    <File Include="Views/Account/VerifyCode.cshtml">
+      <publishTime>07/10/2018 14:52:10</publishTime>
+    </File>
+    <File Include="Views/Account/_ExternalLoginsListPartial.cshtml">
+      <publishTime>07/10/2018 14:52:09</publishTime>
+    </File>
+    <File Include="Views/AuditoriaRechazo/Index.cshtml">
+      <publishTime>07/10/2018 14:52:10</publishTime>
+    </File>
+    <File Include="Views/Dispatcher/Index.cshtml">
+      <publishTime>10/05/2018 16:26:56</publishTime>
+    </File>
+    <File Include="Views/Dispatcher/SalirRechazos.cshtml">
+      <publishTime>10/05/2018 16:26:56</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>07/10/2018 14:52:10</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>07/10/2018 14:52:10</publishTime>
+    </File>
+    <File Include="Views/Home/Ejemplos.cshtml">
+      <publishTime>10/05/2018 16:26:56</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>10/05/2018 16:26:56</publishTime>
+    </File>
+    <File Include="Views/Manage/AddPhoneNumber.cshtml">
+      <publishTime>07/10/2018 14:52:10</publishTime>
+    </File>
+    <File Include="Views/Manage/ChangePassword.cshtml">
+      <publishTime>07/10/2018 14:52:10</publishTime>
+    </File>
+    <File Include="Views/Manage/Index.cshtml">
+      <publishTime>07/10/2018 14:52:10</publishTime>
+    </File>
+    <File Include="Views/Manage/ManageLogins.cshtml">
+      <publishTime>07/10/2018 14:52:11</publishTime>
+    </File>
+    <File Include="Views/Manage/SetPassword.cshtml">
+      <publishTime>07/10/2018 14:52:11</publishTime>
+    </File>
+    <File Include="Views/Manage/VerifyPhoneNumber.cshtml">
+      <publishTime>07/10/2018 14:52:11</publishTime>
+    </File>
+    <File Include="Views/Referido/_grillaReferidos.cshtml">
+      <publishTime>10/10/2018 01:20:34</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>10/05/2018 16:26:57</publishTime>
+    </File>
+    <File Include="Views/Shared/Footer.cshtml">
+      <publishTime>10/05/2018 16:26:57</publishTime>
+    </File>
+    <File Include="Views/Shared/Lockout.cshtml">
+      <publishTime>10/05/2018 16:26:57</publishTime>
+    </File>
+    <File Include="Views/Shared/MenuPrincipal.cshtml">
+      <publishTime>10/05/2018 18:26:10</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>10/05/2018 18:26:09</publishTime>
+    </File>
+    <File Include="Views/Shared/_LoginPartial.cshtml">
+      <publishTime>10/05/2018 16:26:57</publishTime>
+    </File>
+    <File Include="Views/ValidacionRechazo/ActivacionCadenas.cshtml">
+      <publishTime>09/13/2018 15:49:18</publishTime>
+    </File>
+    <File Include="Views/ValidacionRechazo/ActivacionMigracion.cshtml">
+      <publishTime>09/24/2018 17:51:44</publishTime>
+    </File>
+    <File Include="Views/ValidacionRechazo/ActivacionPospago.cshtml">
+      <publishTime>09/13/2018 15:46:37</publishTime>
+    </File>
+    <File Include="Views/ValidacionRechazo/ActivacionPrepago.cshtml">
+      <publishTime>09/13/2018 15:50:36</publishTime>
+    </File>
+    <File Include="Views/ValidacionRechazo/Index.cshtml">
+      <publishTime>07/10/2018 14:52:12</publishTime>
+    </File>
+    <File Include="Views/ValidacionReferido/Index.cshtml">
+      <publishTime>10/10/2018 01:20:34</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>10/05/2018 16:26:56</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>10/05/2018 16:26:56</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/10/2018 17:01:55</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

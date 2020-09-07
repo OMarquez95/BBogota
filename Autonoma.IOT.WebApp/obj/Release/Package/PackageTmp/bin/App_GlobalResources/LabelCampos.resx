@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblACTUALIZACION_BDO" xml:space="preserve">
+    <value>ACTUALIZACION BDO</value>
+  </data>
+  <data name="lblAPELLIDO" xml:space="preserve">
+    <value>APELLIDO</value>
+  </data>
+  <data name="lblCausal" xml:space="preserve">
+    <value>Causal</value>
+  </data>
+  <data name="lblCENTRO_COSTO" xml:space="preserve">
+    <value>CENTRO COSTO</value>
+  </data>
+  <data name="lblCFM" xml:space="preserve">
+    <value>CFM</value>
+  </data>
+  <data name="lblCICLO_CORPORATIVO" xml:space="preserve">
+    <value>CICLO CORPORATIVO</value>
+  </data>
+  <data name="lblCIUDAD_DEPARTAMENTO" xml:space="preserve">
+    <value>CIUDAD DEPARTAMENTO</value>
+  </data>
+  <data name="lblCODIGO_DISTRIBUIDOR" xml:space="preserve">
+    <value>CODIGO DISTRIBUIDOR</value>
+  </data>
+  <data name="lblCODMIN" xml:space="preserve">
+    <value>CODMIN</value>
+  </data>
+  <data name="lblCOMSEGURO" xml:space="preserve">
+    <value>COMSEGURO</value>
+  </data>
+  <data name="lblCONSECUTIVO" xml:space="preserve">
+    <value>CONSECUTIVO</value>
+  </data>
+  <data name="lblCO_ID" xml:space="preserve">
+    <value>CO ID</value>
+  </data>
+  <data name="lblCUSTOMER_ID" xml:space="preserve">
+    <value>CUSTOMER ID</value>
+  </data>
+  <data name="lblDATOS" xml:space="preserve">
+    <value>DATOS</value>
+  </data>
+  <data name="lblDESTINOS_ELEG" xml:space="preserve">
+    <value>DESTINOS ELEG</value>
+  </data>
+  <data name="lblDIRECCION" xml:space="preserve">
+    <value>DIRECCION</value>
+  </data>
+  <data name="lblDIRECCION_EMPRESA" xml:space="preserve">
+    <value>DIRECCION EMPRESA</value>
+  </data>
+  <data name="lblDISTRIBUIDOR" xml:space="preserve">
+    <value>DISTRIBUIDOR</value>
+  </data>
+  <data name="lblDISTRIBUIDOR1" xml:space="preserve">
+    <value>DISTRIBUIDOR1</value>
+  </data>
+  <data name="lblDISTRIBUIDOR_MIGRACION" xml:space="preserve">
+    <value>DISTRIBUIDOR MIGRACION</value>
+  </data>
+  <data name="lblEMPRESA_TRABAJO_CLIENTE" xml:space="preserve">
+    <value>EMPRESA TRABAJO CLIENTE</value>
+  </data>
+  <data name="lblEQUIPO" xml:space="preserve">
+    <value>EQUIPO</value>
+  </data>
+  <data name="lblESN" xml:space="preserve">
+    <value>ESN</value>
+  </data>
+  <data name="lblESTADO" xml:space="preserve">
+    <value>ESTADO</value>
+  </data>
+  <data name="lblESTADOIN" xml:space="preserve">
+    <value>ESTADOIN</value>
+  </data>
+  <data name="lblESTADOMO" xml:space="preserve">
+    <value>ESTADOMO</value>
+  </data>
+  <data name="lblFECBSCS" xml:space="preserve">
+    <value>FECBSCS</value>
+  </data>
+  <data name="lblFechaFinal" xml:space="preserve">
+    <value>Fecha Final</value>
+  </data>
+  <data name="lblFechaInicial" xml:space="preserve">
+    <value>Fecha Inicial</value>
+  </data>
+  <data name="lblFECHA_CORTE" xml:space="preserve">
+    <value>FECHA CORTE</value>
+  </data>
+  <data name="lblFECHA_INGRESO" xml:space="preserve">
+    <value>FECHA INGRESO</value>
+  </data>
+  <data name="lblFECHA_NACIMIENTO" xml:space="preserve">
+    <value>FECHA NACIMIENTO</value>
+  </data>
+  <data name="lblFECHA_PRIMERA_CARGA" xml:space="preserve">
+    <value>FECHA PRIMERA CARGA</value>
+  </data>
+  <data name="lblFECHA_VENTA" xml:space="preserve">
+    <value>FECHA VENTA</value>
+  </data>
+  <data name="lblF_PAGO" xml:space="preserve">
+    <value>F PAGO</value>
+  </data>
+  <data name="lblGENERAR_TICKLER" xml:space="preserve">
+    <value>GENERAR TICKLER</value>
+  </data>
+  <data name="lblICCID" xml:space="preserve">
+    <value>ICCID</value>
+  </data>
+  <data name="lblID_ACTINCLUSION" xml:space="preserve">
+    <value>ID ACTINCLUSION</value>
+  </data>
+  <data name="lblID_ACTIVACION" xml:space="preserve">
+    <value>ID ACTIVACION</value>
+  </data>
+  <data name="lblID_MIGRACION" xml:space="preserve">
+    <value>ID MIGRACION</value>
+  </data>
+  <data name="lblID_VENDEDOR" xml:space="preserve">
+    <value>ID VENDEDOR</value>
+  </data>
+  <data name="lblIMEI" xml:space="preserve">
+    <value>IMEI</value>
+  </data>
+  <data name="lblIMEIOFQ" xml:space="preserve">
+    <value>IMEIOFQ</value>
+  </data>
+  <data name="lblINDICATIVO" xml:space="preserve">
+    <value>INDICATIVO</value>
+  </data>
+  <data name="lblIVA_CFM" xml:space="preserve">
+    <value>IVA CFM</value>
+  </data>
+  <data name="lblIVA_EQUIPO" xml:space="preserve">
+    <value>IVA EQUIPO</value>
+  </data>
+  <data name="lblIVA_SIM" xml:space="preserve">
+    <value>IVA SIM</value>
+  </data>
+  <data name="lblLINEACT" xml:space="preserve">
+    <value>LINEACT</value>
+  </data>
+  <data name="lblLINEPORACT" xml:space="preserve">
+    <value>LINEPORACT</value>
+  </data>
+  <data name="lblMin" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="lblMODELO_EQUIPO" xml:space="preserve">
+    <value>MODELO EQUIPO</value>
+  </data>
+  <data name="lblMODELO_EQUIPO_OFQ" xml:space="preserve">
+    <value>MODELO EQUIPO OFQ</value>
+  </data>
+  <data name="lblMODELO_IMEI" xml:space="preserve">
+    <value>MODELO IMEI</value>
+  </data>
+  <data name="lblMSISDN" xml:space="preserve">
+    <value>MSISDN</value>
+  </data>
+  <data name="lblNOMBRES" xml:space="preserve">
+    <value>NOMBRES</value>
+  </data>
+  <data name="lblNOMBRE_CLIENTE" xml:space="preserve">
+    <value>NOMBRE CLIENTE</value>
+  </data>
+  <data name="lblNOMBRE_EQUIPO" xml:space="preserve">
+    <value>NOMBRE EQUIPO</value>
+  </data>
+  <data name="lblNumDocumento" xml:space="preserve">
+    <value>Número Documento</value>
+  </data>
+  <data name="lblNUMERO_CONTRATO" xml:space="preserve">
+    <value>NUMERO CONTRATO</value>
+  </data>
+  <data name="lblNUMERO_DOCUMENTO" xml:space="preserve">
+    <value>NUMERO DOCUMENTO</value>
+  </data>
+  <data name="lblOBSERVACION" xml:space="preserve">
+    <value>OBSERVACION</value>
+  </data>
+  <data name="lblOCC" xml:space="preserve">
+    <value>OCC</value>
+  </data>
+  <data name="lblOCUPACION_CLIENTE" xml:space="preserve">
+    <value>OCUPACION CLIENTE</value>
+  </data>
+  <data name="lblPERMANENCIA" xml:space="preserve">
+    <value>PERMANENCIA</value>
+  </data>
+  <data name="lblPLAN_TARIFAS" xml:space="preserve">
+    <value>PLAN TARIFAS</value>
+  </data>
+  <data name="lblPORCENTAJE_ELEG" xml:space="preserve">
+    <value>PORCENTAJE ELEG</value>
+  </data>
+  <data name="lblPRODUCTO" xml:space="preserve">
+    <value>PRODUCTO</value>
+  </data>
+  <data name="lblRCAR" xml:space="preserve">
+    <value>RCAR</value>
+  </data>
+  <data name="lblRDTC" xml:space="preserve">
+    <value>RDTC</value>
+  </data>
+  <data name="lblRESN" xml:space="preserve">
+    <value>RESN</value>
+  </data>
+  <data name="lblRMIN" xml:space="preserve">
+    <value>RMIN</value>
+  </data>
+  <data name="lblRTAR" xml:space="preserve">
+    <value>RTAR</value>
+  </data>
+  <data name="lblSALUDO" xml:space="preserve">
+    <value>SALUDO</value>
+  </data>
+  <data name="lblSCCODE" xml:space="preserve">
+    <value>SCCODE</value>
+  </data>
+  <data name="lblSEXO" xml:space="preserve">
+    <value>SEXO</value>
+  </data>
+  <data name="lblSPCODE" xml:space="preserve">
+    <value>SPCODE</value>
+  </data>
+  <data name="lblSPCODE_PAQ" xml:space="preserve">
+    <value>SPCODE PAQ</value>
+  </data>
+  <data name="lblTECNOLOGIA" xml:space="preserve">
+    <value>TECNOLOGIA</value>
+  </data>
+  <data name="lblTELEFONO" xml:space="preserve">
+    <value>TELEFONO</value>
+  </data>
+  <data name="lblTELEFONO_EMPRESA" xml:space="preserve">
+    <value>TELEFONO EMPRESA</value>
+  </data>
+  <data name="lblTipoDocumento" xml:space="preserve">
+    <value>Tipo Documento</value>
+  </data>
+  <data name="lblTIPO_CONTRATO" xml:space="preserve">
+    <value>TIPO CONTRATO</value>
+  </data>
+  <data name="lblTIPO_DOCUMENTO" xml:space="preserve">
+    <value>TIPO DOCUMENTO</value>
+  </data>
+  <data name="lblTMCODE" xml:space="preserve">
+    <value>TMCODE</value>
+  </data>
+  <data name="lblTOTAL_VENTA" xml:space="preserve">
+    <value>TOTAL VENTA</value>
+  </data>
+  <data name="lblTRAJO_EQUIPO" xml:space="preserve">
+    <value>TRAJO EQUIPO</value>
+  </data>
+  <data name="lblTRAJO_ICCID" xml:space="preserve">
+    <value>TRAJO ICCID</value>
+  </data>
+  <data name="lblTramite" xml:space="preserve">
+    <value>Tramite</value>
+  </data>
+  <data name="lblUSUARIO" xml:space="preserve">
+    <value>USUARIO</value>
+  </data>
+  <data name="lblVALOR_CFM" xml:space="preserve">
+    <value>VALOR CFM</value>
+  </data>
+  <data name="lblVALOR_EQUIPO_ESPECIAL" xml:space="preserve">
+    <value>VALOR EQUIPO ESPECIAL</value>
+  </data>
+  <data name="lblVALOR_ICCID_ESPECIAL" xml:space="preserve">
+    <value>VALOR ICCID ESPECIAL</value>
+  </data>
+  <data name="lblVALOR_IVA_EQUIPO_ESPECIAL" xml:space="preserve">
+    <value>VALOR IVA EQUIPO ESPECIAL</value>
+  </data>
+  <data name="lblVALOR_IVA_ICCID_ESPECIAL" xml:space="preserve">
+    <value>VALOR IVA ICCID ESPECIAL</value>
+  </data>
+  <data name="lblVALOR_PAGAR" xml:space="preserve">
+    <value>VALOR PAGAR</value>
+  </data>
+  <data name="lblVALOR_PAGARSIM" xml:space="preserve">
+    <value>VALOR PAGARSIM</value>
+  </data>
+  <data name="lblVLR_EQUIPO" xml:space="preserve">
+    <value>VLR EQUIPO</value>
+  </data>
+  <data name="lblVLR_SIM" xml:space="preserve">
+    <value>VLR SIM</value>
+  </data>
+</root>

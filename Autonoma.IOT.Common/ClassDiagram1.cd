@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Autonoma.IOT.Common.Entities.Autenticar">
+    <Position X="0.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Entities\Autenticar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Autonoma.IOT.Common.Entities.ConfiguracionHorario">
+    <Position X="3.25" Y="0.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIABAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Entities\ConfiguracionHorario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Autonoma.IOT.Common.Entities.EstadoPrototipo">
+    <Position X="7.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAABAAg=</HashCode>
+      <FileName>Entities\EstadoPrototipo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Autonoma.IOT.Common.Entities.HoraConfigurada">
+    <Position X="0.5" Y="2.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AMAAAAAAAAAAAAAAAAAAAAAAAEAAACAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Entities\HoraConfigurada.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Autonoma.IOT.Common.Entities.InsertarMensajePrototipo">
+    <Position X="7.25" Y="2.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Entities\InsertarMensajePrototipo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Autonoma.IOT.Common.Entities.MensajesConfiguracion">
+    <Position X="0.5" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Entities\MensajesConfiguracion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Autonoma.IOT.Common.Entities.ResultadoPeticion">
+    <Position X="3.25" Y="2.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\ResultadoPeticion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Autonoma.IOT.Common.Entities.Usuario">
+    <Position X="3.25" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Usuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

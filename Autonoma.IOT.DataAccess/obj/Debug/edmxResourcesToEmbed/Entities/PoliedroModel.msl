@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PoliedroModeloStoreContainer" CdmEntityContainer="PoliedroEntities">
+    <EntitySetMapping Name="DISTRIBUIDORES_EXCENTOS_IVA">
+      <EntityTypeMapping TypeName="PoliedroModelo.DISTRIBUIDORES_EXCENTOS_IVA">
+        <MappingFragment StoreEntitySet="DISTRIBUIDORES_EXCENTOS_IVA">
+          <ScalarProperty Name="CODIGO" ColumnName="CODIGO" />
+          <ScalarProperty Name="EXCENCIONIVAEQUIPO" ColumnName="EXCENCIONIVAEQUIPO" />
+          <ScalarProperty Name="EXCENCIONIVASIM" ColumnName="EXCENCIONIVASIM" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DOC_INVALIDO_CANAL">
+      <EntityTypeMapping TypeName="PoliedroModelo.DOC_INVALIDO_CANAL">
+        <MappingFragment StoreEntitySet="DOC_INVALIDO_CANAL">
+          <ScalarProperty Name="CANALID" ColumnName="CANALID" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PARAMETROS_ACTIVA">
+      <EntityTypeMapping TypeName="PoliedroModelo.PARAMETROS_ACTIVA">
+        <MappingFragment StoreEntitySet="PARAMETROS_ACTIVA">
+          <ScalarProperty Name="IDPARAMETRO" ColumnName="IDPARAMETRO" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+          <ScalarProperty Name="TIPO_DATO" ColumnName="TIPO_DATO" />
+          <ScalarProperty Name="VALOR_ACTUAL" ColumnName="VALOR_ACTUAL" />
+          <ScalarProperty Name="VALOR_POSIBLE" ColumnName="VALOR_POSIBLE" />
+          <ScalarProperty Name="ID_PERFIL" ColumnName="ID_PERFIL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="POLIEDRO_MOBILE_ERR_LOG">
+      <EntityTypeMapping TypeName="PoliedroModelo.POLIEDRO_MOBILE_ERR_LOG">
+        <MappingFragment StoreEntitySet="POLIEDRO_MOBILE_ERR_LOG">
+          <ScalarProperty Name="ERRORCODE" ColumnName="ERRORCODE" />
+          <ScalarProperty Name="USERNAME" ColumnName="USERNAME" />
+          <ScalarProperty Name="CODDISTRI" ColumnName="CODDISTRI" />
+          <ScalarProperty Name="ERRORDATE" ColumnName="ERRORDATE" />
+          <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ACTIVATIONSMSROAMING">
+      <EntityTypeMapping TypeName="PoliedroModelo.ACTIVATIONSMSROAMING">
+        <MappingFragment StoreEntitySet="ACTIVATIONSMSROAMING">
+          <ScalarProperty Name="IDROAMING" ColumnName="IDROAMING" />
+          <ScalarProperty Name="IDCATEGORIA" ColumnName="IDCATEGORIA" />
+          <ScalarProperty Name="IDACTIVACION" ColumnName="IDACTIVACION" />
+          <ScalarProperty Name="FECHAVIGENCIA" ColumnName="FECHAVIGENCIA" />
+          <ScalarProperty Name="INDEFINIDO" ColumnName="INDEFINIDO" />
+          <ScalarProperty Name="TMCODE" ColumnName="TMCODE" />
+          <ScalarProperty Name="SPCODE" ColumnName="SPCODE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

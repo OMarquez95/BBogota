@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Dog Chef Application</title>
+    <script src="~/Scripts/principal.js"></script>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body background="~/Content/Images/FONDO_PANTALLA.jpg">
+    <div id="cargando" class="loader">
+        <div class="container body-content">
+            <div class="popover-title">
+                <h1 class="text-center">The Dog Chef</h1>
+            </div>
+            <div class="alert alert-danger" role="alert" style="display:none;" id="error">
+
+            </div>
+
+            <div class="alert alert-warning" role="alert" style="display:none;" id="info">
+
+            </div>
+            <div class="alert alert-success" role="alert" style="display:none;" id="success">
+
+            </div>
+            @RenderBody()
+            <hr />
+            <footer>
+                <p>&copy; @DateTime.Now.Year -The Dog Cheff App</p>
+            </footer>
+        </div>
+    </div>
+    <script>
+        var virtualDirectory = "@Url.Action("base","base")".replace("base/base", "");
+    </script>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/Scripts/jquery.blockUI.js")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

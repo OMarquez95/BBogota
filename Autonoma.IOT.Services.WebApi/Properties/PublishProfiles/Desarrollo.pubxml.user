@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>ftp://45.40.165.31</_PublishTargetUrl>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA3LhDLYfAqkecSWNwsuCQyAAAAAACAAAAAAAQZgAAAAEAACAAAABgZQtnoABJS9hMRg+seiZMWEa7vEKqVrEry/G3zGXONwAAAAAOgAAAAAIAACAAAAAR+YhvFantNE9k3nGbXiS9w6/kMQ48NA/SURqZ/s6/ICAAAACxk8cNMZ8u223V+zfDB10Y57frrNx4N4o+Y7pSzwzstkAAAAB/Ltyj/FYAAFzls6IznmfMnEajUXgYJVRq1GHLbjNHseuzqo/A+mVl+EQ7u38QD4BUfR7JmbkPSTqBPr0zEIb5</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>11/13/2018 21:14:03</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>11/13/2018 21:14:03</publishTime>
+    </File>
+    <File Include="bin/AutoMapper.dll">
+      <publishTime>10/05/2018 16:39:47</publishTime>
+    </File>
+    <File Include="bin/Autonoma.IOT.Business.dll">
+      <publishTime>11/13/2018 21:05:03</publishTime>
+    </File>
+    <File Include="bin/Autonoma.IOT.Business.dll.config">
+      <publishTime>10/11/2018 22:14:06</publishTime>
+    </File>
+    <File Include="bin/Autonoma.IOT.Business.pdb">
+      <publishTime>11/13/2018 21:05:03</publishTime>
+    </File>
+    <File Include="bin/Autonoma.IOT.Common.dll">
+      <publishTime>11/09/2018 19:51:28</publishTime>
+    </File>
+    <File Include="bin/Autonoma.IOT.Common.pdb">
+      <publishTime>11/09/2018 19:51:28</publishTime>
+    </File>
+    <File Include="bin/Autonoma.IOT.DataAccess.dll">
+      <publishTime>11/13/2018 20:33:48</publishTime>
+    </File>
+    <File Include="bin/Autonoma.IOT.DataAccess.dll.config">
+      <publishTime>10/22/2018 20:34:50</publishTime>
+    </File>
+    <File Include="bin/Autonoma.IOT.DataAccess.pdb">
+      <publishTime>11/13/2018 20:33:48</publishTime>
+    </File>
+    <File Include="bin/Autonoma.IOT.Services.WebApi.dll">
+      <publishTime>11/13/2018 21:13:46</publishTime>
+    </File>
+    <File Include="bin/Autonoma.IOT.Services.WebApi.pdb">
+      <publishTime>11/13/2018 21:13:46</publishTime>
+    </File>
+    <File Include="bin/Claro.Rechazo.Business.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Claro.Rechazo.Business.dll.config">
+      <publishTime>10/07/2018 14:44:37</publishTime>
+    </File>
+    <File Include="bin/Claro.Rechazo.Business.pdb">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Claro.Rechazo.Common.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Claro.Rechazo.Common.pdb">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Claro.Rechazo.DataAccess.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Claro.Rechazo.DataAccess.dll.config">
+      <publishTime>10/07/2018 14:45:07</publishTime>
+    </File>
+    <File Include="bin/Claro.Rechazo.DataAccess.pdb">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Claro.Rechazo.Services.WebApi.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Claro.Rechazo.Services.WebApi.pdb">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Claro.RecuperacionClientes.Business.dll">
+      <publishTime>11/10/2018 14:06:43</publishTime>
+    </File>
+    <File Include="bin/Claro.RecuperacionClientes.Business.dll.config">
+      <publishTime>05/10/2018 16:26:08</publishTime>
+    </File>
+    <File Include="bin/Claro.RecuperacionClientes.Business.pdb">
+      <publishTime>11/10/2018 14:06:43</publishTime>
+    </File>
+    <File Include="bin/Claro.RecuperacionClientes.Common.dll">
+      <publishTime>11/10/2018 14:06:41</publishTime>
+    </File>
+    <File Include="bin/Claro.RecuperacionClientes.Common.pdb">
+      <publishTime>11/10/2018 14:06:41</publishTime>
+    </File>
+    <File Include="bin/Claro.RecuperacionClientes.DataAccess.dll">
+      <publishTime>11/10/2018 14:06:43</publishTime>
+    </File>
+    <File Include="bin/Claro.RecuperacionClientes.DataAccess.dll.config">
+      <publishTime>05/10/2018 16:26:10</publishTime>
+    </File>
+    <File Include="bin/Claro.RecuperacionClientes.DataAccess.pdb">
+      <publishTime>11/10/2018 14:06:43</publishTime>
+    </File>
+    <File Include="bin/Claro.RecuperacionClientes.Services.WebApi.dll">
+      <publishTime>11/10/2018 14:06:49</publishTime>
+    </File>
+    <File Include="bin/Claro.RecuperacionClientes.Services.WebApi.pdb">
+      <publishTime>11/10/2018 14:06:49</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>05/10/2018 16:39:58</publishTime>
+    </File>
+    <File Include="bin/Google.Protobuf.dll">
+      <publishTime>12/21/2017 20:23:44</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>10/05/2018 16:40:10</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>06/28/2018 16:53:30</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>10/05/2018 16:40:58</publishTime>
+    </File>
+    <File Include="bin/Oracle.ManagedDataAccess.dll">
+      <publishTime>05/10/2018 16:37:23</publishTime>
+    </File>
+    <File Include="bin/Renci.SshNet.dll">
+      <publishTime>10/07/2018 14:44:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>10/05/2018 16:40:13</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>10/05/2018 16:40:11</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>10/05/2018 16:40:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>10/05/2018 16:40:36</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>10/05/2018 16:41:09</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>10/05/2018 16:27:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>10/05/2018 16:27:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>10/05/2018 16:40:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>10/05/2018 16:40:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>10/05/2018 16:40:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>10/05/2018 16:40:15</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>10/05/2018 16:27:53</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>10/05/2018 16:40:07</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>10/05/2018 16:40:11</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>10/05/2018 16:40:06</publishTime>
+    </File>
+    <File Include="ClassDiagram1.cd">
+      <publishTime>10/22/2018 20:25:28</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>11/10/2018 20:38:09</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>10/05/2018 16:26:11</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>11/13/2018 21:13:56</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/04/2018 22:58:36</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

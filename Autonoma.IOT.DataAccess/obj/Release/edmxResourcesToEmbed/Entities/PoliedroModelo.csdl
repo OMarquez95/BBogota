@@ -1,0 +1,490 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PoliedroDataModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ACTINCLUSION">
+    <Key>
+      <PropertyRef Name="SALUDO" />
+      <PropertyRef Name="NOMBRES" />
+      <PropertyRef Name="APELLIDO" />
+      <PropertyRef Name="DIRECCION" />
+      <PropertyRef Name="CIUDAD_DEPARTAMENTO" />
+      <PropertyRef Name="INDICATIVO" />
+      <PropertyRef Name="TELEFONO" />
+      <PropertyRef Name="TIPO_DOCUMENTO" />
+      <PropertyRef Name="NUMERO_DOCUMENTO" />
+      <PropertyRef Name="ESN" />
+      <PropertyRef Name="CODIGO_DISTRIBUIDOR" />
+      <PropertyRef Name="CODMIN" />
+      <PropertyRef Name="MODELO_EQUIPO" />
+      <PropertyRef Name="FECREGIS" />
+      <PropertyRef Name="ID_FACT_ELECT" />
+    </Key>
+    <Property Name="SALUDO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NOMBRES" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="APELLIDO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DIRECCION" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CIUDAD_DEPARTAMENTO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="INDICATIVO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TELEFONO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TIPO_DOCUMENTO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NUMERO_DOCUMENTO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ESN" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CODIGO_DISTRIBUIDOR" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="HLR" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CODMIN" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="MODELO_EQUIPO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="OCUPACION_CLIENTE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FECHA_NACIMIENTO" Type="DateTime" />
+    <Property Name="SEXO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SECTOR_COMERCIAL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="GRUPO_CLIENTES" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CENTRO_COSTO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EFECTIVO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TARJETA_CREDITO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="COMPANIA_TC" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NRO_TC" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CUPO_TC" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="VENCE_TC" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PRIMER_APELLIDO_CONYUGE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SEGUNDO_APELLIDO_CONYUGE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NOMBRE_CONYUGE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NUMERO_DOCUMENTO1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EMPRESA_CONYUGE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DIRECCION_EMPRESA_CONYUGE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TELEFONO_CONYUGE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PROFESION_CONYUGE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EMPRESA_TRABAJO_CLIENTE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DIRECCION_EMPRESA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TELEFONO_EMPRESA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FECHA_INGRESO" Type="DateTime" />
+    <Property Name="INGRESO_MENSUAL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ESTADO_CIVIL_CLIENTE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ACTIVIDAD_ECONOMICA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TIPO_VIVIENDA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="REFERENCIA_PERSONAL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TELEFONO_REFERENCIA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NOMBRE_BANCO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SUCURSAL_BANCO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NUMERO_CUENTA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TARJETA_ENTIDAD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NUMERO_TC" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TC_CUPO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="RB_VENCIMIENTO_TC" Type="String" MaxLength="101" FixedLength="false" Unicode="false" />
+    <Property Name="TARJETA_TIPO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="COLGAR_A_MAESTRA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FECREGIS" Type="DateTime" Nullable="false" />
+    <Property Name="RMIN" Type="Int16" />
+    <Property Name="RESN" Type="Int16" />
+    <Property Name="RTAR" Type="Int16" />
+    <Property Name="RDTC" Type="Int16" />
+    <Property Name="RCAR" Type="Int16" />
+    <Property Name="ESTADO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EMAIL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CREDITO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SPCODE" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TMCODE" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="DISTRIBUIDOR1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CO_ID" Type="Decimal" Precision="22" Scale="0" />
+    <Property Name="TEXT1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TEXT2" Type="String" MaxLength="80" FixedLength="false" Unicode="false" />
+    <Property Name="TEXT3" Type="String" MaxLength="80" FixedLength="false" Unicode="false" />
+    <Property Name="TEXT5" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TEXT7" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FECHA1" Type="DateTime" />
+    <Property Name="FECHA2" Type="DateTime" />
+    <Property Name="FECBSCS" Type="DateTime" />
+    <Property Name="SCCODE" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="IMEI" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="PRODUCTO" Type="Int16" />
+    <Property Name="BARRIO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CONEXION_SAP" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IVA_CARD" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="VALOR_CARD" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="IVA_EQUIPO" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="EQUIPO" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="IVA_CFM" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="VALOR_CFM" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="TIPO_CONTRATO" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="NUMERO_CONTRATO" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="PLAN_TARIFAS" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="LINEPORACT" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="PROMOCION" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="SPCODEEXT" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="TMCODEEXT" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="OCC" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="ILIMITADO" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="VRILIMITADO" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="IVAILIMITADO" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="TOTAL_VENTA" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="TRAJO_EQUIPO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CODMINEXT" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ID_ACTINCLUSION" Type="Int32" />
+    <Property Name="TRAJO_ICCID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DESTINOS_ELEG" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="PORCENTAJE_ELEG" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ENTREGA_FACTURA" Type="Int32" />
+    <Property Name="ID_FACT_ELECT" Type="Int32" Nullable="false" />
+    <Property Name="SPCODE_PAQ" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DATOS" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="CONVERSION" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="WAP" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="ACTIVACION">
+    <Key>
+      <PropertyRef Name="SALUDO" />
+      <PropertyRef Name="NOMBRES" />
+      <PropertyRef Name="APELLIDO" />
+      <PropertyRef Name="DIRECCION" />
+      <PropertyRef Name="CIUDAD_DEPARTAMENTO" />
+      <PropertyRef Name="INDICATIVO" />
+      <PropertyRef Name="TELEFONO" />
+      <PropertyRef Name="TIPO_DOCUMENTO" />
+      <PropertyRef Name="NUMERO_DOCUMENTO" />
+      <PropertyRef Name="ESN" />
+      <PropertyRef Name="CODIGO_DISTRIBUIDOR" />
+      <PropertyRef Name="PLAN_TARIFAS" />
+      <PropertyRef Name="CODMIN" />
+      <PropertyRef Name="MODELO_EQUIPO" />
+      <PropertyRef Name="FECREGIS" />
+      <PropertyRef Name="ID_FACT_ELECT" />
+    </Key>
+    <Property Name="SALUDO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NOMBRES" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="APELLIDO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DIRECCION" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CIUDAD_DEPARTAMENTO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="INDICATIVO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TELEFONO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TIPO_DOCUMENTO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NUMERO_DOCUMENTO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ESN" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CODIGO_DISTRIBUIDOR" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="HLR" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PLAN_TARIFAS" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CODMIN" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FECHA_VENTA" Type="DateTime" />
+    <Property Name="PLANILLA_DISTIBUIDOR" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="VALOR_CFM" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IVA_CFM" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EQUIPO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IVA_EQUIPO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TOTAL_VENTA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NUMERO_CONTRATO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MODELO_EQUIPO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TIPO_CONTRATO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NO_INCLUSION_GUIA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="COMBO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="WIP" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="WAP" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LID_WAP" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="COMSEGURO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ANDIASISTENCIA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="OCUPACION_CLIENTE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FECHA_NACIMIENTO" Type="DateTime" />
+    <Property Name="SEXO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SECTOR_COMERCIAL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="GRUPO_CLIENTES" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CENTRO_COSTO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EFECTIVO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TARJETA_CREDITO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="COMPANIA_TC" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NRO_TC" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CUPO_TC" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="VENCE_TC" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PRIMER_APELLIDO_CONYUGE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SEGUNDO_APELLIDO_CONYUGE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NOMBRE_CONYUGE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NUMERO_DOCUMENTO1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EMPRESA_CONYUGE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DIRECCION_EMPRESA_CONYUGE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TELEFONO_CONYUGE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PROFESION_CONYUGE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EMPRESA_TRABAJO_CLIENTE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DIRECCION_EMPRESA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TELEFONO_EMPRESA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FECHA_INGRESO" Type="DateTime" />
+    <Property Name="INGRESO_MENSUAL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ESTADO_CIVIL_CLIENTE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ACTIVIDAD_ECONOMICA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TIPO_VIVIENDA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="REFERENCIA_PERSONAL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TELEFONO_REFERENCIA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NOMBRE_BANCO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SUCURSAL_BANCO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NUMERO_CUENTA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TARJETA_ENTIDAD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NUMERO_TC" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TC_CUPO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="RB_VENCIMIENTO_TC" Type="String" MaxLength="101" FixedLength="false" Unicode="false" />
+    <Property Name="TARJETA_TIPO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="COLGAR_A_MAESTRA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FECREGIS" Type="DateTime" Nullable="false" />
+    <Property Name="RMIN" Type="Int16" />
+    <Property Name="RESN" Type="Int16" />
+    <Property Name="RTAR" Type="Int16" />
+    <Property Name="RDTC" Type="Int16" />
+    <Property Name="RCAR" Type="Int16" />
+    <Property Name="ESTADO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LINEACT" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LINEPORACT" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MORACONCOM" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TRAJO_EQUIPO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PLANILLA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FECPLANILLA" Type="DateTime" />
+    <Property Name="EMAIL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CREDITO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SPCODE" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TMCODE" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="DISTRIBUIDOR1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CO_ID" Type="Decimal" Precision="22" Scale="0" />
+    <Property Name="CODMINEXT" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="COMSEGUROEXT" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ANDIASISTENCIAEXT" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ESNEXT" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PLAN_TARIFASEXT" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MODELO_EQUIPOEXT" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="VALOR_CFMEXT" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IVA_CFMEXT" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EQUIPOEXT" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IVA_EQUIPOEXT" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TOTAL_VENTAEXT" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SPCODEEXT" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TMCODEEXT" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TEXT1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TEXT2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TEXT3" Type="String" MaxLength="80" FixedLength="false" Unicode="false" />
+    <Property Name="TEXT4" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TEXT5" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TEXT6" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TEXT7" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TEXT8" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TEXT9" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TEXT10" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FECHA1" Type="DateTime" />
+    <Property Name="FECHA2" Type="DateTime" />
+    <Property Name="FECHA3" Type="DateTime" />
+    <Property Name="FECBSCS" Type="DateTime" />
+    <Property Name="FECHA4" Type="DateTime" />
+    <Property Name="FECHA5" Type="DateTime" />
+    <Property Name="FECHA6" Type="DateTime" />
+    <Property Name="TEXT11" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TEXT12" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TEXT13" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="TEXT14" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TEXT15" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SCCODE" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="IMEI" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="MENSAJES" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DATOS" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="MMS" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="IP" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="TEXT16" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TEXT17" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="VALOR_CARD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IVA_CARD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="REVISTA" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="TRAJO_ICCID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TEXT18" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TEXT19" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TEXT20" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="OCC" Type="Int32" />
+    <Property Name="OBSERVACION" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CONSECUTIVO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="ILIMITADO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CFM_ANT" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="VRILIMITADO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IVAILIMITADO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PRODUCTO" Type="Int16" />
+    <Property Name="FIANZA" Type="Int16" />
+    <Property Name="CUOTA_MENSUAL" Type="Int32" />
+    <Property Name="VALOR_PAGAR" Type="Int32" />
+    <Property Name="VALOR_PAGARSIM" Type="Int32" />
+    <Property Name="IMEIOFQ" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="MODELO_EQUIPO_OFQ" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ID_PAGO" Type="Int32" />
+    <Property Name="CICLO_CORPORATIVO" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="ID_VENDEDOR" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="BARRIO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="DIRECTORIO" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="PROMOCION" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="CONEXION_SAP" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="VALOR_EQUIPO_ESPECIAL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="VALOR_IVA_EQUIPO_ESPECIAL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="VALOR_ICCID_ESPECIAL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="VALOR_IVA_ICCID_ESPECIAL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ID_CONSULTOR" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="FECHA_PRIMERA_CARGA" Type="DateTime" />
+    <Property Name="ID_ACTIVACION" Type="Int32" />
+    <Property Name="DIAS_PAGO_ORD_COMPRA" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="SERIAL_CDMA_TDMA" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+    <Property Name="TECNOLOGIA_CDMA_TDMA" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="MODELO_EQUIPO_CDMA_TDMA" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="DIJIN" Type="String" MaxLength="16" FixedLength="false" Unicode="false" />
+    <Property Name="NUMERO_PAGARE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NUS" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SPCODE_PAQ" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="MODELO_EQUIPO_ANTERIOR" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IMEI_ANTERIOR" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="ID_REPOSICION" Type="Decimal" Precision="20" Scale="0" />
+    <Property Name="VR_RECARGA_UNICO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DCTO_RECARGA_UNICO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="VR_RECARGA_TELEMIC" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DCTO_RECARGA_TELEMIC" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ENTREGA_FACTURA" Type="Int32" />
+    <Property Name="ID_FACT_ELECT" Type="Int32" Nullable="false" />
+    <Property Name="TIENDA" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="MIGRACION">
+    <Key>
+      <PropertyRef Name="ICCID" />
+      <PropertyRef Name="IMEI" />
+    </Key>
+    <Property Name="ICCID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="IMEI" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="MSISDN" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CO_ID" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="TMCODE" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="SPCODE" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="HLR" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FECHA_CORTE" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="DISTRIBUIDOR" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DISTRIBUIDOR_MIGRACION" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="BUZON" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="IDENFICADOR" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="COMSEGURO" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="ANDIASISTENCIA" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="MENSAJES" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DATOS" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="MMS" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="MODELO_IMEI" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CFM" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="IVA_CFM" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="VLR_EQUIPO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="F_PAGO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="IVA_EQUIPO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="VLR_SIM" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="IVA_SIM" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="TOTAL_VENTA" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="ESN" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ESTADO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FECREGIS" Type="DateTime" />
+    <Property Name="FECBSCS" Type="DateTime" />
+    <Property Name="TEXT29" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PLANILLADO" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TEXT01" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TEXT02" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TEXT03" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FECHA1" Type="DateTime" />
+    <Property Name="FECHA2" Type="DateTime" />
+    <Property Name="FECHA3" Type="DateTime" />
+    <Property Name="USUARIO" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="MOTIVO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TIPO_PLAN" Type="Int16" />
+    <Property Name="TMCODE_OLD" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="SPCODE_OLD" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="TEXT04" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TEXT05" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TEXT06" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TEXT07" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TEXT08" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TEXT09" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TEXT10" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ROAMING" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DESTINO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="PORCENTAJE" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="OCC" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="TMCODEEXT" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="SPCODEEXT" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="REVISTA" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="PORCENTAJE_FIJO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="FIANZA" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="TIPO_CONTRATO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="RESN" Type="Int16" />
+    <Property Name="PERMANENCIA" Type="Int16" />
+    <Property Name="ID_PAGO" Type="Int32" />
+    <Property Name="NEW_COID" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="DIRECTORIO" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="PROMOCION" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="CUSTCODE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ID_VENDEDOR" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="ELEGILIM" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="CODMINEXT" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CONEXION_SAP" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="PRODUCTO" Type="Int16" />
+    <Property Name="ID_MIGRACION" Type="Int32" />
+    <Property Name="SPCODE_PAQ" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="PRECIOFULL" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="OCCMIGRACION" Type="Int16" />
+    <Property Name="SPCODE_PAQPURO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="ENTREGA_EQUIPO" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="NUMERO_DOCUMENTO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NOMBRE_CLIENTE" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="ID_REPOSICION" Type="Decimal" Precision="20" Scale="0" />
+    <Property Name="TRAJO_EQUIPO" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="TRAJO_ICCID" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="BARRIO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="REGISTROSINIMEI" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="PoliedroEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ACTINCLUSION" EntityType="Self.ACTINCLUSION" />
+    <EntitySet Name="ACTIVACION" EntityType="Self.ACTIVACION" />
+    <EntitySet Name="MIGRACION" EntityType="Self.MIGRACION" />
+    <EntitySet Name="ACTIVACIONPRE" EntityType="PoliedroDataModel.ACTIVACIONPRE" />
+  </EntityContainer>
+  <EntityType Name="ACTIVACIONPRE">
+    <Key>
+      <PropertyRef Name="ICCID" />
+      <PropertyRef Name="CODMIN" />
+    </Key>
+    <Property Name="SALUDO" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="NOMBRES" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="APELLIDO" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="NUMERO_DOCUMENTO" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TELEFONO" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DIRECCION" Type="String" MaxLength="70" FixedLength="false" Unicode="false" />
+    <Property Name="CIUDAD_DEPARTAMENTO" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="ICCID" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IMEI" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="TECNOLOGIA" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="CODIGO_DISTRIBUIDOR" Type="String" MaxLength="24" FixedLength="false" Unicode="false" />
+    <Property Name="USUARIO" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TMCODE" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="SPCODE" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="CODMIN" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="HLR" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="GRUPO_CLIENTES" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CENTRO_COSTO" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="SECTOR_COMERCIAL" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="EFECTIVO" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="FECREGIS" Type="DateTime" />
+    <Property Name="FECBSCS" Type="DateTime" />
+    <Property Name="FECIN" Type="DateTime" />
+    <Property Name="CARGA" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="VIGENCIA" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="MO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="RESN" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="RTAR" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="ESTADO" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="ESTADOIN" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="CO_ID" Type="Decimal" Precision="22" Scale="0" />
+    <Property Name="CUSTOMER_ID" Type="Decimal" Precision="22" Scale="0" />
+    <Property Name="TEXT1" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TEXT2" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TEXT3" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="FECHA1" Type="DateTime" />
+    <Property Name="FECHA2" Type="DateTime" />
+    <Property Name="ESTADOMO" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="FECMO" Type="DateTime" />
+    <Property Name="NOMBRE_EQUIPO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ID_ACTIVACION" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="PLANILLA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FECPLANILLA" Type="DateTime" />
+    <Property Name="INDICATIVO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TIPO_DOCUMENTO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SEXO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="BARRIO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ID_VENDEDOR" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="FECHA_VENTA" Type="DateTime" />
+    <Property Name="GENERAR_TICKLER" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="ACTUALIZACION_BDO" Type="Int16" />
+  </EntityType>
+</Schema>

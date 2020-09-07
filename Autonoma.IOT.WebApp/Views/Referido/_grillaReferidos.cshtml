@@ -1,0 +1,47 @@
+﻿@model List<Autonoma.IOT.WebApp.Models.Entities.Referido>
+@using Autonoma.IOT.WebApp.Helpers
+
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/jqueryval")
+
+
+@using (Html.BeginForm("SaveReferidos", "ValidacionReferido", FormMethod.Post, new { @id = "form1" }))
+{
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Min</th>
+            </tr>
+        </thead>
+        <tbody>
+
+
+            @for (int i = 0; i < Model.Count; i++)
+            {
+                <tr>
+                    <th scope="row">@(i + 1)</th>
+                    <td>
+                        <div id="div_@i" class="">
+                            @Html.MyTextBoxFor(model => Model[i].Min, new { @class = "form-control", @placeholder = "Ingrese el Min", @maxlength = "10", @onkeypress = "return validarNum(event, this)" }, new { disabled = !Model[i].Es_Modificable })
+                            <span class="text-danger" id="span_@i"> </span>
+                        </div>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+
+}
+
+
+<div class="form-group">
+    <div align="right" class="col-md-offset-2 col-md-10">
+        <input type="button" value="Guardar" class="btn btn-primary" id="save" onclick="guardar()" />
+    </div>
+</div>
+
+
+
